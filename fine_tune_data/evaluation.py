@@ -51,7 +51,7 @@ def batchify(lst, bs):
 # -----------------------------
 # 1) Perplexity on target only
 # -----------------------------
-def compute_perplexity(model, tokenizer, items, device):
+def compute_perplexity(model, tokenizer, items, device, batch_size):
     model.eval()
     total_loss = 0.0
     total_toks = 0
@@ -96,7 +96,7 @@ def compute_perplexity(model, tokenizer, items, device):
 # -----------------------------
 # 2) Embedding centroid affinity
 # -----------------------------
-def centroid_affinity(real_lines: Dict[str, List[str]], gen_lines: Dict[str, List[str]], emb_model_name="all-MiniLM-L6-v2"):
+def centroid_affinity(real_lines: Dict[str, List[str]], gen_lines: Dict[str, List[str]], emb_model_name="all-mpnet-base-v2"):
     st = SentenceTransformer(emb_model_name)
 
     def mean_embed(lines):
@@ -185,6 +185,10 @@ def stylometric_jsd(real_lines: Dict[str, List[str]], gen_lines: Dict[str, List[
 @torch.inference_mode()
 def generate_responses(model, tokenizer, items, device, max_new_tokens=48, top_p=0.92, temperature=0.7, batch_size=4, max_length=1024):
     gens = []
+
+     # ✅ open the file ONCE, in append mode (or write mode if you want overwrite)
+    f = open("gens_cache.jsonl", "w", encoding="utf-8")
+
     for batch in tqdm(list(batchify(items, batch_size)), desc="Generate"):
         prompts = [x["prompt"] for x in batch]
         enc = tokenizer(prompts, return_tensors="pt", padding=True, truncation=True, max_length=max_length).to(device)
@@ -201,14 +205,23 @@ def generate_responses(model, tokenizer, items, device, max_new_tokens=48, top_p
             full = out[i]
             gen_ids = full[inp_len:]
             text = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
-            gens.append({
+            
+            row = {
                 "ep": x.get("ep"),
                 "scene": x.get("scene"),
                 "target_speaker": x.get("target_speaker"),
                 "prompt": x["prompt"],
                 "gold": x["target"],
                 "gen": text
-            })
+            }
+
+            # ✅ save **line-by-line** immediately
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+            f.flush()   # force real-time write (important!)
+    
+            gens.append(row)
+
+    f.close()   # ✅ close file 
     return gens
 
 
@@ -229,18 +242,37 @@ def main():
     device = pick_device()
     print(f"Device: {device}")
 
+    torch.manual_seed(42)
+    if device.type == "cuda":
+        torch.cuda.manual_seed_all(42)
+
     # Load model and tokenizer
     print(f"Loading model from {args.model_dir}")
     torch_dtype = torch.float16 if device.type == "cuda" else torch.float32
     tokenizer = AutoTokenizer.from_pretrained(args.model_dir, use_fast=True)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
+
+
+    tokenizer.padding_side = "left"
+    if tokenizer.pad_token is None and tokenizer.eos_token is not None:
+        tokenizer.pad_token = tokenizer.eos_token
+    
+    #------- start new code --------
+    # also update the model config so generate() uses the correct pad token
+    # (important for decoder-only LLMs)
     model = AutoModelForCausalLM.from_pretrained(args.model_dir, torch_dtype=torch_dtype)
+    model.config.pad_token_id = tokenizer.pad_token_id
+    #------ end new code -----------
+
+    # model = AutoModelForCausalLM.from_pretrained(args.model_dir, torch_dtype=torch_dtype)
+    
     model.to(device)
     model.eval()
 
     # Load test items
-    raw = read_jsonl(args.test_path, max_samples=args.max_samples)
+    test_path = '/home/student/Whatsapp_webApp_-Django-/fine_tune_data/bbt_test_cleaned.jsonl'
+    raw = read_jsonl(test_path, max_samples=args.max_samples)
     # Normalize expected fields
     items = []
     for r in raw:
@@ -253,11 +285,19 @@ def main():
         })
 
     # 1) Perplexity
-    ppl = compute_perplexity(model, tokenizer, items, device, max_length=args.max_length, batch_size=args.batch_size)
-    print(f"\nPerplexity (target-only): {ppl:.3f}")
+    # ppl = compute_perplexity(model, tokenizer, items, device, batch_size=args.batch_size)
+    # print(f"\nPerplexity (target-only): {ppl:.3f}")
 
     # 2) Generate responses then centroid affinity
-    gens = generate_responses(model, tokenizer, items, device,
+    if os.path.exists("gens_cache_cleaned.jsonl"):
+        print("Loading cached generations...")
+        gens = []
+        with open("gens_cache_cleaned.jsonl", "r", encoding="utf-8") as f:
+            for line in f:
+                gens.append(json.loads(line))
+    else:
+        print("Generating responses (first time)...")
+        gens = generate_responses(model, tokenizer, items, device,
                               max_new_tokens=args.max_new_tokens,
                               batch_size=args.batch_size, max_length=args.max_length)
 
@@ -285,7 +325,7 @@ def main():
 
     # Save outputs
     out_gens = pd.DataFrame(gens)
-    out_gens.to_csv("generations.csv", index=False)
+    out_gens.to_csv("generations_cleaned.csv", index=False)
     summary_rows = [{
         "perplexity": ppl,
         "centroid_affinity_acc": acc,
