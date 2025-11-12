@@ -197,3 +197,5 @@ pip-selfcheck.json
 
 peft
 model.safetensors
+node_modules
+.local-chromium
