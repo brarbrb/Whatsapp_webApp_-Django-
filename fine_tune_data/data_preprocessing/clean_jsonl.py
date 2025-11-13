@@ -1,9 +1,9 @@
 import json, re
 from collections import Counter
 
-INPUT = '/home/student/Whatsapp_webApp_-Django-/fine_tune_data/bbt_test_cleaned.jsonl'
+INPUT = '/Users/ransela/Desktop/data_science_degree/4th_year/spring/Data Analysis and Visualization Lab/project/Whatsapp_webApp_-Django-/gens_orig_llama.jsonl'
 #OUTPUT = "/home/student/Whatsapp_webApp_-Django-/fine_tune_data/bbt_test_cleaned.jsonl"
-gens_path = "/home/student/Whatsapp_webApp_-Django-/gens_cache_cleaned.jsonl"
+#gens_path = "/home/student/Whatsapp_webApp_-Django-/gens_cache_cleaned.jsonl"
 #OUTPUT = "/home/student/Whatsapp_webApp_-Django-/gens_cache_cleaned.jsonl"
 
 SMALL_VALID_SPEAKERS = [
@@ -92,7 +92,7 @@ def is_valid_exact(s: str) -> bool:
     return s in SMALL_VALID_SPEAKERS
 
 rows = []
-with open(gens_path, "r", encoding="utf-8") as f:
+with open(INPUT, "r", encoding="utf-8") as f:
     for line in f:
         line = line.strip()
         if not line:
