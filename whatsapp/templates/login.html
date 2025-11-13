@@ -1,0 +1,44 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WhatsToReply - Login</title>
+  <link rel="stylesheet" href="{% static 'styles.css' %}" />
+</head>
+<body class="bg">
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">💬</div>
+      <div class="brand-text">WhatsToReply</div>
+    </div>
+  </header>
+
+  <main class="center-wrap">
+    <section class="card hero">
+      <h1>Welcome</h1>
+      <p class="muted">Auto-suggest messages that match your style.</p>
+
+      <form method="post" action="{% url 'login_start' %}">
+        {% csrf_token %}
+        <button class="btn btn-primary" type="submit">Login</button>
+      </form>
+
+      {% if messages %}
+        <div style="margin-top:10px;">
+          {% for m in messages %}
+            <div style="padding:8px 10px; border-radius:10px; background:#fff3cd; color:#664d03; border:1px solid #ffe69c; margin-top:6px;">
+              {{ m }}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </section>
+  </main>
+
+  <footer class="foot">
+    <small class="muted">Demo UI</small>
+  </footer>
+</body>
+</html>

@@ -199,3 +199,5 @@ peft
 model.safetensors
 node_modules
 .local-chromium
+sessions
+__pycache__
