@@ -201,3 +201,4 @@ node_modules
 .local-chromium
 sessions
 __pycache__
+.wwebjs_cache

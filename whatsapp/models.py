@@ -1,7 +1,8 @@
 import uuid
 from django.db import models
-from django.utils import timezone
+# from django.utils import timezone
 from django.db.models import Q
+from datetime import datetime
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -23,7 +24,7 @@ class Session(models.Model):
     node_session_id = models.CharField(max_length=255, blank=True, default="", db_index=True)
 
     state = models.CharField(max_length=32, choices=State.choices, default=State.PENDING, db_index=True)
-    last_state_change = models.DateTimeField(default=timezone.now)
+    last_state_change = models.DateTimeField(default=datetime.now)
     last_error = models.TextField(blank=True, default="")
 
     started_at = models.DateTimeField(auto_now_add=True)
