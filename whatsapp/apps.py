@@ -1,10 +1,3 @@
-# from django.apps import AppConfig
-
-
-# class WhatsappConfig(AppConfig):
-#     default_auto_field = 'django.db.models.BigAutoField'
-#     name = 'whatsapp'
-
 from django.apps import AppConfig
 from django.conf import settings
 from django.db.utils import OperationalError, ProgrammingError
@@ -28,8 +21,7 @@ class WhatsappConfig(AppConfig):
         from .models import Session
 
         try:
-            # If migrations haven't run yet, this can raise errors.
-            Session.objects.filter(is_active=True).update(is_active=False)
+            Session.objects.filter(is_active=True).update(is_active=False) # rises errors, nothing critical
         except (OperationalError, ProgrammingError):
-            # Table doesn't exist yet (e.g. first migrate) – ignore.
+            # Table doesn't exist yet (first migrate) – ignore.
             pass

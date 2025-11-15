@@ -33,7 +33,7 @@ const DJANGO_CALLBACK_URL =
   'http://localhost:8000/ingest/session/';
 
 // Shared secret – must match Django settings.NODE_SHARED_SECRET
-const DJANGO_SECRET = process.env.DJANGO_SECRET || '';
+const DJANGO_SECRET = process.env.DJANGO_SECRET || 'mysecret';
 
 // For unread scraping callbacks
 // Final URLs will be:
@@ -78,19 +78,14 @@ async function notifyDjango(sessionId, state, error = '') {
   }
 }
 
-// ───────────────────── helpers: unread scraping callbacks ─────────────────────
-
-// Send one batch of unread messages to Django
-async function postUnreadBatch(sessionId, jobId, messages) {
+// ───────────────────── helper: post unread messages in batch ─────────────────────
+async function postUnreadBatch(sessionId, messages) {
   if (!messages || messages.length === 0) return;
 
   try {
     await axios.post(
       `${DJANGO_INGEST_BASE}unread/${sessionId}/batch`,
-      {
-        job_id: jobId,
-        messages,
-      },
+      { messages },
       {
         headers: {
           'Content-Type': 'application/json',
@@ -101,129 +96,82 @@ async function postUnreadBatch(sessionId, jobId, messages) {
     );
   } catch (e) {
     console.log(
-      `[${sessionId}] postUnreadBatch failed for job ${jobId}: ${e.message}`
-    );
-    // it's ok to fail occasionally; Django side is idempotent
-  }
-}
-
-// Send final scrape job state to Django
-async function postScrapeState(sessionId, payload) {
-  try {
-    await axios.post(
-      `${DJANGO_INGEST_BASE}scrape/${sessionId}/state`,
-      payload,
-      {
-        headers: {
-          'Content-Type': 'application/json',
-          'X-Node-Secret': DJANGO_SECRET,
-        },
-        timeout: 10000,
-      }
-    );
-  } catch (e) {
-    console.log(
-      `[${sessionId}] postScrapeState failed for job ${payload.job_id}: ${e.message}`
+      `[${sessionId}] postUnreadBatch failed: ${e.message}`
     );
   }
 }
 
-// ───────────────────── core: scrape unread chats/messages ─────────────────────
-
-// This runs once per "ready" event (or more; Django handles idempotency).
 async function scrapeUnreadForSession(sessionId, client, record) {
-  // If you really want to guard against double-start, uncomment:
-  // if (record.scrapingJobId) {
-  //   console.log(`[${sessionId}] scrape already running with job ${record.scrapingJobId}, skipping`);
-  //   return;
-  // }
+  console.log(`[${sessionId}] starting unread scrape`);
 
-  const jobId = randomUUID();
-  record.scrapingJobId = jobId;
-
-  console.log(`[${sessionId}] starting unread scrape job ${jobId}`);
-
-  let numChats = 0;
-  let numMsgs = 0;
+  const THREE_MONTHS_SECONDS = 90 * 24 * 60 * 60;
+  const nowSeconds = Math.floor(Date.now() / 1000);
+  const cutoffTs = nowSeconds - THREE_MONTHS_SECONDS;
 
   try {
     const chats = await client.getChats();
 
     for (const chat of chats) {
-      // Skip archives / groups / statuses if you want; for now we only check unreadCount
+      const chatIdStr =
+        chat.id && chat.id._serialized ? chat.id._serialized : String(chat.id || '');
+      if (!chatIdStr.endsWith('@c.us')) continue;
+
       if (!chat.unreadCount || chat.unreadCount <= 0) continue;
-
-      numChats += 1;
-
-      const unreadLimit = chat.unreadCount;
 
       let messages = [];
       try {
-        // whatsapp-web.js returns the last N messages, including unread ones.
-        messages = await chat.fetchMessages({ limit: unreadLimit });
+        messages = await chat.fetchMessages({ limit: chat.unreadCount });
       } catch (e) {
-        console.log(
-          `[${sessionId}] failed to fetch messages for chat ${chat.id._serialized}: ${e.message}`
-        );
+        console.log(`[${sessionId}] failed to fetch messages for ${chatIdStr}: ${e.message}`);
         continue;
       }
 
-      // Filter to messages we care about:
-      // - not status messages
-      // - not from me (optional; depends on your UX)
       const filtered = messages.filter((m) => {
         if (m.isStatus) return false;
-        // you can also check m.ack or m.id.fromMe; basic version:
-        return true;
+        const ts = m.timestamp ? m.timestamp : nowSeconds;
+        return ts >= cutoffTs;
       });
 
       if (filtered.length === 0) continue;
 
-      const batchPayload = filtered.map((m) => ({
-        wa_msg_id: m.id && m.id._serialized ? m.id._serialized : m.id,
-        chat_id: chat.id && chat.id._serialized ? chat.id._serialized : chat.id,
-        sender: m.from,
-        body: m.body,
-        // timestamp: seconds since epoch (what you'll parse in Django)
-        msg_ts: m.timestamp ? m.timestamp : Math.floor(Date.now() / 1000),
-      }));
+      // Build payload with async contact name resolution
+      const batchPayload = [];
+      for (const m of filtered) {
+        let displayName = m.from;
+        try {
+          const contact = await m.getContact();
+          displayName =
+            contact.pushname ||
+            contact.name ||
+            contact.shortName ||
+            contact.number ||
+            m.from;
+        } catch (e) {
+          console.log(`[${sessionId}] failed contact lookup for ${m.from}: ${e.message}`);
+        }
 
-      numMsgs += batchPayload.length;
+        batchPayload.push({
+          wa_msg_id: m.id && m.id._serialized ? m.id._serialized : m.id,
+          chat_id: chatIdStr,
+          sender: displayName,   
+          body: m.body,
+          msg_ts: m.timestamp ? m.timestamp : nowSeconds,
+        });
+      }
 
-      // Send in smaller chunks so we don't exceed body size
+      // Send in chunks
       const chunkSize = 50;
       for (let i = 0; i < batchPayload.length; i += chunkSize) {
-        const chunk = batchPayload.slice(i, i + chunkSize);
-        await postUnreadBatch(sessionId, jobId, chunk);
+        await postUnreadBatch(sessionId, batchPayload.slice(i, i + chunkSize));
       }
     }
 
-    // All done: inform Django
-    await postScrapeState(sessionId, {
-      job_id: jobId,
-      status: 'done',
-      num_chats: numChats,
-      num_msgs: numMsgs,
-      error: '',
-    });
-
-    console.log(
-      `[${sessionId}] unread scrape job ${jobId} done: chats=${numChats}, msgs=${numMsgs}`
-    );
+    console.log(`[${sessionId}] unread scrape done (private chats, last 3 months only)`);
   } catch (err) {
-    console.log(
-      `[${sessionId}] scrapeUnread error in job ${jobId}: ${err.message}`
-    );
-
-    await postScrapeState(sessionId, {
-      job_id: jobId,
-      status: 'error',
-      num_chats: numChats,
-      num_msgs: numMsgs,
-      error: String(err.message || err),
-    });
+    console.log(`[${sessionId}] scrapeUnread error: ${err.message}`);
   }
 }
+
 
 // ───────────────────── create or get WA client for a session ─────────────────────
 
@@ -369,6 +317,83 @@ app.get('/node/session/:id/status', (req, res) => {
 
   return res.json({ session_id: sessionId, state: rec.state });
 });
+
+// Get messages for a specific chat
+app.get('/node/session/:id/chat/:chatId/messages', async (req, res) => {
+  const sessionId = req.params.id;
+  const chatId = req.params.chatId;
+
+  const rec = sessions.get(sessionId);
+  if (!rec) {
+    return res.status(404).json({ error: 'session_not_found' });
+  }
+
+  const client = rec.client;
+  try {
+    const chat = await client.getChatById(chatId);
+    // You can tune this: last 30 messages, for example
+    const msgs = await chat.fetchMessages({ limit: 30 });
+
+    const nowSeconds = Math.floor(Date.now() / 1000);
+    const messagesPayload = [];
+
+    for (const m of msgs) {
+      let displayName = m.from;
+      try {
+        const contact = await m.getContact();
+        displayName =
+          contact.pushname ||
+          contact.name ||
+          contact.shortName ||
+          contact.number ||
+          m.from;
+      } catch (e) {
+        // ignore, fall back to m.from
+      }
+
+      messagesPayload.push({
+        wa_msg_id: m.id && m.id._serialized ? m.id._serialized : m.id,
+        sender: displayName,
+        body: m.body,
+        from_me: m.fromMe || false,
+        msg_ts: m.timestamp ? m.timestamp : nowSeconds,
+      });
+    }
+
+    return res.json({ chat_id: chatId, messages: messagesPayload });
+  } catch (e) {
+    console.log(`[${sessionId}] get chat messages error for ${chatId}: ${e.message}`);
+    return res.status(500).json({ error: 'fetch_failed' });
+  }
+});
+
+// Send a message to a specific chat
+app.post('/node/session/:id/chat/:chatId/send', async (req, res) => {
+  const sessionId = req.params.id;
+  const chatId = req.params.chatId;
+  const body = (req.body && req.body.body) || '';
+
+  if (!body) {
+    return res.status(400).json({ error: 'empty_body' });
+  }
+
+  const rec = sessions.get(sessionId);
+  if (!rec) {
+    return res.status(404).json({ error: 'session_not_found' });
+  }
+
+  const client = rec.client;
+  try {
+    const chat = await client.getChatById(chatId);
+    await chat.sendMessage(body);
+    console.log(`[${sessionId}] sent message to ${chatId}: ${body}`);
+    return res.json({ ok: true });
+  } catch (e) {
+    console.log(`[${sessionId}] send message error for ${chatId}: ${e.message}`);
+    return res.status(500).json({ error: 'send_failed' });
+  }
+});
+
 
 // ───────────────────────────────────────────────────────────────────
 

@@ -6,18 +6,12 @@
     <title>Unread WhatsApp Chats</title>
 
     <link rel="stylesheet" href="{% static 'styles.css' %}">
-
-    {% if is_scanning %}
-        <!-- Auto-refresh while scraping is running -->
-        <meta http-equiv="refresh" content="3">
-    {% endif %}
 </head>
 <body class="bg">
 
 <div class="topbar">
     <div class="brand">
         <div class="logo">
-            <!-- simple W icon -->
             <span>W</span>
         </div>
         <div class="brand-text">WhatsReply</div>
@@ -30,131 +24,66 @@
 
 <div class="content">
 
-    {# Header card with basic info about session & job #}
     <div class="card" style="margin-bottom: 20px;">
         <div class="hero" style="text-align: left; max-width: none;">
-            <h1>Unread WhatsApp chats</h1>
+            <h1>Your unread WhatsApp chats</h1>
             <p class="muted">
-                Session: {{ session.id }}
-                {% if job %}
-                    &nbsp;&middot;&nbsp; Scrape job: {{ job.id }} &nbsp;&middot;&nbsp;
-                    Status: {{ job.get_status_display }}
-                    {% if job.num_chats %}&nbsp;&middot;&nbsp; Chats: {{ job.num_chats }}{% endif %}
-                    {% if job.num_msgs %}&nbsp;&middot;&nbsp; Messages: {{ job.num_msgs }}{% endif %}
+                <!-- Session: {{ session.id }}  it was used in debuging-->
+                {% if unreads %}
+                    &nbsp;&middot;&nbsp; Yo have total of {{ unreads|length }} unread messages
                 {% else %}
-                    &nbsp;&middot;&nbsp; No scrape job yet.
+                    &nbsp;&middot;&nbsp; No unread messages.
                 {% endif %}
             </p>
-            {% if job and job.status == "error" and job.error %}
-                <p class="muted" style="color: var(--danger);">
-                    Error: {{ job.error }}
-                </p>
-            {% endif %}
         </div>
     </div>
 
-    {% if is_scanning %}
-        {# SCANNING STATE #}
-        <div class="center-wrap" style="padding: 0;">
-            <div class="card hero">
-                <h1>Scanning your unread chats…</h1>
-                {% if job %}
-                    <p class="muted">
-                        So far: {{ job.num_chats|default:"0" }} chats,
-                        {{ job.num_msgs|default:"0" }} messages.
-                    </p>
-                {% else %}
-                    <p class="muted">
-                        Preparing your chats. This page will refresh automatically every few seconds.
-                    </p>
-                {% endif %}
-                <p class="muted">
-                    You can keep this tab open while we talk to WhatsApp Web via Node and Django.
-                </p>
-            </div>
-        </div>
+    {% if unreads %}
+        {# Group unread messages by chat_id #}
+        {% regroup unreads by chat_id as chats_by_id %}
 
-    {% else %}
-        {# DONE STATE: show chats and messages #}
-
-        {% if unreads %}
-            {% regroup unreads by chat_id as chats_by_id %}
-
-            <div class="grid-2">
-                {# LEFT: list of chats with unread messages #}
-                <div class="card">
-                    <h2 style="margin-top: 0;">Chats</h2>
-                    <p class="muted" style="margin-top: 4px; margin-bottom: 12px;">
-                        {{ chats_by_id|length }} chats with unread messages
-                    </p>
-
-                    <ul class="chat-list">
-                        {% for chat_group in chats_by_id %}
-                            {# chat_group.grouper is chat_id; chat_group.list is list of UnreadSession #}
-                            <li class="chat-item">
+        <div class="grid-2">
+            {% for chat_group in chats_by_id %}
+                {# chat_group.grouper = chat_id, chat_group.list = list of UnreadSession #}
+                {% with last=chat_group.list|last %}
+                    <a href="{% url 'chat_detail' chat_id=chat_group.grouper %}" style="text-decoration: none; color: inherit;">
+                        <div class="card" style="cursor: pointer;">
+                            <div class="chat-item">
                                 <div class="avatar">
-                                    {# show first 2 chars of chat id as fake avatar #}
                                     {{ chat_group.grouper|slice:":2"|upper }}
                                 </div>
                                 <div>
                                     <div class="title">
-                                        {{ chat_group.grouper }}
+                                        {{ last.sender|default:chat_group.grouper }}
                                     </div>
                                     <div class="subtitle">
-                                        {{ chat_group.list|length }} unread
-                                        message{% if chat_group.list|length != 1 %}s{% endif %}
-                                        {% with last=chat_group.list|last %}
-                                            {% if last.msg_ts %}
-                                                &middot; last at {{ last.msg_ts|date:"Y-m-d H:i" }}
-                                            {% endif %}
-                                        {% endwith %}
+                                        {{ last.body|default:"(no text)" }}
                                     </div>
-                                </div>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-
-                {# RIGHT: all unread messages in order #}
-                <div class="card">
-                    <h2 style="margin-top: 0;">Unread messages</h2>
-                    <p class="muted" style="margin-top: 4px; margin-bottom: 12px;">
-                        Showing all unread messages for this session, ordered by chat and time.
-                    </p>
-
-                    <div style="max-height: 70vh; overflow-y: auto;">
-                        {% for m in unreads %}
-                            <div style="padding: 10px 0; border-bottom: 1px solid #223038;">
-                                <div class="subtitle">
-                                    <strong>Chat:</strong> {{ m.chat_id }}<br>
-                                    <strong>From:</strong> {{ m.sender|default:"(unknown)" }}
-                                    {% if m.msg_ts %}
-                                        &nbsp;&middot;&nbsp; {{ m.msg_ts|date:"Y-m-d H:i" }}
+                                    {% if last.msg_ts %}
+                                        <div class="muted" style="margin-top: 4px; font-size: 0.85em;">
+                                            {{ last.msg_ts|date:"Y-m-d H:i" }}
+                                        </div>
                                     {% endif %}
                                 </div>
-                                <div style="margin-top: 4px;">
-                                    {{ m.body }}
-                                </div>
                             </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-
-        {% else %}
-            {# No unread messages #}
-            <div class="center-wrap" style="padding-top: 10px;">
-                <div class="card hero">
-                    <h1>No unread messages 🎉</h1>
-                    <p class="muted">
-                        We didn’t find any unread messages for this WhatsApp Web session.
-                    </p>
-                    <a href="{% url 'login_page' %}" class="btn btn-primary">
-                        Back to login
+                        </div>
                     </a>
-                </div>
+                {% endwith %}
+            {% endfor %}
+        </div>
+
+    {% else %}
+        <div class="center-wrap" style="padding-top: 10px;">
+            <div class="card hero">
+                <h1>No unread messages 🎉</h1>
+                <p class="muted">
+                    We didn't find any unread messages for this WhatsApp Web session.
+                </p>
+                <a href="{% url 'login_page' %}" class="btn btn-primary">
+                    Back to login
+                </a>
             </div>
-        {% endif %}
+        </div>
     {% endif %}
 </div>
 

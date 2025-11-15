@@ -1,0 +1,155 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat {{ chat_id }}</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body class="bg">
+
+<div class="topbar">
+    <div class="brand">
+        <div class="logo">
+            <span>W</span>
+        </div>
+        <div class="brand-text">WhatsReply</div>
+    </div>
+    <nav class="nav">
+        <a href="{% url 'login_page' %}" class="nav-link">Login</a>
+        <a href="{% url 'unread_page' %}" class="nav-link">Unread</a>
+    </nav>
+</div>
+
+<div class="content">
+
+    <!-- Header card -->
+    <div class="card" style="margin-bottom: 20px;">
+        <div class="hero" style="text-align: left; max-width: none;">
+            <h1>Chat details</h1>
+            <p class="muted">
+                Chat ID: {{ chat_id }}
+                &nbsp;&middot;&nbsp;
+                <a href="{% url 'unread_page' %}" class="nav-link">← Back to unread chats</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Two-column layout: messages + suggestion/prompt -->
+    <div class="grid-2">
+
+        <!-- Left: messages card -->
+        <div class="card">
+            <h2 style="margin-top: 0;">Messages</h2>
+
+            {% if messages_list %}
+                <ul class="chat-list">
+                    {% for m in messages_list %}
+                        <li class="chat-item" style="cursor: default;">
+                            <div class="avatar">
+                                {% if m.from_me %}
+                                    ME
+                                {% else %}
+                                    {{ m.sender|default:"?"|slice:":2"|upper }}
+                                {% endif %}
+                            </div>
+                            <div>
+                                <div class="title">
+                                    {% if m.from_me %}
+                                        You
+                                    {% else %}
+                                        {{ m.sender|default:"Contact" }}
+                                    {% endif %}
+                                </div>
+                                <div class="subtitle">
+                                    {{ m.body|default:"(no text)" }}
+                                </div>
+                                {% if m.msg_ts %}
+                                    <div class="muted" style="margin-top: 4px; font-size: 0.8em;">
+                                        {{ m.msg_ts|date:"Y-m-d H:i" }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p class="muted">
+                    No messages found for this chat yet.
+                </p>
+            {% endif %}
+        </div>
+
+        <!-- Right: suggestion + prompt card -->
+        <div class="card">
+            <h2 style="margin-top: 0;">Reply suggestion</h2>
+
+            {% if suggestion_text %}
+                <div class="suggestion" style="margin-bottom: 16px;">
+                    <div class="tag">Suggested reply</div>
+                    <p>{{ suggestion_text }}</p>
+                </div>
+
+                <!-- Send this suggestion via WhatsApp -->
+                <form method="post" action="{% url 'send_suggestion' chat_id=chat_id %}" style="margin-bottom: 20px;">
+                    {% csrf_token %}
+                    <input type="hidden" name="suggestion" value="{{ suggestion_text }}">
+                    <button type="submit" class="btn btn-primary">
+                        Send this reply via WhatsApp
+                    </button>
+                </form>
+            {% else %}
+                <p class="muted">
+                    No suggestion yet. Use the prompt below to ask the model what to answer.
+                </p>
+            {% endif %}
+
+            <hr style="margin: 18px 0; border-color: #223038;">
+
+            <h3 style="margin-top: 0;">Refine / guide the suggestion</h3>
+            <p class="muted" style="margin-top: 0; font-size: 0.9em;">
+                The text below is <strong>not</strong> sent as a WhatsApp message.  
+                It’s only a prompt that Django will send to the LLM to generate a better reply.
+            </p>
+
+            <!-- Form that sends prompt to Django (to call the model) -->
+            <form method="post" action="{% url 'chat_detail' chat_id=chat_id %}">
+                {% csrf_token %}
+                <label for="prompt" class="muted" style="font-size: 0.9em;">
+                    Prompt to the model:
+                </label>
+                <textarea
+                    id="prompt"
+                    name="prompt"
+                    rows="4"
+                    style="
+                        width: 100%;
+                        margin-top: 8px;
+                        border-radius: 12px;
+                        border: 1px solid #24333b;
+                        background: #152128;
+                        color: var(--text);
+                        padding: 10px;
+                        resize: vertical;
+                        font-family: inherit;
+                    "
+                    placeholder="make suggestion detailed"
+                >{{ prompt_text }}</textarea>
+
+                <div style="margin-top: 12px; display: flex; gap: 10px;">
+                    <button type="submit" class="btn btn-ghost">
+                        Send to model
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="foot">
+    <span class="muted">Barbara · Anat · Ran · Alon</span>
+</div>
+
+</body>
+</html>
