@@ -205,6 +205,8 @@ def unread_page(request):
         .order_by("-started_at")
         .first()
     )
+    if not sess:
+        return JsonResponse({"error": "session_not_found"}, status=404)
 
     # Group unread messages by chat_id, count messages, get latest timestamp
     chat_summaries = (
@@ -229,13 +231,12 @@ def unread_page(request):
 # _____scraping the messages for specific chat___
 def fetch_chat_messages_from_node(session, chat_id):
     """
-    Ask Node for messages of a specific chat.
+    Asks Node for messages of a specific chat.
     Returns a list of dicts with keys:
       wa_msg_id, sender, body, from_me, msg_ts
     """
     if not session or not session.node_session_id:
         return []
-
     try:
         r = requests.get(
             f"{NODE_BASE_URL}/node/session/{session.node_session_id}/chat/{chat_id}/messages",
@@ -245,7 +246,8 @@ def fetch_chat_messages_from_node(session, chat_id):
             return []
         data = r.json()
         return data.get("messages", [])
-    except Exception:
+    except Exception as e:
+        print("Error fetching chat messages from Node.",e)
         return []
 
 
@@ -256,6 +258,8 @@ def chat_detail(request, chat_id):
       - LLM suggestion (if generated)
       - Prompt form to refine the suggestion
     """
+    if not _check_node_secret(request):
+        return HttpResponseForbidden("incorrect secret")
     # Find current active session
     sess = (
         Session.objects.filter(is_active=True, state=Session.State.READY)
@@ -263,10 +267,9 @@ def chat_detail(request, chat_id):
         .first()
     )
     if not sess:
-        messages.warning(request, "No active WhatsApp session. Please login again.")
-        return redirect("login_page")
+        return JsonResponse({"error": "session_not_found"}, status=404)
 
-    # Always fetch fresh messages for this chat from Node
+    # fetching messages for this chat from Node
     messages_list = fetch_chat_messages_from_node(sess, chat_id)
 
     suggestion_text = None
@@ -284,7 +287,7 @@ def chat_detail(request, chat_id):
         else:
             messages.info(request, "Please enter a prompt to guide the suggestion.")
     else:
-        # first time loading page: no suggestion yet
+        # first time loading page: no suggestion yet - TODO: implement auto-suggestion
         suggestion_text = None
 
     context = {
@@ -308,9 +311,8 @@ def send_suggestion(request, chat_id):
         .first()
     )
     if not sess:
-        messages.warning(request, "No active WhatsApp session. Please login again.")
-        return redirect("login_page")
-
+        return JsonResponse({"error": "session_not_found"}, status=404)
+    
     suggestion_text = request.POST.get("suggestion", "").strip()
     if not suggestion_text:
         messages.warning(request, "Suggestion text is empty.")
