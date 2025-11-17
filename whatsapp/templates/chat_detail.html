@@ -43,6 +43,7 @@
             <h2 style="margin-top: 0;">Messages</h2>
 
             {% if messages_list %}
+            <div class="chat-scroll">
                 <ul class="chat-list">
                     {% for m in messages_list %}
                         <li class="chat-item" style="cursor: default;">
@@ -73,6 +74,7 @@
                         </li>
                     {% endfor %}
                 </ul>
+            </div>
             {% else %}
                 <p class="muted">
                     No messages found for this chat yet.

@@ -202,3 +202,4 @@ node_modules
 sessions
 __pycache__
 .wwebjs_cache
+.env

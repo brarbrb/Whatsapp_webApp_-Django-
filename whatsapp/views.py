@@ -4,6 +4,8 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse, HttpResponseBadRequest, HttpResponseForbidden
 from django.contrib import messages
 from django.conf import settings
+from django.apps import apps
+
 from datetime import datetime
 
 import json
@@ -11,7 +13,7 @@ import requests
 
 from .models import Session, UnreadSession
 from django.db.models import Count, Max 
-
+from .rag_pipe import WhatsAppRAG  # the pipline we showed in ipynb converted to a class
 
 NODE_BASE_URL = getattr(settings, "NODE_BASE_URL", "http://localhost:3001") #acces what is in settings.py or set default 
 REQUEST_TIMEOUT = (3.0, 6.0)  # used for requests to Node server (connect timeout, read timeout) in seconds
@@ -258,8 +260,7 @@ def chat_detail(request, chat_id):
       - LLM suggestion (if generated)
       - Prompt form to refine the suggestion
     """
-    if not _check_node_secret(request):
-        return HttpResponseForbidden("incorrect secret")
+
     # Find current active session
     sess = (
         Session.objects.filter(is_active=True, state=Session.State.READY)
@@ -270,25 +271,41 @@ def chat_detail(request, chat_id):
         return JsonResponse({"error": "session_not_found"}, status=404)
 
     # fetching messages for this chat from Node
-    messages_list = fetch_chat_messages_from_node(sess, chat_id)
-
+    # messages_list = fetch_chat_messages_from_node(sess, chat_id)
+    messages_list = sorted(
+    fetch_chat_messages_from_node(sess, chat_id),
+    key=lambda m: m.get("msg_ts", 0),
+    reverse=True  # NEW → sort newest first
+    )
+    # print("Last message in chat:", messages_list[-1] if messages_list else "no messages")
     suggestion_text = None
-    prompt_text = ""
+    kb_path = "C:/Users/areg6/Documents/github/Whatsapp_webApp_-Django-/RAG/RAG_data/KB_data.csv"
 
+    rag = apps.get_app_config("whatsapp").rag
+    if rag:
+        print("RAG initialized successfully.")
+
+    # query = "i need help with my students, did you taught them already the embeddings ppt?"
+    query = messages_list[0]["body"] if messages_list else ""
+    print(messages_list)
+    prompt_text = ""
+    print("Generating reply for prompt:")
+    print(query)
     if request.method == "POST":
         # User clicked "Send to model" – generate suggestion from LLM later
         prompt_text = request.POST.get("prompt", "").strip()
-
         if prompt_text:
-            # TODO: at this place you will call your real LLM.
-            # For now we put a simple placeholder so the page works.
-            # You can pass messages_list and prompt_text to your LLM.
-            suggestion_text = f"[Stub] Suggested reply based on prompt: {prompt_text}"
+            reply = rag.generate_reply(query, instructions=prompt_text)
+            suggestion_text = reply
+            print("Generated reply:")
+            print(reply)
         else:
             messages.info(request, "Please enter a prompt to guide the suggestion.")
+            print("Generated reply:")
+            print(reply)
     else:
-        # first time loading page: no suggestion yet - TODO: implement auto-suggestion
-        suggestion_text = None
+        reply = rag.generate_reply(query, instructions="")
+        suggestion_text = reply
 
     context = {
         "session": sess,
