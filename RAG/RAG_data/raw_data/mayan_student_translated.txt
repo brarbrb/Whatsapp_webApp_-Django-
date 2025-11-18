@@ -1,0 +1,565 @@
+[06/01/2025, 17:37:39] Maayan Magshimim: Hi, if it's possible to be a few minutes late, I had a delay here
+[06/01/2025, 17:41:31] Barbara: Yes, yes
+[06/01/2025, 17:41:33] Barbara: One minute
+[06/01/2025, 17:42:10] Barbara: Maayan, something embarrassing happened to me, my computer isn't working and in addition to that, everything was erased from my WhatsApp
+[06/01/2025, 17:42:19] Barbara: I'll transfer your defense to another date, sorryyyy
+[06/01/2025, 17:42:31] Barbara: But could you send me the link to the file because I don't have it
+[06/01/2025, 17:42:42] Barbara: I apologize very much, I'm having a jinxed week
+[06/01/2025, 17:51:04] Maayan Magshimim: Okay
+[06/01/2025, 18:24:03] Maayan Magshimim: Regarding homework 10, I got stuck debugging, and then when I did fix it, their code didn't work, so it's good you gave me an extension
+[06/01/2025, 18:24:15] Barbara: There's a part, one minute
+[06/01/2025, 18:24:20] Barbara: Check if this is it
+[06/01/2025, 18:24:21] Maayan Magshimim: I just got a moment to write this, sorry
+[06/01/2025, 18:24:36] Barbara: Oh, ugh, I don't have any messages on WhatsApp at all...
+[06/01/2025, 18:24:40] Barbara: Check with Aviv for a minute
+[06/01/2025, 18:24:45] Barbara: I sent him about a piece of code that wasn't working
+[06/01/2025, 18:24:55] Barbara: Have him send it to you, check if that's the one
+[06/01/2025, 18:24:56] Maayan Magshimim: No, it's probably me because after a certain stage I stopped receiving the numbers they said I was supposed to receive
+[06/01/2025, 18:25:08] Barbara: Okay, good
+[06/01/2025, 18:25:23] Maayan Magshimim: I don't know, that last function complicated things for me
+[07/01/2025, 21:31:16] Maayan Magshimim: Hi, I fixed my code but I'm still getting errors
+[07/01/2025, 21:33:47] Maayan Magshimim: From what I researched, pandas removed `append` and that's the error I'm getting
+‎[07/01/2025, 23:24:48] Barbara: ‎audio omitted
+‎[07/01/2025, 23:24:59] Barbara: ‎audio omitted
+[08/01/2025, 7:14:24] Maayan Magshimim: So what do I do because my code doesn't have `append`, otherwise it wouldn't have worked either
+[08/01/2025, 9:36:56] Barbara: What? 
+[08/01/2025, 9:37:06] Barbara: Do it with `apply`
+[08/01/2025, 9:37:13] Barbara: `apply` method
+[08/01/2025, 9:39:54] Maayan Magshimim: My code doesn't have the `append` method, my code worked exactly as they wanted until I got to their code
+[08/01/2025, 9:40:16] Maayan Magshimim: I used `concat` instead of `append`
+[08/01/2025, 9:40:55] Barbara: That's fine
+‎[08/01/2025, 9:41:04] Barbara: ‎audio omitted
+[08/01/2025, 9:41:27] Maayan Magshimim: Yes, I fixed mine
+[08/01/2025, 9:41:33] Maayan Magshimim: But theirs still doesn't work
+‎[08/01/2025, 9:42:30] Barbara: ‎audio omitted
+[08/01/2025, 9:43:41] Maayan Magshimim: I didn't talk to Aviv, I talked to Almog who already compared his code with Shaked and he also has a problem
+‎[08/01/2025, 9:44:28] Barbara: ‎audio omitted
+[08/01/2025, 9:45:40] Maayan Magshimim: Okay, I'll talk to Aviv, but I wanted to talk to Almog first to make sure my code works first
+‎[08/01/2025, 9:47:25] Barbara: ‎audio omitted
+[08/01/2025, 9:48:28] Maayan Magshimim: Okay
+[13/01/2025, 19:04:34] Maayan Magshimim: Hi, I know this is repeating itself, but I'm really busy and losing motivation to do anything, can I get an extension?
+‎[13/01/2025, 19:12:58] Barbara: ‎audio omitted
+‎[13/01/2025, 19:13:08] Barbara: ‎audio omitted
+[13/01/2025, 19:28:07] Maayan Magshimim: I'm under too much stress right now, I prefer an extension until I can force myself to work
+[13/01/2025, 21:12:42] Barbara: You'll have more motivation if we do a Zoom while I check your assignments, you can do the task
+[13/01/2025, 21:12:48] Barbara: Just so you don't feel alone or anything
+[13/01/2025, 21:13:09] Barbara: In any case, you can submit until Saturday night
+[13/01/2025, 21:13:15] Barbara: Exactly Saturday night
+[13/01/2025, 21:13:19] Barbara: Including
+[13/01/2025, 22:43:48] Maayan Magshimim: Okay
+[13/01/2025, 22:44:12] Barbara: Do you want to do it tomorrow?
+[13/01/2025, 22:44:30] Maayan Magshimim: Tomorrow I have a major day, so I'll see when I'm free
+[13/01/2025, 22:44:39] Barbara: If you feel like it, it's not mandatory :)
+[13/01/2025, 22:45:22] Maayan Magshimim: I want to, but I'll see when I get back so I can update you
+[13/01/2025, 22:45:35] Barbara: Absolutely fine
+[13/01/2025, 22:45:40] Barbara: Update me
+[23/01/2025, 10:08:20] Maayan Magshimim: Hi, I've had the flu for a few days, I don't think I'll come today
+[23/01/2025, 10:09:55] Barbara: Oh no
+[23/01/2025, 10:09:57] Barbara: Feel better
+[23/01/2025, 10:10:04] Maayan Magshimim: Thanks
+[23/01/2025, 10:10:07] Barbara: Don't come, rest, I'll send you a recording
+[28/01/2025, 13:56:27] Maayan Magshimim: Hi, I still don't feel well and haven't worked on the milestone yet, is there a chance to get an extension or not?
+[28/01/2025, 13:56:47] Barbara: Yes, you can submit until Saturday
+[29/01/2025, 11:16:53] Maayan Magshimim: Hi, I'm a bit confused about what to do the assignment based on, the presentation or the notebook?
+[29/01/2025, 17:17:24] Barbara: Both
+[29/01/2025, 17:17:45] Barbara: I'll record you key points later (in the meantime, go over what I sent in the group)
+[30/01/2025, 11:15:08] Maayan Magshimim: Hi, I went over what you sent but it still didn't really help me, I'll wait for the key points you send because the instructions in the presentation are sometimes very different from the instructions in the notebook
+[30/01/2025, 15:30:26] Barbara: I'll just give them in class, remind me
+[30/01/2025, 15:32:30] Maayan Magshimim: I was just about to say that I'm still not feeling well enough and would it be okay if I didn't come again or would there be a problem
+[30/01/2025, 15:34:57] Barbara: You should come
+[30/01/2025, 15:35:03] Barbara: I'll release you early
+[30/01/2025, 15:35:40] Barbara: Honestly, the lesson today is less important, and there is no homework. But it's important for me to make sure your milestone is good
+[30/01/2025, 15:35:55] Barbara: And unfortunately, I don't have time for Zooms in the near future ‎<This message was edited>
+[30/01/2025, 15:36:14] Maayan Magshimim: Okay
+[31/01/2025, 19:11:14] Maayan Magshimim: Hi, from stage two to stage 4 they are asking for things I already did
+[31/01/2025, 19:11:18] Maayan Magshimim: What do I do there?
+[31/01/2025, 19:11:33] Maayan Magshimim: Those are simply parts I already did in EDA
+[31/01/2025, 19:11:41] Barbara: Like what? Can you send a screenshot of what you mean
+[31/01/2025, 19:11:52] Barbara: Basically skip, but I don't want to tell you that without seeing it
+[31/01/2025, 19:12:43] Maayan Magshimim: I can send a link because I really did almost everything there except creating graphs
+[31/01/2025, 19:13:02] Barbara: Yes
+[31/01/2025, 19:13:31] Maayan Magshimim: https://colab.research.google.com/drive/1zwsJZ8zgBa89AKUXl3YVTGAwtSP41oxx?usp=sharing
+[31/01/2025, 19:13:37] Maayan Magshimim: I did manual outlier treatment as opposed to the IQR they did
+[31/01/2025, 20:06:51] Barbara: Yes, there's no need to do those steps if you did them before
+[31/01/2025, 20:06:54] Barbara: And it looks like you did
+[31/01/2025, 20:07:28] Barbara: Regarding IQR - write that you preferred the manual method and explain why it's better (give the examples I gave in class)
+[01/02/2025, 19:53:31] Maayan Magshimim: Hi, I'm getting confused with clustering, like I don't know what to do, I think I reached something but it's not satisfying me, could you look at the notebook again to help?
+[01/02/2025, 19:54:17] Barbara: A few minutes with you
+[01/02/2025, 19:56:07] Maayan Magshimim: Thanks
+[01/02/2025, 20:26:11] Barbara: https://technion.zoom.us/j/96704941787?pwd=xJRUQVDwb7IAKNPZysWUTOzbe2e0ak.1
+[01/02/2025, 20:27:01] Barbara: Connect, I'll try to understand
+[01/02/2025, 23:17:44] Barbara: Is everything okay? Are you managing?
+[01/02/2025, 23:19:21] Maayan Magshimim: Yes, I submitted
+[01/02/2025, 23:35:49] Barbara: Excellent and well done! 🫶🏻
+[06/02/2025, 11:38:36] Maayan Magshimim: Hi, one of my friends infected me and I woke up sick again today, would it be okay if I didn't come to class or would that be problematic even though it's a justified reason
+‎[06/02/2025, 11:39:30] Barbara: ‎audio omitted
+[06/02/2025, 11:43:51] Maayan Magshimim: Can't I just catch up alone like I did last time?
+‎[06/02/2025, 11:45:03] Barbara: ‎audio omitted
+‎[06/02/2025, 11:45:09] Barbara: ‎audio omitted
+[06/02/2025, 11:46:24] Maayan Magshimim: Okay, I'll talk to her
+[14/02/2025, 10:07:38] Barbara: Hi, I sent key points for the defense in the group. Go over them beforehand. Update me if you don't feel ready.
+[14/02/2025, 10:34:50] Barbara: Maayan?? 
+[14/02/2025, 10:41:09] Maayan Magshimim: I think I'm ready
+[14/02/2025, 10:41:52] Barbara: I can move it for you to tomorrow or later today so you can sharpen the material
+[14/02/2025, 10:41:59] Barbara: The defense is 40% of the final grade
+[14/02/2025, 10:42:07] Barbara: And I'm recording the defenses
+[14/02/2025, 10:42:51] Maayan Magshimim: Is what you sent in the group the material? 
+[14/02/2025, 10:42:59] Maayan Magshimim: Everything that could be?
+[14/02/2025, 10:43:39] Barbara: A few things from before related to EDA
+[14/02/2025, 10:43:45] Barbara: And data preparation
+[14/02/2025, 10:44:01] Barbara: Everything related to the new models and methods we learned, that's what I sent, generally
+[14/02/2025, 10:44:32] Maayan Magshimim: Okay
+[14/02/2025, 10:45:30] Barbara: Those are not the actual questions I'll ask, what I sent in the group, but those are the topics
+[14/02/2025, 10:46:31] Barbara: Okay, so I'm preparing the defense file, it will take me 15-20 minutes, and I'll send you a link
+[14/02/2025, 10:49:31] Barbara: I don't mind if you change your mind because everyone who was scheduled today ended up changing their mind :(
+[14/02/2025, 10:49:43] Barbara: I can move the defense to this evening, whenever is convenient for you
+[14/02/2025, 10:50:02] Maayan Magshimim: No, I can't in the evening we'll just do it today
+[14/02/2025, 10:50:08] Barbara: Are you sure?
+[14/02/2025, 10:50:13] Barbara: I just want you to get a good grade
+[14/02/2025, 10:50:20] Barbara: I'm worried myself about how you'll be
+[14/02/2025, 10:50:21] Maayan Magshimim: Yes
+[14/02/2025, 10:50:31] Barbara: Okay
+[14/02/2025, 10:50:48] Barbara: So a few minutes, I need to organize the defense file for myself and I'll send you a link. In the meantime, go over the topics
+[14/02/2025, 11:01:15] Barbara: Okay, I'm delayed a bit, there's a mess here with the files they sent me ‎<This message was edited>
+[14/02/2025, 11:17:57] Barbara: https://technion.zoom.us/j/93504519036?pwd=FaFavI2JOmVQTdbc5dyV2P4NPxnqgU.1
+[14/02/2025, 11:39:38] Barbara: https://www.youtube.com/watch?v=JqONmLsRs8Y
+[14/02/2025, 11:40:02] Barbara: bootsrap
+[14/02/2025, 11:42:18] Barbara: https://www.youtube.com/watch?v=wjILv3-UGM8
+[14/02/2025, 11:43:02] Barbara: https://www.youtube.com/watch?v=kituDjzXwfE between minutes 5-10
+[14/02/2025, 11:49:01] Barbara: https://www.youtube.com/watch?v=R2e3Ls9H_fc
+[15/02/2025, 12:44:45] Maayan Magshimim: Hi, we scheduled 12:30, not three
+[15/02/2025, 12:44:57] Barbara: Oh, I missed it
+[15/02/2025, 12:45:03] Barbara: One minute, sending a link
+[15/02/2025, 12:46:47] Barbara: 5 minutes, arranging your defense files
+[15/02/2025, 12:48:07] Barbara: https://technion.zoom.us/j/96083343143?pwd=bLzsbVO2TpYaFFPlFRXyORMoh2Kjwr.1
+[15/02/2025, 12:54:29] Barbara: Maayan? 
+[15/02/2025, 12:54:35] Barbara: Can you connect?
+[15/02/2025, 12:58:52] Maayan Magshimim: Yes, yes
+[23/02/2025, 16:00:15] Maayan Magshimim: Hi, I forgot to inform you in class, but I'm going on an annual trip tomorrow and won't have time to submit the homework or come to class on Thursday
+[04/03/2025, 16:47:41] Maayan Magshimim: Hi, I think I'll need an extension for this week too because I have school workload
+[04/03/2025, 17:12:20] Barbara: Checking
+[07/03/2025, 12:27:00] Barbara: You submitted an empty notebook for the homework of lesson 15...
+[07/03/2025, 12:27:05] Barbara: You'll have to complete it...
+[07/03/2025, 12:27:31] Maayan Magshimim: ? 
+[07/03/2025, 12:27:38] Maayan Magshimim: What
+[07/03/2025, 12:27:55] Maayan Magshimim: I didn't skip anything
+[07/03/2025, 12:49:02] Barbara: Look at the submission for week 15
+[07/03/2025, 14:53:54] Maayan Magshimim: I remember doing that notebook... is there a chance it somehow didn't save?
+[08/03/2025, 16:02:51] Barbara: There's a chance...
+[08/03/2025, 16:03:04] Barbara: I'll check with the coordinator tomorrow if we can waive it this one time
+[08/03/2025, 16:03:10] Barbara: Make sure it doesn't happen again
+[08/03/2025, 16:36:40] Maayan Magshimim: I already did it
+[08/03/2025, 16:36:46] Maayan Magshimim: Again
+[08/03/2025, 16:44:38] Barbara: Ugh
+[08/03/2025, 16:44:46] Barbara: What about the other tasks, are you managing?
+[08/03/2025, 17:43:19] Maayan Magshimim: Yes, I completed everything but I don't know, something has been running for half a day already so hopefully it will work
+[11/03/2025, 8:39:37] Maayan Magshimim: Hi, in the last exercise my model only gives one answer
+[11/03/2025, 8:39:40] Maayan Magshimim: https://colab.research.google.com/drive/1QfScuTdep3pMWyZbF1--Ewv3VFFQ10wa
+[11/03/2025, 8:39:52] Maayan Magshimim: I don't know what to do anymore
+[11/03/2025, 18:17:56] Maayan Magshimim: Barbara...
+[12/03/2025, 13:57:29] Maayan Magshimim: . 
+[12/03/2025, 19:35:08] Maayan Magshimim: .
+[12/03/2025, 21:59:41] Barbara: Sorry Maayan, I'm under extreme pressure in the last two days
+‎[12/03/2025, 22:02:07] Barbara: ‎audio omitted
+[12/03/2025, 22:47:30] Maayan Magshimim: It's all good, I just wanted to at least know there's an extension
+‎[13/03/2025, 17:30:22] Maayan Magshimim: ‎image omitted
+[13/03/2025, 17:31:14] Barbara: Righttt:)
+[13/03/2025, 17:32:38] Barbara: Wait, no
+[13/03/2025, 17:32:47] Barbara: Pay attention because there's a word that was repeated in all the documents
+[13/03/2025, 17:32:50] Barbara: What grade will she get?
+[13/03/2025, 17:41:20] Maayan Magshimim: Oh, yes, I see it now
+[13/03/2025, 17:41:24] Maayan Magshimim: Well, never mind
+[20/03/2025, 16:06:04] Maayan Magshimim: Stuck in traffic, late a bit
+[20/03/2025, 16:10:24] Barbara: Okay, drive safely 🤓
+‎[21/03/2025, 14:31:30] Barbara: ‎image omitted
+[21/03/2025, 14:31:37] Barbara: Why do you have Hebrew words in the middle of the code....
+[21/03/2025, 14:31:41] Barbara: This is from lesson 18...
+[21/03/2025, 14:32:05] Barbara: I'm ignoring it for now, but you must stop blindly copying from chat...
+[21/03/2025, 14:32:27] Barbara: You are smart and capable of solving the questions by yourself (alongside help from chat, of course)
+[21/03/2025, 14:46:37] Maayan Magshimim: Okay, but I didn't put that as code for the question, but as something for an example, but I'll check
+‎[21/03/2025, 14:48:12] Barbara: ‎audio omitted
+[21/03/2025, 14:49:03] Maayan Magshimim: Should I go back and fix it or does it not matter?
+[21/03/2025, 14:49:21] Maayan Magshimim: And open questions, I don't just copy, I do know
+[21/03/2025, 14:49:29] Barbara: No, there's no need
+[21/03/2025, 14:49:42] Barbara: Just be very careful with that
+‎[21/03/2025, 14:50:32] Barbara: ‎audio omitted
+[21/03/2025, 14:52:10] Maayan Magshimim: Good
+[24/03/2025, 19:10:34] Maayan Magshimim: Hi, I just got around to working on the class assignment but it still doesn't let me import the library
+[24/03/2025, 19:21:57] Maayan Magshimim: Also in the homework assignment
+[24/03/2025, 21:38:28] Barbara: But I arranged it for everyone
+[24/03/2025, 21:38:31] Barbara: 🥲
+[24/03/2025, 21:56:01] Maayan Magshimim: Both don't work for me
+[24/03/2025, 21:56:19] Maayan Magshimim: But now I don't really have the energy to work so can I just get the code?
+[24/03/2025, 21:57:16] Barbara: You need to install the library via `!pip install`
+[24/03/2025, 21:57:20] Barbara: And if it doesn't work
+[24/03/2025, 21:58:43] Maayan Magshimim: I did everything you gave 😭
+[24/03/2025, 21:58:53] Maayan Magshimim: I'm under stress, I don't have time to submitsssss
+[24/03/2025, 21:59:08] Barbara: If it doesn't work then add this code
+[24/03/2025, 21:59:10] Barbara: `pip uninstall -y numpy gensim`
+`pip install numpy==1.23.5`
+`pip install --no-cache-dir --force-reinstall gensim`
+[24/03/2025, 21:59:21] Maayan Magshimim: I already added thattttttttt
+[24/03/2025, 21:59:33] Maayan Magshimim: I guess I get the solution 🥺
+[24/03/2025, 21:59:39] Barbara: Okay, I'll give you an extension
+[24/03/2025, 21:59:43] Barbara: I wish
+[24/03/2025, 21:59:48] Barbara: Less work for me to check
+[24/03/2025, 21:59:53] Maayan Magshimim: Lol
+[24/03/2025, 21:59:54] Barbara: But no
+[24/03/2025, 21:59:57] Barbara: 🥲
+[24/03/2025, 22:00:03] Barbara: But you need to fix this
+[24/03/2025, 22:00:06] Barbara: Send me the notebooks
+[24/03/2025, 22:00:47] Maayan Magshimim: https://colab.research.google.com/drive/1kRgmVAy9990qisTombsYh8UHWn-gzMv0
+[24/03/2025, 22:01:09] Maayan Magshimim: https://colab.research.google.com/drive/1np70DGPEar5ny5jesilgcwweQfLEhgUu
+[24/03/2025, 22:01:29] Barbara: I'm not home yet, hope to remember
+[24/03/2025, 22:01:33] Barbara: If not, bother me
+[25/03/2025, 18:11:26] Barbara: Thanks for bothering me..
+[25/03/2025, 18:11:29] Barbara: Trying to fix it now
+[25/03/2025, 18:11:47] Maayan Magshimim: I just got back from school...
+[25/03/2025, 18:11:55] Barbara: Oh, I see
+[25/03/2025, 18:12:01] Barbara: Updating in a few minutes
+[25/03/2025, 18:15:36] Barbara: I fixed it for you in the coding notebook
+[25/03/2025, 18:16:58] Barbara: Also in the homework
+[25/03/2025, 18:17:02] Barbara: Okay, now explaining
+‎[25/03/2025, 18:17:22] Barbara: ‎image omitted
+[25/03/2025, 18:17:42] Barbara: Try running the imports, and if that doesn't work, run this
+‎[25/03/2025, 18:17:54] Barbara: ‎image omitted
+[25/03/2025, 18:19:05] Barbara: The first time you run this, a window will pop up with "restart session," you answer yes, and then run this cell again, and when the "restart session" window pops up, click cancel
+And then run the imports and everything should work fine!
+[25/03/2025, 18:19:24] Barbara: This worked for a few trainees so that's the way for you too
+[25/03/2025, 18:30:42] Maayan Magshimim: Good, I'll check as soon as I get home
+[30/03/2025, 17:08:35] Maayan Magshimim: Hi, until when did you give me an extension, Sarah just asked me now and I don't want to get confused
+[30/03/2025, 17:08:56] Barbara: All the extensions I give are until Saturday
+[30/03/2025, 17:09:04] Barbara: For homework 21? 
+[30/03/2025, 17:30:59] Maayan Magshimim: Yes
+[30/03/2025, 17:31:27] Maayan Magshimim: Good, I'm just after a series of exams, I'll make sure to submit soon because I finished it
+[30/03/2025, 17:38:24] Barbara: Okay, just tell Sarah
+[30/03/2025, 18:25:56] Maayan Magshimim: Yes
+[31/03/2025, 19:04:08] Maayan Magshimim: You still haven't opened the class assignment, I can't submit
+[31/03/2025, 20:07:10] Barbara: There's a problem with the model, I think
+[31/03/2025, 20:07:14] Barbara: Lesson 21 is open
+[31/03/2025, 20:07:19] Barbara: And 22 too, no? 
+[31/03/2025, 20:07:25] Barbara: I mean, they should be open
+[31/03/2025, 20:15:08] Maayan Magshimim: 22 isn't
+‎[31/03/2025, 22:24:37] Barbara: ‎audio omitted
+[31/03/2025, 22:32:54] Barbara: And I have a problem with the model to open the lessons :(
+[31/03/2025, 22:41:09] Maayan Magshimim: I was already in the swing of things
+[31/03/2025, 22:48:17] Barbara: Ahhh
+‎[31/03/2025, 22:48:24] Barbara: ‎audio omitted
+[01/04/2025, 11:13:08] Barbara: Yes, there's a problem with the model
+[01/04/2025, 11:13:14] Barbara: I'll let you know as soon as they fix it
+[02/04/2025, 11:23:49] Maayan Magshimim: Hi, is class tomorrow as usual?
+[02/04/2025, 11:24:00] Barbara: Tomorrow yess
+[02/04/2025, 11:24:01] Barbara: Yes
+[02/04/2025, 11:36:07] Barbara: Just answer when you can next week lol
+[02/04/2025, 11:36:36] Maayan Magshimim: Is it in-person or Zoom
+[02/04/2025, 20:55:04] Maayan Magshimim: Is the model working? And also until when is class tomorrow?
+[03/04/2025, 12:39:15] Maayan Magshimim: ?
+[03/04/2025, 12:45:12] Barbara: I opened it 
+[03/04/2025, 12:49:13] Maayan Magshimim: And when do we finish? Because I suddenly saw I have something at eight
+[03/04/2025, 12:49:22] Maayan Magshimim: In Karmiel but still about that
+[03/04/2025, 12:50:33] Barbara: It's fine, you can leave before
+[07/04/2025, 12:24:17] Maayan Magshimim: Is it going to be in-person or Zoom, you're making it sound like in-person
+[07/04/2025, 12:24:25] Barbara: In-person, in-person
+[07/04/2025, 12:24:29] Barbara: Last lesson
+[07/04/2025, 12:24:36] Barbara: Zoom would be a bummer
+[07/04/2025, 12:24:57] Maayan Magshimim: Okay
+[24/04/2025, 13:22:35] Maayan Magshimim: Can I leave early today as much as possible, I have a pre-test in math tomorrow and I need to practice
+[24/04/2025, 13:22:50] Barbara: Yes, no problem
+[24/04/2025, 13:23:00] Barbara: After he finishes, I'll release you
+[24/04/2025, 13:23:07] Maayan Magshimim: Okay, thanks
+[29/04/2025, 21:16:12] Maayan Magshimim: Hi, what is the assignment for the week and where do I submit it, everything is mixed up and the dates are wrong, I think
+[29/04/2025, 21:19:01] Maayan Magshimim: I figured it out
+[29/04/2025, 22:17:24] Maayan Magshimim: https://colab.research.google.com/drive/1WDyqJBrfwR3uNYamdyCLIwrTjoHCKgM8?usp=sharing
+[29/04/2025, 22:17:35] Maayan Magshimim: I couldn't figure out the code they gave...
+[05/05/2025, 16:35:49] Maayan Magshimim: . 
+[06/05/2025, 15:07:00] Barbara: Can you send a specific question?
+[06/05/2025, 15:07:06] Barbara: I don't understand what to help with
+[06/05/2025, 15:21:10] Maayan Magshimim: With the code they gave in the first part
+[06/05/2025, 15:21:21] Barbara: What exactly is the question? 
+[06/05/2025, 15:21:29] Barbara: What didn't work? What didn't you understand?
+[06/05/2025, 15:21:38] Maayan Magshimim: Why is it giving me an error
+[06/05/2025, 15:21:42] Maayan Magshimim: What needs to be fixed in it
+[06/05/2025, 15:22:00] Barbara: Send me the question
+[06/05/2025, 15:22:08] Barbara: There are a lot of questions there
+[06/05/2025, 15:22:14] Maayan Magshimim: In the first part
+[06/05/2025, 15:22:22] Maayan Magshimim: It's a notebook from a notebook
+[06/05/2025, 15:22:57] Barbara: Send the question clearly and I'll gladly help
+[06/05/2025, 15:23:57] Maayan Magshimim: We will use the operation `geopy.distance.geodesic` to calculate the distance between pairs of coordinates
+[06/05/2025, 15:24:09] Maayan Magshimim: In that cell they gave code in advance and it's not working for me
+[06/05/2025, 15:24:19] Maayan Magshimim: I'm on the phone now because I'm at school, so it's hard for me
+[06/05/2025, 15:28:06] Barbara: Do you remember what it threw at you?
+[06/05/2025, 15:28:20] Barbara: I'm not in front of the computer either...
+[06/05/2025, 15:28:30] Maayan Magshimim: Doesn't it show you on the phone?
+[06/05/2025, 15:31:14] Barbara: It shows everything partially somehow
+[06/05/2025, 15:31:17] Barbara: Nothing is clear
+[06/05/2025, 15:34:23] Maayan Magshimim: Okay, fine, I just can't really move forward right now
+[06/05/2025, 15:52:33] Barbara: I'm free at eight and in front of a computer, bother me if I don't send an answer by then
+[06/05/2025, 16:06:48] Maayan Magshimim: Good
+[09/05/2025, 13:46:54] Maayan Magshimim: I completely forgot about it
+[09/05/2025, 13:46:58] Maayan Magshimim: Do you have an answer? 
+[12/05/2025, 22:37:51] Maayan Magshimim: .
+[14/05/2025, 18:19:55] Maayan Magshimim: . 
+[14/05/2025, 22:13:51] Barbara: Hi, checking
+‎[14/05/2025, 22:24:29] Barbara: ‎image omitted
+[15/05/2025, 15:15:23] Barbara: Did you fix it? 
+[16/05/2025, 9:28:40] Maayan Magshimim: I couldn't, but I understood that my `merge` is doing something weird and it creates new columns and they are all empty
+‎[16/05/2025, 10:44:33] Barbara: ‎audio omitted
+[16/05/2025, 10:45:21] Maayan Magshimim: Yes, now there's a different error
+[16/05/2025, 10:45:35] Barbara: Can you take a picture? 
+‎[16/05/2025, 10:46:06] Maayan Magshimim: ‎image omitted
+[16/05/2025, 19:00:06] Maayan Magshimim: .
+[17/05/2025, 20:11:08] Maayan Magshimim: Did you understand why this is happening? 
+[20/05/2025, 12:36:53] Barbara: Hi, Maayan, I know you had problems with the notebook, but you still should have submitted at least regression chapter 1
+[20/05/2025, 12:36:56] Barbara: We are already in week 5
+[20/05/2025, 12:37:13] Maayan Magshimim: I talked about it with Sarah
+[20/05/2025, 12:37:14] Barbara: Regarding that, you must try to debug the code
+[20/05/2025, 12:37:24] Barbara: Like it was before, it's about small errors that you need to sit down and look for
+[20/05/2025, 12:37:34] Barbara: What did you agree on? 
+[20/05/2025, 12:38:43] Maayan Magshimim: She said everything is fine and if needed I can reach out to ask for a back-up
+[20/05/2025, 12:39:41] Barbara: What about your schedule, when can you complete everything?
+[20/05/2025, 12:40:14] Maayan Magshimim: I can try to start now to at least submit 1 and 2
+[20/05/2025, 12:40:26] Barbara: Excellent
+[20/05/2025, 12:40:42] Barbara: How did you try to debug it? 
+[20/05/2025, 12:41:28] Maayan Magshimim: I checked where it changes, that's all I managed to do
+[20/05/2025, 12:41:41] Maayan Magshimim: Where those columns are created from
+[20/05/2025, 12:41:45] Barbara: Good, try to debug it with chat too
+[20/05/2025, 12:41:52] Barbara: If you still don't succeed, then reach out to me
+[20/05/2025, 12:41:59] Maayan Magshimim: Good
+[20/05/2025, 12:42:17] Barbara: What does that mean? 
+[20/05/2025, 12:43:11] Maayan Magshimim: I tried to understand why combining the datasets created new columns and deleted old ones instead of just putting everything together
+[20/05/2025, 12:43:27] Barbara: They are created here from what I sent you a picture of, when you change the column name
+[20/05/2025, 12:43:56] Barbara: It's similar to `join` in SQL
+[20/05/2025, 12:44:11] Maayan Magshimim: I know, but when I merge, new columns are created in their place and they contain nothing
+[20/05/2025, 12:44:19] Maayan Magshimim: Unlike changing the name which kept the data
+[20/05/2025, 13:27:39] Maayan Magshimim: Can I know where I see all the submission dates? 
+[20/05/2025, 13:27:56] Barbara: There's a submissions document
+[20/05/2025, 13:28:13] Barbara: And I also sent it in the group
+[20/05/2025, 13:28:58] Maayan Magshimim: Okay
+[20/05/2025, 14:07:40] Barbara: Hi, I went over what you did, it's not really accurate ‎<This message was edited>
+‎[20/05/2025, 14:08:21] Barbara: ‎image omitted
+[20/05/2025, 14:08:35] Barbara: The column name is only `station_name`
+‎[20/05/2025, 14:09:04] Barbara: ‎image omitted
+‎[20/05/2025, 14:10:45] Barbara: ‎image omitted
+[20/05/2025, 14:11:03] Maayan Magshimim: I did `concat`
+[20/05/2025, 14:11:05] Barbara: Before the merge, it should have two columns, source and destination station
+[20/05/2025, 14:11:10] Barbara: It's not the same thing! 
+[20/05/2025, 14:11:24] Barbara: It's hard for me to explain this way, I can explain it in class
+[20/05/2025, 14:11:41] Barbara: But for now, follow what I sent and the code I wrote for you
+[20/05/2025, 14:11:44] Barbara: And it will work
+[20/05/2025, 14:11:46] Maayan Magshimim: Good
+[20/05/2025, 14:13:27] Barbara: Yes, that's a creative approach but it's not what's needed
+[20/05/2025, 14:16:19] Maayan Magshimim: Good, I'll try again
+[20/05/2025, 17:41:46] Maayan Magshimim: I couldn't understand what you want, it worked for me before, why can't I just use that?
+[22/05/2025, 16:59:36] Maayan Magshimim: Late a few minutes...
+[25/05/2025, 12:04:19] Maayan Magshimim: Hi, in task 2 it didn't let me export the data to Sheets, and in task 5 because the heights column is missing, there was no change, so do I just submit it like that?
+[25/05/2025, 12:04:56] Barbara: No, no
+[25/05/2025, 12:06:01] Barbara: What error did it throw at you in 2? 
+[25/05/2025, 12:07:03] Maayan Magshimim: It didn't even let me copy the Sheets file because there's no access, and when I tried to open the data file, it just didn't open it, probably because it's a large dataset
+[25/05/2025, 12:10:01] Barbara: What what what, I didn't understand anything
+[25/05/2025, 12:10:16] Barbara: Explain in detail what you tried to do, what you didn't succeed with, and what was thrown at you if anything was thrown
+[25/05/2025, 12:12:24] Maayan Magshimim: In the data files there is a Sheets file, at first I tried to copy it but I didn't have access, so instead I just tried to open the data file as a Sheets file but it gave an error
+[25/05/2025, 12:13:04] Barbara: You can download it and re-upload it to your Drive and everything should work fine
+[25/05/2025, 12:13:30] Maayan Magshimim: Good ‎<This message was edited>
+[25/05/2025, 12:53:17] Maayan Magshimim: I just came back to work on it, I didn't really understand what I even need to export
+[25/05/2025, 13:01:13] Barbara: I don't understand what you mean
+[25/05/2025, 13:01:25] Barbara: Be a bit more specific
+[25/05/2025, 13:01:36] Maayan Magshimim: I don't understand what they asked to export
+‎[25/05/2025, 13:01:52] Barbara: ‎audio omitted
+[25/05/2025, 13:02:49] Maayan Magshimim: Part two
+[25/05/2025, 13:03:02] Maayan Magshimim: Simply the data loading part, so to speak
+[25/05/2025, 13:03:07] Maayan Magshimim: What do I take to Sheets
+[25/05/2025, 13:16:44] Barbara: Take a picture of the instructions for that part for me
+‎[25/05/2025, 13:17:10] Maayan Magshimim: ‎image omitted
+[25/05/2025, 13:25:56] Barbara: You need to export the table you created to a CSV file and work with it in Google Sheets
+[25/05/2025, 13:26:28] Barbara: In order to create the same graph you did in part 4
+[25/05/2025, 13:26:41] Barbara: Export means to output it
+[25/05/2025, 13:26:58] Maayan Magshimim: I don't remember how to do that
+[25/05/2025, 13:29:12] Barbara: You need to look it up
+[25/05/2025, 13:29:23] Barbara: We didn't do it much
+‎[25/05/2025, 13:45:02] Maayan Magshimim: ‎image omitted
+[25/05/2025, 13:45:13] Maayan Magshimim: How do I do this
+[25/05/2025, 13:45:19] Maayan Magshimim: I can't draw my own line
+[25/05/2025, 13:45:41] Barbara: There are explanations for everything in the course on Campus IL
+[25/05/2025, 13:45:56] Barbara: You need the line that was created
+[25/05/2025, 13:46:10] Maayan Magshimim: Do I need to do it through drawings or through Sheets?
+[25/05/2025, 13:46:19] Maayan Magshimim: Because through Sheets there's only the optimal line
+[08/06/2025, 21:50:18] Maayan Magshimim: Hi, is the date of the summer peak day known? 
+[09/06/2025, 19:11:12] Maayan Magshimim: ?
+[09/06/2025, 19:25:09] Barbara: Sarah wrote it in the group today
+[09/06/2025, 19:27:06] Maayan Magshimim: Is that the cyber week? 
+[09/06/2025, 19:27:21] Barbara: What cyber week
+[09/06/2025, 19:27:30] Barbara: She wrote an explicit message regarding the peak day
+[09/06/2025, 19:28:57] Maayan Magshimim: Can't find it, when did she write it? 
+[09/06/2025, 19:29:11] Barbara: Today
+[09/06/2025, 19:29:57] Maayan Magshimim: Oh, I missed it, thanks
+[01/09/2025, 13:59:39] Maayan Magshimim: Hi, I have a psychometric exam tomorrow so I might be late
+[01/09/2025, 14:31:36] Barbara: Okay
+[01/09/2025, 14:31:36] Barbara: Good luck! 
+[01/09/2025, 14:54:11] Barbara: Is that the exam itself?
+[01/09/2025, 14:54:21] Barbara: And when will you arrive approximately? 
+[01/09/2025, 16:28:42] Maayan Magshimim: Yes
+[01/09/2025, 16:28:56] Maayan Magshimim: If I'm late, it shouldn't be by much
+[01/09/2025, 16:29:13] Barbara: Cool
+[01/09/2025, 16:29:23] Barbara: Keeping my fingers crossed for you
+[01/09/2025, 16:29:25] Barbara: Go get 'em! 
+[01/09/2025, 16:29:46] Maayan Magshimim: Thanks
+[02/09/2025, 17:50:54] Maayan Magshimim: maayaneitan123@gmail.com
+[07/09/2025, 15:48:11] Maayan Magshimim: Hi, what do you think should be in the new data besides the general criteria?
+I just want to start searching again
+[07/09/2025, 15:54:03] Barbara: Why, wasn't the data good? 
+[07/09/2025, 15:54:11] Barbara: There are a lot of tables there in what I sent
+[07/09/2025, 15:54:41] Barbara: Only the criteria and two challenges, which are also written in the presentation, so you can see what they are exactly
+[07/09/2025, 16:48:37] Maayan Magshimim: Good, only what we chose from it, not specifically
+[07/09/2025, 16:49:07] Barbara: Oh, I see, that's a bummer
+[08/09/2025, 16:11:08] Barbara: What's going on with you regarding the next meeting? 
+[08/09/2025, 16:11:22] Barbara: You need to meet with me this week and you haven't scheduled it with me
+[08/09/2025, 16:14:58] Maayan Magshimim: Erez couldn't work today and yesterday, I'm trying to make progress alone but I'm also busy, what's the latest you can meet this week? 
+[08/09/2025, 16:19:36] Barbara: Wednesday at 19:00
+[08/09/2025, 16:21:44] Maayan Magshimim: Wow
+[08/09/2025, 16:21:47] Maayan Magshimim: Good
+[10/09/2025, 18:54:10] Maayan Magshimim: Hi, is there a link? 
+[10/09/2025, 18:56:08] Barbara: Hi, sending it in a moment
+[10/09/2025, 18:56:20] Barbara: Do you have Discord? 
+[10/09/2025, 18:56:33] Maayan Magshimim: Yes
+[10/09/2025, 18:56:40] Barbara: Send your username
+[10/09/2025, 18:57:22] Maayan Magshimim: _ethan2007
+[10/09/2025, 18:59:13] Barbara: Are you connecting to the call? 
+[10/09/2025, 18:59:58] Maayan Magshimim: Yes
+‎[10/09/2025, 19:14:20] Maayan Magshimim: sampled_data.csv ‎document omitted
+[14/09/2025, 11:47:10] Barbara: Respond in the group, please :)
+[15/09/2025, 15:07:23] Maayan Magshimim: I'll be a bit late, I had a delay at school
+[15/09/2025, 15:40:05] Barbara: Okay
+[16/09/2025, 12:31:57] Barbara: Maayan, try to hurry up with the presentation correction. I divided the tasks among you in addition to the task you are doing together
+[25/09/2025, 14:06:52] Barbara: Hi, Maayan, you didn't schedule a meeting with me this week, when can you meet today? ‎<This message was edited>
+[25/09/2025, 14:38:22] Maayan Magshimim: I can't today, and I didn't want to bother during the holiday
+[25/09/2025, 14:38:41] Maayan Magshimim: And also Erez didn't finish his tasks
+[25/09/2025, 16:11:06] Barbara: What about tomorrow? 
+[25/09/2025, 16:12:48] Maayan Magshimim: I don't know yet
+[25/09/2025, 16:13:35] Barbara: And I need to schedule you for project approval, when can you meet? Next week there is: 1) Sunday - from 16:00 to 22:00 2) Monday - from 16:00 to 22:00 3) Tuesday - from 16:00 to 20:00 4) Wednesday - from 9:00 to 11:30
+[25/09/2025, 18:56:41] Maayan Magshimim: Monday is possible
+[27/09/2025, 15:03:26] Maayan Magshimim: Hi, I did this but the graphs came out very ugly, if you could take a look it would be nice
+[27/09/2025, 15:03:48] Barbara: I'm not in front of a computer right now
+[27/09/2025, 15:03:50] Barbara: Can you send it here? 
+[27/09/2025, 15:05:44] Maayan Magshimim: I'm sending it in a minute, and I also did a bit of research and understood that the label variable is also basically something we predict
+‎[27/09/2025, 15:06:33] Maayan Magshimim: ‎image omitted
+‎[27/09/2025, 15:06:40] Maayan Magshimim: ‎image omitted
+‎[27/09/2025, 15:07:11] Maayan Magshimim: ‎image omitted
+‎[27/09/2025, 15:07:20] Maayan Magshimim: ‎image omitted
+‎[27/09/2025, 15:07:39] Maayan Magshimim: ‎image omitted
+‎[27/09/2025, 15:07:47] Maayan Magshimim: ‎image omitted
+[27/09/2025, 15:08:23] Maayan Magshimim: This is part of them, there are more, but what I did was take a sample of 2.5 million rows and worked with that, hope it's good
+‎[27/09/2025, 15:10:20] Barbara: ‎audio omitted
+‎[27/09/2025, 15:10:55] Barbara: ‎audio omitted
+[27/09/2025, 15:11:42] Maayan Magshimim: I did it in Loom so it would be more comfortable and also because I was a bit pressed for time
+[27/09/2025, 15:12:04] Barbara: I didn't understand 
+[27/09/2025, 15:12:46] Maayan Magshimim: I didn't have time to go over variable by variable to fit the graph to each one, I'll do that later
+[27/09/2025, 15:13:24] Barbara: Okay, but generally it looks consistent
+[27/09/2025, 15:13:27] Barbara: I don't understand what the problem is
+[27/09/2025, 15:13:39] Barbara: `label` is a variable you are not using
+[27/09/2025, 15:13:45] Barbara: You are using a different variable
+[27/09/2025, 15:16:25] Maayan Magshimim: Yes, but it says if it's an attack and if it's normal
+[27/09/2025, 15:16:59] Maayan Magshimim: So that also integrates into our research question, but models can predict two things, right? 
+[28/09/2025, 20:24:25] Maayan Magshimim: Hi, I wanted to ask what will happen during the meeting tomorrow? 
+[28/09/2025, 21:43:38] Barbara: You will present the presentation, show what you intend to do in the work and get approval
+[28/09/2025, 21:43:44] Barbara: Did you finish the presentation? 
+[28/09/2025, 21:58:32] Maayan Magshimim: Erez said he would finish today
+[28/09/2025, 22:29:16] Barbara: When are you presenting? 
+[29/09/2025, 6:38:18] Maayan Magshimim: 6
+[29/09/2025, 11:12:35] Barbara: Did you finish everything?
+[29/09/2025, 11:12:42] Barbara: I recommend reviewing the presentation beforehand
+[29/09/2025, 11:12:45] Barbara: Do a simulation
+[29/09/2025, 11:14:18] Maayan Magshimim: I'll check with Erez
+[29/09/2025, 11:14:28] Barbara: I checked with him
+[29/09/2025, 11:14:36] Maayan Magshimim: But the part I did, how do I make sure I did it right
+[29/09/2025, 11:14:45] Barbara: Send me your notebook
+[29/09/2025, 11:15:26] Maayan Magshimim: It's the one in the folder, I'm at school
+[29/09/2025, 11:17:21] Barbara: Send it to me when you're home
+[29/09/2025, 11:26:33] Maayan Magshimim: https://colab.research.google.com/drive/1rs7Md01Bgs1I72lJJqNf4TgGPXOBT0l
+[29/09/2025, 11:26:44] Maayan Magshimim: This should be it, I can't open it through the phone
+[29/09/2025, 11:28:44] Barbara: Without delving into it, everything looks excellent! 
+[29/09/2025, 11:29:02] Barbara: If they ask on Zoom, maybe present what you've done so far and explain a bit
+[29/09/2025, 11:29:56] Maayan Magshimim: Okay
+[29/09/2025, 16:03:48] Maayan Magshimim: Is it recommended to run the notebook beforehand, right? 
+[29/09/2025, 16:04:02] Barbara: It's advisable
+[29/09/2025, 16:05:29] Maayan Magshimim: How do I ensure the notebook stays connected? I mean, so I don't have to re-upload the file and re-run it?
+[29/09/2025, 16:05:53] Barbara: Do you always run it in Google Colab? 
+[29/09/2025, 16:07:33] Maayan Magshimim: Yes
+[29/09/2025, 16:08:11] Barbara: Mainly good internet connection
+[29/09/2025, 16:17:31] Maayan Magshimim: Okay
+‎[29/09/2025, 16:18:05] Barbara: ‎audio omitted
+[29/09/2025, 16:25:17] Maayan Magshimim: Okay
+[29/09/2025, 17:43:54] Maayan Magshimim: ‎Voice call, ‎1 min
+[29/09/2025, 18:31:55] Maayan Magshimim: When will we know if we were approved? 
+[29/09/2025, 20:12:17] Barbara: Didn't they tell you?
+[29/09/2025, 20:12:26] Barbara: They will probably update me
+[29/09/2025, 20:12:37] Barbara: You are the first ones so I don't know
+[29/09/2025, 20:17:14] Maayan Magshimim: Okay
+[19/10/2025, 17:36:58] Maayan Magshimim: Hi, I'm currently in poor health, I can't make progress in Magshimim right now, I have an appointment for blood tests on Wednesday and then I'll know how to proceed
+[19/10/2025, 17:43:09] Barbara: Oh, Maayan, what happened? 
+[19/10/2025, 17:47:13] Barbara: Do you want to talk to me on the phone later? Maybe I'll find a way to help you?
+Maybe in the meantime I'll give Erez a few more tasks and you focus on your health
+[19/10/2025, 17:56:20] Maayan Magshimim: I can't really talk now, but in the meantime I'm focusing less on Magshimim
+[19/10/2025, 17:56:52] Maayan Magshimim: I'm tired and can't do much, so I'm going for blood tests soon
+[20/10/2025, 22:27:22] Barbara: Of course, that's fine, I'll talk to Erez in the meantime, the tasks aren't complicated right now so he'll manage
+[06/11/2025, 11:56:19] Barbara: Hi, how have you been feeling lately? 
+[06/11/2025, 12:00:04] Maayan Magshimim: Getting better, I want to try to get back involved in the project
+[06/11/2025, 12:01:09] Barbara: Okay, slowly, slowly. 
+[06/11/2025, 12:01:15] Barbara: Were the tests okay?
+[06/11/2025, 12:01:33] Maayan Magshimim: Yes
+[06/11/2025, 12:01:40] Maayan Magshimim: They are still trying to figure out what it is
+[06/11/2025, 12:02:00] Barbara: Good, I really, really hope it's nothing serious
+[06/11/2025, 12:02:23] Barbara: We would be very happy to see you! 
+[06/11/2025, 12:02:45] Maayan Magshimim: Yes, I need to check if I'll be home at that time, but yes
+[06/11/2025, 12:02:55] Barbara: Update me if not! 
+[06/11/2025, 12:03:17] Maayan Magshimim: Okay
+[06/11/2025, 12:03:17] Barbara: And I hope you feel free to contact me about anything! 
+[06/11/2025, 12:03:22] Barbara: 🫶🏻
+[07/11/2025, 11:29:31] Barbara: Do you want us to do a quick Discord call today so I can bring you up to speed
+[07/11/2025, 11:29:35] Barbara: Up to 20 minutes :)
+[07/11/2025, 12:15:38] Maayan Magshimim: Yes, I prefer that because I probably won't be able to come tomorrow
+[07/11/2025, 12:25:23] Barbara: Can you in another hour? 
+[07/11/2025, 12:25:44] Maayan Magshimim: Yes
+[07/11/2025, 12:25:54] Barbara: Okay, I'll send a message before I call :)
+[07/11/2025, 14:04:39] Barbara: Hi, are you free now? 
+[07/11/2025, 14:04:49] Maayan Magshimim: Yes
+[08/11/2025, 18:33:19] Maayan Magshimim: I'm up for it
+[08/11/2025, 18:33:23] Maayan Magshimim: I don't really have a problem
+[10/11/2025, 11:39:10] Barbara: Hi, Maayan, will you be able to meet today for polishing and final comments? 
+[10/11/2025, 11:45:01] Maayan Magshimim: Yes, but depends when
+[10/11/2025, 11:45:37] Maayan Magshimim: Is seven the only option? 
+[10/11/2025, 11:47:27] Barbara: No, no, ignore what I sent in the group
+[10/11/2025, 11:47:32] Barbara: When can you today? 
+[10/11/2025, 11:47:37] Barbara: It's purely for final comments
+[10/11/2025, 11:47:57] Barbara: It shouldn't be too long (but it could be around 40 minutes)
+[10/11/2025, 11:48:05] Maayan Magshimim: I get home around four, so can we do a quarter to five? 
+[10/11/2025, 11:48:48] Maayan Magshimim: But I still haven't managed to do significant work, right now my energy only allows copying from ChatGPT ‎<This message was edited>
+[10/11/2025, 11:48:52] Barbara: Okay, one minute, checking with Erez
+[10/11/2025, 11:49:11] Maayan Magshimim: I don't want to do shallow work
+[10/11/2025, 11:49:19] Barbara: That's fine as long as it's just copying one-to-one lolll
+[10/11/2025, 11:49:47] Maayan Magshimim: Yes, but you need to present to you afterwards, so if I copy and don't learn, what's the point
+[10/11/2025, 12:22:34] Barbara: No, you do need to learn, it's just fine to learn through chat, that's the meaning
+[10/11/2025, 12:23:13] Barbara: Look, in any case I want to meet with both of you and guide you
+[10/11/2025, 12:23:31] Barbara: When are you free? Tomorrow I'm busier, so if it can be today, I'd really appreciate it
+[10/11/2025, 12:23:42] Maayan Magshimim: . 
+[10/11/2025, 12:24:03] Barbara: Let's do five so you can eat and rest properly? 
+[10/11/2025, 12:24:07] Barbara: I'll check with Erez
+[10/11/2025, 12:24:15] Maayan Magshimim: Okay
+[14/11/2025, 20:01:53] Maayan Magshimim: Hi, when are we presenting the presentation, because I don't feel ready for the things I didn't do, which is most of it
+[14/11/2025, 20:02:14] Barbara: We scheduled that you are presenting tomorrow
+[14/11/2025, 20:02:30] Maayan Magshimim: Okay
+[14/11/2025, 20:02:34] Barbara: If you are not ready at all, then we can postpone to next week, but it is not recommended ‎<This message was edited>
+[14/11/2025, 20:02:49] Barbara: We scheduled tomorrow at 17:00
+[14/11/2025, 20:03:00] Maayan Magshimim: Next week is worse, I just need to divide the work with Erez
+[14/11/2025, 20:06:09] Barbara: Do you want to meet tomorrow but later? 
+[14/11/2025, 20:06:56] Maayan Magshimim: No, I don't have the energy for this anymore, I'll just coordinate with Erez
+[14/11/2025, 20:07:35] Barbara: Okay 🫶🏻
+[15/11/2025, 14:38:05] Barbara: Will you be able to meet with me later
+[15/11/2025, 14:38:16] Barbara: Around 19:30? 
+[15/11/2025, 14:38:32] Maayan Magshimim: I don't have a problem, ask Erez
+[15/11/2025, 14:39:29] Barbara: He doesn't have a problem, so today at 19:30
+[15/11/2025, 14:39:39] Maayan Magshimim: Okay
+[15/11/2025, 20:19:37] Maayan Magshimim: Hi, can I get initial feedback on how I presented? Because it was really with minimal learning
+[15/11/2025, 20:20:57] Barbara: I'm with another pair
+[15/11/2025, 20:21:02] Barbara: I'll talk to you later
+[15/11/2025, 20:21:06] Maayan Magshimim: Oh
+[15/11/2025, 20:21:09] Maayan Magshimim: Okay

@@ -1,0 +1,834 @@
+msg_id,conv_id,conv_turn,sender_user_id,receiver_user_id,sent_at,text,answer
+da909b73-688c-47fe-8c51-ce2f122a2736,chat:u_barbara_u_maayan_student_magshimim,1,u_maayan_student_magshimim,u_barbara,2025-01-06 17:37:39,"Hi, if it's possible to be a few minutes late, I had a delay here","Yes, yes
+One minute
+Maayan, something embarrassing happened to me, my computer isn't working and in addition to that, everything was erased from my WhatsApp
+I'll transfer your defense to another date, sorryyyy
+But could you send me the link to the file because I don't have it
+I apologize very much, I'm having a jinxed week"
+ddb46ea7-b3a7-4803-8404-423c49ccfbca,chat:u_barbara_u_maayan_student_magshimim,2,u_barbara,u_maayan_student_magshimim,2025-01-06 17:41:31,"Yes, yes
+One minute
+Maayan, something embarrassing happened to me, my computer isn't working and in addition to that, everything was erased from my WhatsApp
+I'll transfer your defense to another date, sorryyyy
+But could you send me the link to the file because I don't have it
+I apologize very much, I'm having a jinxed week","Okay
+Regarding homework 10, I got stuck debugging, and then when I did fix it, their code didn't work, so it's good you gave me an extension"
+0c090651-7983-4a69-938a-0a53d41ce470,chat:u_barbara_u_maayan_student_magshimim,3,u_maayan_student_magshimim,u_barbara,2025-01-06 17:51:04,"Okay
+Regarding homework 10, I got stuck debugging, and then when I did fix it, their code didn't work, so it's good you gave me an extension","There's a part, one minute
+Check if this is it"
+bf35a2dd-5444-484d-99ff-b57ab7b20c2c,chat:u_barbara_u_maayan_student_magshimim,4,u_barbara,u_maayan_student_magshimim,2025-01-06 18:24:15,"There's a part, one minute
+Check if this is it","I just got a moment to write this, sorry"
+0db5bc6f-179e-46c1-8ba0-6c2f3e296082,chat:u_barbara_u_maayan_student_magshimim,5,u_maayan_student_magshimim,u_barbara,2025-01-06 18:24:21,"I just got a moment to write this, sorry","Oh, ugh, I don't have any messages on WhatsApp at all...
+Check with Aviv for a minute
+I sent him about a piece of code that wasn't working
+Have him send it to you, check if that's the one"
+e9ee7e71-c222-4cba-9a7f-8f825fe5b292,chat:u_barbara_u_maayan_student_magshimim,6,u_barbara,u_maayan_student_magshimim,2025-01-06 18:24:36,"Oh, ugh, I don't have any messages on WhatsApp at all...
+Check with Aviv for a minute
+I sent him about a piece of code that wasn't working
+Have him send it to you, check if that's the one","No, it's probably me because after a certain stage I stopped receiving the numbers they said I was supposed to receive"
+931804e6-55ac-4263-906b-5a9466ad1700,chat:u_barbara_u_maayan_student_magshimim,7,u_maayan_student_magshimim,u_barbara,2025-01-06 18:24:56,"No, it's probably me because after a certain stage I stopped receiving the numbers they said I was supposed to receive","Okay, good"
+8a980c78-c9db-4872-aa61-971f13753583,chat:u_barbara_u_maayan_student_magshimim,8,u_barbara,u_maayan_student_magshimim,2025-01-06 18:25:08,"Okay, good","I don't know, that last function complicated things for me
+Hi, I fixed my code but I'm still getting errors
+From what I researched, pandas removed `append` and that's the error I'm getting"
+e4110d24-505f-4a60-8a26-6f4da8b4e329,chat:u_barbara_u_maayan_student_magshimim,9,u_maayan_student_magshimim,u_barbara,2025-01-06 18:25:23,"I don't know, that last function complicated things for me
+Hi, I fixed my code but I'm still getting errors
+From what I researched, pandas removed `append` and that's the error I'm getting","‎audio omitted
+‎audio omitted"
+a433680e-0bff-4b81-a91f-f05eaf6c51e1,chat:u_barbara_u_maayan_student_magshimim,10,u_barbara,u_maayan_student_magshimim,2025-01-07 23:24:48,"‎audio omitted
+‎audio omitted","So what do I do because my code doesn't have `append`, otherwise it wouldn't have worked either"
+de53068e-62bb-456f-b738-ce48c555c03f,chat:u_barbara_u_maayan_student_magshimim,11,u_maayan_student_magshimim,u_barbara,2025-01-08 07:14:24,"So what do I do because my code doesn't have `append`, otherwise it wouldn't have worked either","What?
+Do it with `apply`
+`apply` method"
+fdaa5885-4413-438f-b85d-c71e40c83905,chat:u_barbara_u_maayan_student_magshimim,12,u_barbara,u_maayan_student_magshimim,2025-01-08 09:36:56,"What?
+Do it with `apply`
+`apply` method","My code doesn't have the `append` method, my code worked exactly as they wanted until I got to their code
+I used `concat` instead of `append`"
+e07619ca-3448-4bce-9393-cf66521dbf11,chat:u_barbara_u_maayan_student_magshimim,13,u_maayan_student_magshimim,u_barbara,2025-01-08 09:39:54,"My code doesn't have the `append` method, my code worked exactly as they wanted until I got to their code
+I used `concat` instead of `append`","That's fine
+‎audio omitted"
+060c7ba0-6416-4c4b-926c-67fb6e7034bd,chat:u_barbara_u_maayan_student_magshimim,14,u_barbara,u_maayan_student_magshimim,2025-01-08 09:40:55,"That's fine
+‎audio omitted","Yes, I fixed mine
+But theirs still doesn't work"
+b70de6a4-aa27-4dbe-a25f-ab02e13d16df,chat:u_barbara_u_maayan_student_magshimim,15,u_maayan_student_magshimim,u_barbara,2025-01-08 09:41:27,"Yes, I fixed mine
+But theirs still doesn't work",‎audio omitted
+583a6364-50f5-4509-91d4-e7d523764a67,chat:u_barbara_u_maayan_student_magshimim,16,u_barbara,u_maayan_student_magshimim,2025-01-08 09:42:30,‎audio omitted,"I didn't talk to Aviv, I talked to Almog who already compared his code with Shaked and he also has a problem"
+65f82340-d70b-463b-aeb1-3ac7c4b67c64,chat:u_barbara_u_maayan_student_magshimim,17,u_maayan_student_magshimim,u_barbara,2025-01-08 09:43:41,"I didn't talk to Aviv, I talked to Almog who already compared his code with Shaked and he also has a problem",‎audio omitted
+79e06f9c-c83e-42da-ba9f-fc18446e38b5,chat:u_barbara_u_maayan_student_magshimim,18,u_barbara,u_maayan_student_magshimim,2025-01-08 09:44:28,‎audio omitted,"Okay, I'll talk to Aviv, but I wanted to talk to Almog first to make sure my code works first"
+8a873bba-0d5d-49de-a05c-94491bf67e0e,chat:u_barbara_u_maayan_student_magshimim,19,u_maayan_student_magshimim,u_barbara,2025-01-08 09:45:40,"Okay, I'll talk to Aviv, but I wanted to talk to Almog first to make sure my code works first",‎audio omitted
+4f861b6a-1ccd-4f18-9f30-aad32af2e08b,chat:u_barbara_u_maayan_student_magshimim,20,u_barbara,u_maayan_student_magshimim,2025-01-08 09:47:25,‎audio omitted,"Okay
+Hi, I know this is repeating itself, but I'm really busy and losing motivation to do anything, can I get an extension?"
+a8f639f8-c336-4426-a8b6-b50fd31b5fb4,chat:u_barbara_u_maayan_student_magshimim,21,u_maayan_student_magshimim,u_barbara,2025-01-08 09:48:28,"Okay
+Hi, I know this is repeating itself, but I'm really busy and losing motivation to do anything, can I get an extension?","‎audio omitted
+‎audio omitted"
+238f5d48-ab19-4395-a496-b5d2217712d3,chat:u_barbara_u_maayan_student_magshimim,22,u_barbara,u_maayan_student_magshimim,2025-01-13 19:12:58,"‎audio omitted
+‎audio omitted","I'm under too much stress right now, I prefer an extension until I can force myself to work"
+73f877cc-5736-47b5-b2fc-8e018f9a7054,chat:u_barbara_u_maayan_student_magshimim,23,u_maayan_student_magshimim,u_barbara,2025-01-13 19:28:07,"I'm under too much stress right now, I prefer an extension until I can force myself to work","You'll have more motivation if we do a Zoom while I check your assignments, you can do the task
+Just so you don't feel alone or anything
+In any case, you can submit until Saturday night
+Exactly Saturday night
+Including"
+c23bff1b-e297-4487-bd51-be1e75a21591,chat:u_barbara_u_maayan_student_magshimim,24,u_barbara,u_maayan_student_magshimim,2025-01-13 21:12:42,"You'll have more motivation if we do a Zoom while I check your assignments, you can do the task
+Just so you don't feel alone or anything
+In any case, you can submit until Saturday night
+Exactly Saturday night
+Including",Okay
+c7cf3ab0-5b79-4ea5-ae06-eb53a033789d,chat:u_barbara_u_maayan_student_magshimim,25,u_maayan_student_magshimim,u_barbara,2025-01-13 22:43:48,Okay,Do you want to do it tomorrow?
+2c05d29a-6e7c-4b86-a250-4496c9b68bd4,chat:u_barbara_u_maayan_student_magshimim,26,u_barbara,u_maayan_student_magshimim,2025-01-13 22:44:12,Do you want to do it tomorrow?,"Tomorrow I have a major day, so I'll see when I'm free"
+71345e46-4899-4956-82c2-df88fe22cb13,chat:u_barbara_u_maayan_student_magshimim,27,u_maayan_student_magshimim,u_barbara,2025-01-13 22:44:30,"Tomorrow I have a major day, so I'll see when I'm free","If you feel like it, it's not mandatory :)"
+725bac49-bfb6-4119-a3f7-58e7cb415717,chat:u_barbara_u_maayan_student_magshimim,28,u_barbara,u_maayan_student_magshimim,2025-01-13 22:44:39,"If you feel like it, it's not mandatory :)","I want to, but I'll see when I get back so I can update you"
+fd67a144-d490-481f-9750-1493c8d3269c,chat:u_barbara_u_maayan_student_magshimim,29,u_maayan_student_magshimim,u_barbara,2025-01-13 22:45:22,"I want to, but I'll see when I get back so I can update you","Absolutely fine
+Update me"
+73818c4b-be08-485f-9d76-dff3972d43b8,chat:u_barbara_u_maayan_student_magshimim,30,u_barbara,u_maayan_student_magshimim,2025-01-13 22:45:35,"Absolutely fine
+Update me","Hi, I've had the flu for a few days, I don't think I'll come today"
+2084057b-6ba9-4d2a-adf7-40720604a085,chat:u_barbara_u_maayan_student_magshimim,31,u_maayan_student_magshimim,u_barbara,2025-01-23 10:08:20,"Hi, I've had the flu for a few days, I don't think I'll come today","Oh no
+Feel better"
+60821e97-7dd0-4cad-9008-e83d5d71c7c9,chat:u_barbara_u_maayan_student_magshimim,32,u_barbara,u_maayan_student_magshimim,2025-01-23 10:09:55,"Oh no
+Feel better",Thanks
+71138323-d7de-4c71-988f-67f2c592de41,chat:u_barbara_u_maayan_student_magshimim,33,u_maayan_student_magshimim,u_barbara,2025-01-23 10:10:04,Thanks,"Don't come, rest, I'll send you a recording"
+b24f82af-0e68-4709-904c-8a9bf17acc5b,chat:u_barbara_u_maayan_student_magshimim,34,u_barbara,u_maayan_student_magshimim,2025-01-23 10:10:07,"Don't come, rest, I'll send you a recording","Hi, I still don't feel well and haven't worked on the milestone yet, is there a chance to get an extension or not?"
+365c4ed1-8c2b-4e56-87b0-b962cb3e953f,chat:u_barbara_u_maayan_student_magshimim,35,u_maayan_student_magshimim,u_barbara,2025-01-28 13:56:27,"Hi, I still don't feel well and haven't worked on the milestone yet, is there a chance to get an extension or not?","Yes, you can submit until Saturday"
+57b9a60a-621b-4d70-9b29-e95d23c0a0b5,chat:u_barbara_u_maayan_student_magshimim,36,u_barbara,u_maayan_student_magshimim,2025-01-28 13:56:47,"Yes, you can submit until Saturday","Hi, I'm a bit confused about what to do the assignment based on, the presentation or the notebook?"
+495e57a0-c96b-4674-b3df-e267fb4f8dba,chat:u_barbara_u_maayan_student_magshimim,37,u_maayan_student_magshimim,u_barbara,2025-01-29 11:16:53,"Hi, I'm a bit confused about what to do the assignment based on, the presentation or the notebook?","Both
+I'll record you key points later (in the meantime, go over what I sent in the group)"
+c6fe2be2-da8f-4ba4-9a54-705aa3dca836,chat:u_barbara_u_maayan_student_magshimim,38,u_barbara,u_maayan_student_magshimim,2025-01-29 17:17:24,"Both
+I'll record you key points later (in the meantime, go over what I sent in the group)","Hi, I went over what you sent but it still didn't really help me, I'll wait for the key points you send because the instructions in the presentation are sometimes very different from the instructions in the notebook"
+ea2468ee-24d3-4434-8791-5b58c3bd765a,chat:u_barbara_u_maayan_student_magshimim,39,u_maayan_student_magshimim,u_barbara,2025-01-30 11:15:08,"Hi, I went over what you sent but it still didn't really help me, I'll wait for the key points you send because the instructions in the presentation are sometimes very different from the instructions in the notebook","I'll just give them in class, remind me"
+54ca49f8-d328-48c8-899d-655e25e7a866,chat:u_barbara_u_maayan_student_magshimim,40,u_barbara,u_maayan_student_magshimim,2025-01-30 15:30:26,"I'll just give them in class, remind me",I was just about to say that I'm still not feeling well enough and would it be okay if I didn't come again or would there be a problem
+9cc1e840-0a28-4bd8-af0a-d9925660d2a9,chat:u_barbara_u_maayan_student_magshimim,41,u_maayan_student_magshimim,u_barbara,2025-01-30 15:32:30,I was just about to say that I'm still not feeling well enough and would it be okay if I didn't come again or would there be a problem,"You should come
+I'll release you early
+Honestly, the lesson today is less important, and there is no homework. But it's important for me to make sure your milestone is good
+And unfortunately, I don't have time for Zooms in the near future ‎<This message was edited>"
+6dffca4b-a816-45b3-85e8-f9bd87b14697,chat:u_barbara_u_maayan_student_magshimim,42,u_barbara,u_maayan_student_magshimim,2025-01-30 15:34:57,"You should come
+I'll release you early
+Honestly, the lesson today is less important, and there is no homework. But it's important for me to make sure your milestone is good
+And unfortunately, I don't have time for Zooms in the near future ‎<This message was edited>","Okay
+Hi, from stage two to stage 4 they are asking for things I already did
+What do I do there?
+Those are simply parts I already did in EDA"
+aea838fd-8775-487a-9864-4b23070a6972,chat:u_barbara_u_maayan_student_magshimim,43,u_maayan_student_magshimim,u_barbara,2025-01-30 15:36:14,"Okay
+Hi, from stage two to stage 4 they are asking for things I already did
+What do I do there?
+Those are simply parts I already did in EDA","Like what? Can you send a screenshot of what you mean
+Basically skip, but I don't want to tell you that without seeing it"
+73e88437-ed04-4497-84fa-b05fd01f4c36,chat:u_barbara_u_maayan_student_magshimim,44,u_barbara,u_maayan_student_magshimim,2025-01-31 19:11:41,"Like what? Can you send a screenshot of what you mean
+Basically skip, but I don't want to tell you that without seeing it",I can send a link because I really did almost everything there except creating graphs
+f6f72fe9-af71-4333-8ade-e804d6ff45ae,chat:u_barbara_u_maayan_student_magshimim,45,u_maayan_student_magshimim,u_barbara,2025-01-31 19:12:43,I can send a link because I really did almost everything there except creating graphs,Yes
+63d1768f-2767-4892-a324-f311ed8282fc,chat:u_barbara_u_maayan_student_magshimim,46,u_barbara,u_maayan_student_magshimim,2025-01-31 19:13:02,Yes,"https://colab.research.google.com/drive/1zwsJZ8zgBa89AKUXl3YVTGAwtSP41oxx?usp=sharing
+I did manual outlier treatment as opposed to the IQR they did"
+c34d5910-9dc8-4a3f-b6b4-cbe30353f93c,chat:u_barbara_u_maayan_student_magshimim,47,u_maayan_student_magshimim,u_barbara,2025-01-31 19:13:31,"https://colab.research.google.com/drive/1zwsJZ8zgBa89AKUXl3YVTGAwtSP41oxx?usp=sharing
+I did manual outlier treatment as opposed to the IQR they did","Yes, there's no need to do those steps if you did them before
+And it looks like you did
+Regarding IQR - write that you preferred the manual method and explain why it's better (give the examples I gave in class)"
+23a20e4e-5e27-4db6-90f5-1f5de406e11b,chat:u_barbara_u_maayan_student_magshimim,48,u_barbara,u_maayan_student_magshimim,2025-01-31 20:06:51,"Yes, there's no need to do those steps if you did them before
+And it looks like you did
+Regarding IQR - write that you preferred the manual method and explain why it's better (give the examples I gave in class)","Hi, I'm getting confused with clustering, like I don't know what to do, I think I reached something but it's not satisfying me, could you look at the notebook again to help?"
+c04387d2-fa9b-4ef0-9c88-a3671c4414c3,chat:u_barbara_u_maayan_student_magshimim,49,u_maayan_student_magshimim,u_barbara,2025-02-01 19:53:31,"Hi, I'm getting confused with clustering, like I don't know what to do, I think I reached something but it's not satisfying me, could you look at the notebook again to help?",A few minutes with you
+b7ee85d0-5962-4647-b449-eb8382fefdad,chat:u_barbara_u_maayan_student_magshimim,50,u_barbara,u_maayan_student_magshimim,2025-02-01 19:54:17,A few minutes with you,Thanks
+c5b307ce-524a-4fb0-a74c-5e0a9e748cca,chat:u_barbara_u_maayan_student_magshimim,51,u_maayan_student_magshimim,u_barbara,2025-02-01 19:56:07,Thanks,"https://technion.zoom.us/j/96704941787?pwd=xJRUQVDwb7IAKNPZysWUTOzbe2e0ak.1
+Connect, I'll try to understand
+Is everything okay? Are you managing?"
+2baf0fb0-b29c-4baf-b245-c9b72d639d62,chat:u_barbara_u_maayan_student_magshimim,52,u_barbara,u_maayan_student_magshimim,2025-02-01 20:26:11,"https://technion.zoom.us/j/96704941787?pwd=xJRUQVDwb7IAKNPZysWUTOzbe2e0ak.1
+Connect, I'll try to understand
+Is everything okay? Are you managing?","Yes, I submitted"
+6a022b7e-d303-49f1-ac48-3b9bdd767b1e,chat:u_barbara_u_maayan_student_magshimim,53,u_maayan_student_magshimim,u_barbara,2025-02-01 23:19:21,"Yes, I submitted",Excellent and well done! 🫶🏻
+6225adc7-fed4-4e60-ad3c-e3d12938d2c3,chat:u_barbara_u_maayan_student_magshimim,54,u_barbara,u_maayan_student_magshimim,2025-02-01 23:35:49,Excellent and well done! 🫶🏻,"Hi, one of my friends infected me and I woke up sick again today, would it be okay if I didn't come to class or would that be problematic even though it's a justified reason"
+b4c86889-73bd-44ee-bff3-5712ef90e97b,chat:u_barbara_u_maayan_student_magshimim,55,u_maayan_student_magshimim,u_barbara,2025-02-06 11:38:36,"Hi, one of my friends infected me and I woke up sick again today, would it be okay if I didn't come to class or would that be problematic even though it's a justified reason",‎audio omitted
+280325cf-d3ae-4dc1-b4ef-512463d6682e,chat:u_barbara_u_maayan_student_magshimim,56,u_barbara,u_maayan_student_magshimim,2025-02-06 11:39:30,‎audio omitted,Can't I just catch up alone like I did last time?
+2e2ce6fe-b022-440c-af2f-524c4a0c52a0,chat:u_barbara_u_maayan_student_magshimim,57,u_maayan_student_magshimim,u_barbara,2025-02-06 11:43:51,Can't I just catch up alone like I did last time?,"‎audio omitted
+‎audio omitted"
+98a2dab3-539e-4149-a2ef-025e0a02a5e1,chat:u_barbara_u_maayan_student_magshimim,58,u_barbara,u_maayan_student_magshimim,2025-02-06 11:45:03,"‎audio omitted
+‎audio omitted","Okay, I'll talk to her"
+6cbba063-9807-4364-af55-b1ffd755fc83,chat:u_barbara_u_maayan_student_magshimim,59,u_maayan_student_magshimim,u_barbara,2025-02-06 11:46:24,"Okay, I'll talk to her","Hi, I sent key points for the defense in the group. Go over them beforehand. Update me if you don't feel ready.
+Maayan??"
+12a50467-834e-4951-844d-71c450e53357,chat:u_barbara_u_maayan_student_magshimim,60,u_barbara,u_maayan_student_magshimim,2025-02-14 10:07:38,"Hi, I sent key points for the defense in the group. Go over them beforehand. Update me if you don't feel ready.
+Maayan??",I think I'm ready
+c6448dd2-04ec-4757-a425-9ba4f060d635,chat:u_barbara_u_maayan_student_magshimim,61,u_maayan_student_magshimim,u_barbara,2025-02-14 10:41:09,I think I'm ready,"I can move it for you to tomorrow or later today so you can sharpen the material
+The defense is 40% of the final grade
+And I'm recording the defenses"
+c1e2598a-83ca-44a5-aa30-d4b235e9e6d6,chat:u_barbara_u_maayan_student_magshimim,62,u_barbara,u_maayan_student_magshimim,2025-02-14 10:41:52,"I can move it for you to tomorrow or later today so you can sharpen the material
+The defense is 40% of the final grade
+And I'm recording the defenses","Is what you sent in the group the material?
+Everything that could be?"
+19006fa0-cd85-4e01-95a4-c2543443d8e6,chat:u_barbara_u_maayan_student_magshimim,63,u_maayan_student_magshimim,u_barbara,2025-02-14 10:42:51,"Is what you sent in the group the material?
+Everything that could be?","A few things from before related to EDA
+And data preparation
+Everything related to the new models and methods we learned, that's what I sent, generally"
+2470cacc-a192-40ff-bf3f-d9bf755054ba,chat:u_barbara_u_maayan_student_magshimim,64,u_barbara,u_maayan_student_magshimim,2025-02-14 10:43:39,"A few things from before related to EDA
+And data preparation
+Everything related to the new models and methods we learned, that's what I sent, generally",Okay
+e6468312-edf1-456d-bc70-2df33d11cb0f,chat:u_barbara_u_maayan_student_magshimim,65,u_maayan_student_magshimim,u_barbara,2025-02-14 10:44:32,Okay,"Those are not the actual questions I'll ask, what I sent in the group, but those are the topics
+Okay, so I'm preparing the defense file, it will take me 15-20 minutes, and I'll send you a link
+I don't mind if you change your mind because everyone who was scheduled today ended up changing their mind :(
+I can move the defense to this evening, whenever is convenient for you"
+dc2aeaab-b882-40a0-bee1-e3e5e8da5e71,chat:u_barbara_u_maayan_student_magshimim,66,u_barbara,u_maayan_student_magshimim,2025-02-14 10:45:30,"Those are not the actual questions I'll ask, what I sent in the group, but those are the topics
+Okay, so I'm preparing the defense file, it will take me 15-20 minutes, and I'll send you a link
+I don't mind if you change your mind because everyone who was scheduled today ended up changing their mind :(
+I can move the defense to this evening, whenever is convenient for you","No, I can't in the evening we'll just do it today"
+9d40552e-c617-4ded-9c73-8d7c429f041e,chat:u_barbara_u_maayan_student_magshimim,67,u_maayan_student_magshimim,u_barbara,2025-02-14 10:50:02,"No, I can't in the evening we'll just do it today","Are you sure?
+I just want you to get a good grade
+I'm worried myself about how you'll be"
+3df96de2-bf6c-4a6b-a837-ce33c2b23a8f,chat:u_barbara_u_maayan_student_magshimim,68,u_barbara,u_maayan_student_magshimim,2025-02-14 10:50:08,"Are you sure?
+I just want you to get a good grade
+I'm worried myself about how you'll be",Yes
+c906b8e5-8c56-4425-9b7e-559cc7b3208f,chat:u_barbara_u_maayan_student_magshimim,69,u_maayan_student_magshimim,u_barbara,2025-02-14 10:50:21,Yes,"Okay
+So a few minutes, I need to organize the defense file for myself and I'll send you a link. In the meantime, go over the topics
+Okay, I'm delayed a bit, there's a mess here with the files they sent me ‎<This message was edited>
+https://technion.zoom.us/j/93504519036?pwd=FaFavI2JOmVQTdbc5dyV2P4NPxnqgU.1
+https://www.youtube.com/watch?v=JqONmLsRs8Y
+bootsrap
+https://www.youtube.com/watch?v=wjILv3-UGM8
+https://www.youtube.com/watch?v=kituDjzXwfE between minutes 5-10
+https://www.youtube.com/watch?v=R2e3Ls9H_fc"
+90e4fd2f-2a19-40e1-b960-3c0f4617167c,chat:u_barbara_u_maayan_student_magshimim,70,u_barbara,u_maayan_student_magshimim,2025-02-14 10:50:31,"Okay
+So a few minutes, I need to organize the defense file for myself and I'll send you a link. In the meantime, go over the topics
+Okay, I'm delayed a bit, there's a mess here with the files they sent me ‎<This message was edited>
+https://technion.zoom.us/j/93504519036?pwd=FaFavI2JOmVQTdbc5dyV2P4NPxnqgU.1
+https://www.youtube.com/watch?v=JqONmLsRs8Y
+bootsrap
+https://www.youtube.com/watch?v=wjILv3-UGM8
+https://www.youtube.com/watch?v=kituDjzXwfE between minutes 5-10
+https://www.youtube.com/watch?v=R2e3Ls9H_fc","Hi, we scheduled 12:30, not three"
+029f6201-0e43-420d-afe0-d1ae352be6df,chat:u_barbara_u_maayan_student_magshimim,71,u_maayan_student_magshimim,u_barbara,2025-02-15 12:44:45,"Hi, we scheduled 12:30, not three","Oh, I missed it
+One minute, sending a link
+5 minutes, arranging your defense files
+https://technion.zoom.us/j/96083343143?pwd=bLzsbVO2TpYaFFPlFRXyORMoh2Kjwr.1
+Maayan?
+Can you connect?"
+b2e9eb8d-7e8f-484a-b4d1-d611c4c2f92e,chat:u_barbara_u_maayan_student_magshimim,72,u_barbara,u_maayan_student_magshimim,2025-02-15 12:44:57,"Oh, I missed it
+One minute, sending a link
+5 minutes, arranging your defense files
+https://technion.zoom.us/j/96083343143?pwd=bLzsbVO2TpYaFFPlFRXyORMoh2Kjwr.1
+Maayan?
+Can you connect?","Yes, yes
+Hi, I forgot to inform you in class, but I'm going on an annual trip tomorrow and won't have time to submit the homework or come to class on Thursday
+Hi, I think I'll need an extension for this week too because I have school workload"
+77191a2e-3e64-471d-bf52-073cb03aab1e,chat:u_barbara_u_maayan_student_magshimim,73,u_maayan_student_magshimim,u_barbara,2025-02-15 12:58:52,"Yes, yes
+Hi, I forgot to inform you in class, but I'm going on an annual trip tomorrow and won't have time to submit the homework or come to class on Thursday
+Hi, I think I'll need an extension for this week too because I have school workload","Checking
+You submitted an empty notebook for the homework of lesson 15...
+You'll have to complete it..."
+6c27ec8a-8a07-4aaf-98a0-f663a52d79a8,chat:u_barbara_u_maayan_student_magshimim,74,u_barbara,u_maayan_student_magshimim,2025-03-04 17:12:20,"Checking
+You submitted an empty notebook for the homework of lesson 15...
+You'll have to complete it...","?
+What
+I didn't skip anything"
+de45bdd6-19bd-49ac-9350-deb678321ca6,chat:u_barbara_u_maayan_student_magshimim,75,u_maayan_student_magshimim,u_barbara,2025-03-07 12:27:31,"?
+What
+I didn't skip anything",Look at the submission for week 15
+a8da73fd-7316-4eb5-bfbb-3e51785782fb,chat:u_barbara_u_maayan_student_magshimim,76,u_barbara,u_maayan_student_magshimim,2025-03-07 12:49:02,Look at the submission for week 15,I remember doing that notebook... is there a chance it somehow didn't save?
+ced69428-14e2-482d-a4ab-c6312df7f229,chat:u_barbara_u_maayan_student_magshimim,77,u_maayan_student_magshimim,u_barbara,2025-03-07 14:53:54,I remember doing that notebook... is there a chance it somehow didn't save?,"There's a chance...
+I'll check with the coordinator tomorrow if we can waive it this one time
+Make sure it doesn't happen again"
+1dda20ca-4ac7-46b0-bb1e-c0cd480aa731,chat:u_barbara_u_maayan_student_magshimim,78,u_barbara,u_maayan_student_magshimim,2025-03-08 16:02:51,"There's a chance...
+I'll check with the coordinator tomorrow if we can waive it this one time
+Make sure it doesn't happen again","I already did it
+Again"
+3dd0b6c8-6a94-4042-a7de-2872aeb136ca,chat:u_barbara_u_maayan_student_magshimim,79,u_maayan_student_magshimim,u_barbara,2025-03-08 16:36:40,"I already did it
+Again","Ugh
+What about the other tasks, are you managing?"
+29a98237-c692-426e-9396-b0b010f3c925,chat:u_barbara_u_maayan_student_magshimim,80,u_barbara,u_maayan_student_magshimim,2025-03-08 16:44:38,"Ugh
+What about the other tasks, are you managing?","Yes, I completed everything but I don't know, something has been running for half a day already so hopefully it will work
+Hi, in the last exercise my model only gives one answer
+https://colab.research.google.com/drive/1QfScuTdep3pMWyZbF1--Ewv3VFFQ10wa
+I don't know what to do anymore
+Barbara...
+.
+."
+5bbd6196-c3ff-44aa-b097-a4b682d0f6d2,chat:u_barbara_u_maayan_student_magshimim,81,u_maayan_student_magshimim,u_barbara,2025-03-08 17:43:19,"Yes, I completed everything but I don't know, something has been running for half a day already so hopefully it will work
+Hi, in the last exercise my model only gives one answer
+https://colab.research.google.com/drive/1QfScuTdep3pMWyZbF1--Ewv3VFFQ10wa
+I don't know what to do anymore
+Barbara...
+.
+.","Sorry Maayan, I'm under extreme pressure in the last two days
+‎audio omitted"
+cc8091a9-1a8e-41bd-8bc8-d846374fb883,chat:u_barbara_u_maayan_student_magshimim,82,u_barbara,u_maayan_student_magshimim,2025-03-12 21:59:41,"Sorry Maayan, I'm under extreme pressure in the last two days
+‎audio omitted","It's all good, I just wanted to at least know there's an extension
+‎image omitted"
+87c621cc-d49d-4902-8fc1-775eef5b5637,chat:u_barbara_u_maayan_student_magshimim,83,u_maayan_student_magshimim,u_barbara,2025-03-12 22:47:30,"It's all good, I just wanted to at least know there's an extension
+‎image omitted","Righttt:)
+Wait, no
+Pay attention because there's a word that was repeated in all the documents
+What grade will she get?"
+7c4051d9-d22a-4b5f-b24c-09f1a06fcf57,chat:u_barbara_u_maayan_student_magshimim,84,u_barbara,u_maayan_student_magshimim,2025-03-13 17:31:14,"Righttt:)
+Wait, no
+Pay attention because there's a word that was repeated in all the documents
+What grade will she get?","Oh, yes, I see it now
+Well, never mind
+Stuck in traffic, late a bit"
+c4a7dd89-9aa7-441d-940c-74eda335ce3a,chat:u_barbara_u_maayan_student_magshimim,85,u_maayan_student_magshimim,u_barbara,2025-03-13 17:41:20,"Oh, yes, I see it now
+Well, never mind
+Stuck in traffic, late a bit","Okay, drive safely 🤓
+‎image omitted
+Why do you have Hebrew words in the middle of the code....
+This is from lesson 18...
+I'm ignoring it for now, but you must stop blindly copying from chat...
+You are smart and capable of solving the questions by yourself (alongside help from chat, of course)"
+a466c5c7-19d9-4e79-8472-e61eda2374fc,chat:u_barbara_u_maayan_student_magshimim,86,u_barbara,u_maayan_student_magshimim,2025-03-20 16:10:24,"Okay, drive safely 🤓
+‎image omitted
+Why do you have Hebrew words in the middle of the code....
+This is from lesson 18...
+I'm ignoring it for now, but you must stop blindly copying from chat...
+You are smart and capable of solving the questions by yourself (alongside help from chat, of course)","Okay, but I didn't put that as code for the question, but as something for an example, but I'll check"
+d2e1ea72-d140-4244-a74b-e48331f93027,chat:u_barbara_u_maayan_student_magshimim,87,u_maayan_student_magshimim,u_barbara,2025-03-21 14:46:37,"Okay, but I didn't put that as code for the question, but as something for an example, but I'll check",‎audio omitted
+981b653e-a5c6-47b8-aa06-92b71494ea2b,chat:u_barbara_u_maayan_student_magshimim,88,u_barbara,u_maayan_student_magshimim,2025-03-21 14:48:12,‎audio omitted,"Should I go back and fix it or does it not matter?
+And open questions, I don't just copy, I do know"
+cefd95c7-da02-43ae-8200-63e06cf44ec3,chat:u_barbara_u_maayan_student_magshimim,89,u_maayan_student_magshimim,u_barbara,2025-03-21 14:49:03,"Should I go back and fix it or does it not matter?
+And open questions, I don't just copy, I do know","No, there's no need
+Just be very careful with that
+‎audio omitted"
+79c97600-d5b2-478d-bdd8-6e4ced2aa717,chat:u_barbara_u_maayan_student_magshimim,90,u_barbara,u_maayan_student_magshimim,2025-03-21 14:49:29,"No, there's no need
+Just be very careful with that
+‎audio omitted","Good
+Hi, I just got around to working on the class assignment but it still doesn't let me import the library
+Also in the homework assignment"
+86c23cd8-184f-4535-b32c-08107b8fad62,chat:u_barbara_u_maayan_student_magshimim,91,u_maayan_student_magshimim,u_barbara,2025-03-21 14:52:10,"Good
+Hi, I just got around to working on the class assignment but it still doesn't let me import the library
+Also in the homework assignment","But I arranged it for everyone
+🥲"
+1f31173f-8c33-4de2-8ca9-3a4a584f1fc1,chat:u_barbara_u_maayan_student_magshimim,92,u_barbara,u_maayan_student_magshimim,2025-03-24 21:38:28,"But I arranged it for everyone
+🥲","Both don't work for me
+But now I don't really have the energy to work so can I just get the code?"
+1bb3f1df-4189-4a14-b591-c894fa88cd1f,chat:u_barbara_u_maayan_student_magshimim,93,u_maayan_student_magshimim,u_barbara,2025-03-24 21:56:01,"Both don't work for me
+But now I don't really have the energy to work so can I just get the code?","You need to install the library via `!pip install`
+And if it doesn't work"
+12a4ebae-9ec6-4348-829b-57ca6e06e14b,chat:u_barbara_u_maayan_student_magshimim,94,u_barbara,u_maayan_student_magshimim,2025-03-24 21:57:16,"You need to install the library via `!pip install`
+And if it doesn't work","I did everything you gave 😭
+I'm under stress, I don't have time to submitsssss"
+e15291fd-b1ac-4b90-9f83-90ec17147774,chat:u_barbara_u_maayan_student_magshimim,95,u_maayan_student_magshimim,u_barbara,2025-03-24 21:58:43,"I did everything you gave 😭
+I'm under stress, I don't have time to submitsssss","If it doesn't work then add this code
+`pip uninstall -y numpy gensim` `pip install numpy==1.23.5` `pip install --no-cache-dir --force-reinstall gensim`"
+8b539916-8260-409c-a654-bd7f0e213222,chat:u_barbara_u_maayan_student_magshimim,96,u_barbara,u_maayan_student_magshimim,2025-03-24 21:59:08,"If it doesn't work then add this code
+`pip uninstall -y numpy gensim` `pip install numpy==1.23.5` `pip install --no-cache-dir --force-reinstall gensim`","I already added thattttttttt
+I guess I get the solution 🥺"
+52f49c6e-bbf3-4c76-b2aa-4a9394e50249,chat:u_barbara_u_maayan_student_magshimim,97,u_maayan_student_magshimim,u_barbara,2025-03-24 21:59:21,"I already added thattttttttt
+I guess I get the solution 🥺","Okay, I'll give you an extension
+I wish
+Less work for me to check"
+37e603e7-aa06-4a83-84e3-ecc8b83f5ab3,chat:u_barbara_u_maayan_student_magshimim,98,u_barbara,u_maayan_student_magshimim,2025-03-24 21:59:39,"Okay, I'll give you an extension
+I wish
+Less work for me to check",Lol
+2df8914c-2ace-4ca2-b7b9-2d53c5f18aa1,chat:u_barbara_u_maayan_student_magshimim,99,u_maayan_student_magshimim,u_barbara,2025-03-24 21:59:53,Lol,"But no
+🥲
+But you need to fix this
+Send me the notebooks"
+19f7b38c-fab9-4980-92a3-ae684aab2141,chat:u_barbara_u_maayan_student_magshimim,100,u_barbara,u_maayan_student_magshimim,2025-03-24 21:59:54,"But no
+🥲
+But you need to fix this
+Send me the notebooks","https://colab.research.google.com/drive/1kRgmVAy9990qisTombsYh8UHWn-gzMv0
+https://colab.research.google.com/drive/1np70DGPEar5ny5jesilgcwweQfLEhgUu"
+d831ac47-84a2-435a-997a-4ba78e7a2152,chat:u_barbara_u_maayan_student_magshimim,101,u_maayan_student_magshimim,u_barbara,2025-03-24 22:00:47,"https://colab.research.google.com/drive/1kRgmVAy9990qisTombsYh8UHWn-gzMv0
+https://colab.research.google.com/drive/1np70DGPEar5ny5jesilgcwweQfLEhgUu","I'm not home yet, hope to remember
+If not, bother me
+Thanks for bothering me..
+Trying to fix it now"
+230f755b-3e82-483f-abeb-8d8868133a8d,chat:u_barbara_u_maayan_student_magshimim,102,u_barbara,u_maayan_student_magshimim,2025-03-24 22:01:29,"I'm not home yet, hope to remember
+If not, bother me
+Thanks for bothering me..
+Trying to fix it now",I just got back from school...
+fc5d52e4-99d0-4ff3-a1e6-f4a70772cfb9,chat:u_barbara_u_maayan_student_magshimim,103,u_maayan_student_magshimim,u_barbara,2025-03-25 18:11:47,I just got back from school...,"Oh, I see
+Updating in a few minutes
+I fixed it for you in the coding notebook
+Also in the homework
+Okay, now explaining
+‎image omitted
+Try running the imports, and if that doesn't work, run this
+‎image omitted
+The first time you run this, a window will pop up with ""restart session,"" you answer yes, and then run this cell again, and when the ""restart session"" window pops up, click cancel And then run the imports and everything should work fine!
+This worked for a few trainees so that's the way for you too"
+eb4eb8f1-d2de-4b79-9c57-842cae7ffb11,chat:u_barbara_u_maayan_student_magshimim,104,u_barbara,u_maayan_student_magshimim,2025-03-25 18:11:55,"Oh, I see
+Updating in a few minutes
+I fixed it for you in the coding notebook
+Also in the homework
+Okay, now explaining
+‎image omitted
+Try running the imports, and if that doesn't work, run this
+‎image omitted
+The first time you run this, a window will pop up with ""restart session,"" you answer yes, and then run this cell again, and when the ""restart session"" window pops up, click cancel And then run the imports and everything should work fine!
+This worked for a few trainees so that's the way for you too","Good, I'll check as soon as I get home
+Hi, until when did you give me an extension, Sarah just asked me now and I don't want to get confused"
+3abbd6b3-1dff-4b37-b914-2c1ed8b97493,chat:u_barbara_u_maayan_student_magshimim,105,u_maayan_student_magshimim,u_barbara,2025-03-25 18:30:42,"Good, I'll check as soon as I get home
+Hi, until when did you give me an extension, Sarah just asked me now and I don't want to get confused","All the extensions I give are until Saturday
+For homework 21?"
+75e23b6b-5140-45cb-a666-385e80088214,chat:u_barbara_u_maayan_student_magshimim,106,u_barbara,u_maayan_student_magshimim,2025-03-30 17:08:56,"All the extensions I give are until Saturday
+For homework 21?","Yes
+Good, I'm just after a series of exams, I'll make sure to submit soon because I finished it"
+711e6d78-100c-4422-a939-ccf307ca2a67,chat:u_barbara_u_maayan_student_magshimim,107,u_maayan_student_magshimim,u_barbara,2025-03-30 17:30:59,"Yes
+Good, I'm just after a series of exams, I'll make sure to submit soon because I finished it","Okay, just tell Sarah"
+69ea59f0-dfdc-4b8e-ab48-86f9ff33721c,chat:u_barbara_u_maayan_student_magshimim,108,u_barbara,u_maayan_student_magshimim,2025-03-30 17:38:24,"Okay, just tell Sarah","Yes
+You still haven't opened the class assignment, I can't submit"
+baf2c75f-a2fc-459e-9d79-c30052ba9296,chat:u_barbara_u_maayan_student_magshimim,109,u_maayan_student_magshimim,u_barbara,2025-03-30 18:25:56,"Yes
+You still haven't opened the class assignment, I can't submit","There's a problem with the model, I think
+Lesson 21 is open
+And 22 too, no?
+I mean, they should be open"
+f952a6ac-5f91-4475-b681-218a1f5d0761,chat:u_barbara_u_maayan_student_magshimim,110,u_barbara,u_maayan_student_magshimim,2025-03-31 20:07:10,"There's a problem with the model, I think
+Lesson 21 is open
+And 22 too, no?
+I mean, they should be open",22 isn't
+14ac9998-d8e9-4938-8bc0-914a1176ba20,chat:u_barbara_u_maayan_student_magshimim,111,u_maayan_student_magshimim,u_barbara,2025-03-31 20:15:08,22 isn't,"‎audio omitted
+And I have a problem with the model to open the lessons :("
+98d43597-852c-46e2-8378-e9d2fe434144,chat:u_barbara_u_maayan_student_magshimim,112,u_barbara,u_maayan_student_magshimim,2025-03-31 22:24:37,"‎audio omitted
+And I have a problem with the model to open the lessons :(",I was already in the swing of things
+b1946e3b-48f4-4c60-8924-1e08caeb5387,chat:u_barbara_u_maayan_student_magshimim,113,u_maayan_student_magshimim,u_barbara,2025-03-31 22:41:09,I was already in the swing of things,"Ahhh
+‎audio omitted
+Yes, there's a problem with the model
+I'll let you know as soon as they fix it"
+80d200ad-29d6-4009-9a42-2fc93a2c141b,chat:u_barbara_u_maayan_student_magshimim,114,u_barbara,u_maayan_student_magshimim,2025-03-31 22:48:17,"Ahhh
+‎audio omitted
+Yes, there's a problem with the model
+I'll let you know as soon as they fix it","Hi, is class tomorrow as usual?"
+9e8f8635-f6aa-445b-b09d-11028844a4b9,chat:u_barbara_u_maayan_student_magshimim,115,u_maayan_student_magshimim,u_barbara,2025-04-02 11:23:49,"Hi, is class tomorrow as usual?","Tomorrow yess
+Yes
+Just answer when you can next week lol"
+338adf50-2e56-4a9a-80ce-53f965bc4786,chat:u_barbara_u_maayan_student_magshimim,116,u_barbara,u_maayan_student_magshimim,2025-04-02 11:24:00,"Tomorrow yess
+Yes
+Just answer when you can next week lol","Is it in-person or Zoom
+Is the model working? And also until when is class tomorrow?
+?"
+3f4d500f-07b8-46a0-9496-9a094f21810b,chat:u_barbara_u_maayan_student_magshimim,117,u_maayan_student_magshimim,u_barbara,2025-04-02 11:36:36,"Is it in-person or Zoom
+Is the model working? And also until when is class tomorrow?
+?",I opened it
+9afab7cd-dc26-40f5-ab70-b582c7814096,chat:u_barbara_u_maayan_student_magshimim,118,u_barbara,u_maayan_student_magshimim,2025-04-03 12:45:12,I opened it,"And when do we finish? Because I suddenly saw I have something at eight
+In Karmiel but still about that"
+e3f467df-62ef-492b-b867-055c1d5d8da7,chat:u_barbara_u_maayan_student_magshimim,119,u_maayan_student_magshimim,u_barbara,2025-04-03 12:49:13,"And when do we finish? Because I suddenly saw I have something at eight
+In Karmiel but still about that","It's fine, you can leave before"
+1565240c-47d4-4c0c-971e-791f6ff2e94d,chat:u_barbara_u_maayan_student_magshimim,120,u_barbara,u_maayan_student_magshimim,2025-04-03 12:50:33,"It's fine, you can leave before","Is it going to be in-person or Zoom, you're making it sound like in-person"
+66af93a7-b9fa-4910-a451-bacbe0b401bc,chat:u_barbara_u_maayan_student_magshimim,121,u_maayan_student_magshimim,u_barbara,2025-04-07 12:24:17,"Is it going to be in-person or Zoom, you're making it sound like in-person","In-person, in-person
+Last lesson
+Zoom would be a bummer"
+07335974-dceb-449c-98e4-fb897a5d1545,chat:u_barbara_u_maayan_student_magshimim,122,u_barbara,u_maayan_student_magshimim,2025-04-07 12:24:25,"In-person, in-person
+Last lesson
+Zoom would be a bummer","Okay
+Can I leave early today as much as possible, I have a pre-test in math tomorrow and I need to practice"
+b9c4bdf5-b2f4-4602-ae98-eabfa49fdcf4,chat:u_barbara_u_maayan_student_magshimim,123,u_maayan_student_magshimim,u_barbara,2025-04-07 12:24:57,"Okay
+Can I leave early today as much as possible, I have a pre-test in math tomorrow and I need to practice","Yes, no problem
+After he finishes, I'll release you"
+e6750452-b1ab-4af1-aaa8-2f61f556779d,chat:u_barbara_u_maayan_student_magshimim,124,u_barbara,u_maayan_student_magshimim,2025-04-24 13:22:50,"Yes, no problem
+After he finishes, I'll release you","Okay, thanks
+Hi, what is the assignment for the week and where do I submit it, everything is mixed up and the dates are wrong, I think
+I figured it out
+https://colab.research.google.com/drive/1WDyqJBrfwR3uNYamdyCLIwrTjoHCKgM8?usp=sharing
+I couldn't figure out the code they gave...
+."
+62b68535-fc58-4214-8985-fb72e0883f9f,chat:u_barbara_u_maayan_student_magshimim,125,u_maayan_student_magshimim,u_barbara,2025-04-24 13:23:07,"Okay, thanks
+Hi, what is the assignment for the week and where do I submit it, everything is mixed up and the dates are wrong, I think
+I figured it out
+https://colab.research.google.com/drive/1WDyqJBrfwR3uNYamdyCLIwrTjoHCKgM8?usp=sharing
+I couldn't figure out the code they gave...
+.","Can you send a specific question?
+I don't understand what to help with"
+d4852e1b-91ea-46de-84d1-5a70057e16e2,chat:u_barbara_u_maayan_student_magshimim,126,u_barbara,u_maayan_student_magshimim,2025-05-06 15:07:00,"Can you send a specific question?
+I don't understand what to help with",With the code they gave in the first part
+0a328fcc-1b54-4341-8469-5bd5b9dc4f6b,chat:u_barbara_u_maayan_student_magshimim,127,u_maayan_student_magshimim,u_barbara,2025-05-06 15:21:10,With the code they gave in the first part,"What exactly is the question?
+What didn't work? What didn't you understand?"
+956c578e-ffc3-4206-a198-07b2b4669ece,chat:u_barbara_u_maayan_student_magshimim,128,u_barbara,u_maayan_student_magshimim,2025-05-06 15:21:21,"What exactly is the question?
+What didn't work? What didn't you understand?","Why is it giving me an error
+What needs to be fixed in it"
+ade7254d-f34e-4fd9-993d-1b01f2ba8562,chat:u_barbara_u_maayan_student_magshimim,129,u_maayan_student_magshimim,u_barbara,2025-05-06 15:21:38,"Why is it giving me an error
+What needs to be fixed in it","Send me the question
+There are a lot of questions there"
+b46c6cb9-9583-437a-ab89-6c6f50a2dad0,chat:u_barbara_u_maayan_student_magshimim,130,u_barbara,u_maayan_student_magshimim,2025-05-06 15:22:00,"Send me the question
+There are a lot of questions there","In the first part
+It's a notebook from a notebook"
+f897871c-e0fe-4041-9e51-08d80eb628ea,chat:u_barbara_u_maayan_student_magshimim,131,u_maayan_student_magshimim,u_barbara,2025-05-06 15:22:14,"In the first part
+It's a notebook from a notebook",Send the question clearly and I'll gladly help
+f0b9ae70-0ce0-4154-80bf-254dec856dba,chat:u_barbara_u_maayan_student_magshimim,132,u_barbara,u_maayan_student_magshimim,2025-05-06 15:22:57,Send the question clearly and I'll gladly help,"We will use the operation `geopy.distance.geodesic` to calculate the distance between pairs of coordinates
+In that cell they gave code in advance and it's not working for me
+I'm on the phone now because I'm at school, so it's hard for me"
+3c0f90f7-173d-47be-ba8c-c80e49029692,chat:u_barbara_u_maayan_student_magshimim,133,u_maayan_student_magshimim,u_barbara,2025-05-06 15:23:57,"We will use the operation `geopy.distance.geodesic` to calculate the distance between pairs of coordinates
+In that cell they gave code in advance and it's not working for me
+I'm on the phone now because I'm at school, so it's hard for me","Do you remember what it threw at you?
+I'm not in front of the computer either..."
+b29807d3-b178-48f5-963b-89c6ec0335f9,chat:u_barbara_u_maayan_student_magshimim,134,u_barbara,u_maayan_student_magshimim,2025-05-06 15:28:06,"Do you remember what it threw at you?
+I'm not in front of the computer either...",Doesn't it show you on the phone?
+70ab6c03-ccfc-4325-814f-2974e61a0da1,chat:u_barbara_u_maayan_student_magshimim,135,u_maayan_student_magshimim,u_barbara,2025-05-06 15:28:30,Doesn't it show you on the phone?,"It shows everything partially somehow
+Nothing is clear"
+9c5f3bce-673f-4a7b-add1-1d941aef4526,chat:u_barbara_u_maayan_student_magshimim,136,u_barbara,u_maayan_student_magshimim,2025-05-06 15:31:14,"It shows everything partially somehow
+Nothing is clear","Okay, fine, I just can't really move forward right now"
+38599234-62d3-463b-bd14-3806bc8c023e,chat:u_barbara_u_maayan_student_magshimim,137,u_maayan_student_magshimim,u_barbara,2025-05-06 15:34:23,"Okay, fine, I just can't really move forward right now","I'm free at eight and in front of a computer, bother me if I don't send an answer by then"
+ba139cd8-266a-4672-935a-e14676d9dbee,chat:u_barbara_u_maayan_student_magshimim,138,u_barbara,u_maayan_student_magshimim,2025-05-06 15:52:33,"I'm free at eight and in front of a computer, bother me if I don't send an answer by then","Good
+I completely forgot about it
+Do you have an answer?
+.
+."
+3f9fa530-fb79-48ed-a175-269405cb5ea5,chat:u_barbara_u_maayan_student_magshimim,139,u_maayan_student_magshimim,u_barbara,2025-05-06 16:06:48,"Good
+I completely forgot about it
+Do you have an answer?
+.
+.","Hi, checking
+‎image omitted
+Did you fix it?"
+67de7426-ffe4-4a30-b7cc-21a825a679d8,chat:u_barbara_u_maayan_student_magshimim,140,u_barbara,u_maayan_student_magshimim,2025-05-14 22:13:51,"Hi, checking
+‎image omitted
+Did you fix it?","I couldn't, but I understood that my `merge` is doing something weird and it creates new columns and they are all empty"
+5b1a90d4-11d7-493f-a7eb-cdd415c5966d,chat:u_barbara_u_maayan_student_magshimim,141,u_maayan_student_magshimim,u_barbara,2025-05-16 09:28:40,"I couldn't, but I understood that my `merge` is doing something weird and it creates new columns and they are all empty",‎audio omitted
+8ae33f26-4abb-4a11-92ad-d7e2df266e94,chat:u_barbara_u_maayan_student_magshimim,142,u_barbara,u_maayan_student_magshimim,2025-05-16 10:44:33,‎audio omitted,"Yes, now there's a different error"
+540bbc22-32f6-4f32-88ca-96f43c01c92c,chat:u_barbara_u_maayan_student_magshimim,143,u_maayan_student_magshimim,u_barbara,2025-05-16 10:45:21,"Yes, now there's a different error",Can you take a picture?
+0aa0da45-71d2-4fb0-acd2-bc47242d2f4d,chat:u_barbara_u_maayan_student_magshimim,144,u_barbara,u_maayan_student_magshimim,2025-05-16 10:45:35,Can you take a picture?,"‎image omitted
+.
+Did you understand why this is happening?"
+9108302b-ded0-47ef-b10a-c1d0f593a733,chat:u_barbara_u_maayan_student_magshimim,145,u_maayan_student_magshimim,u_barbara,2025-05-16 10:46:06,"‎image omitted
+.
+Did you understand why this is happening?","Hi, Maayan, I know you had problems with the notebook, but you still should have submitted at least regression chapter 1
+We are already in week 5"
+dbd9d6ff-030e-4b05-a42b-c1ee75d0e16d,chat:u_barbara_u_maayan_student_magshimim,146,u_barbara,u_maayan_student_magshimim,2025-05-20 12:36:53,"Hi, Maayan, I know you had problems with the notebook, but you still should have submitted at least regression chapter 1
+We are already in week 5",I talked about it with Sarah
+40757e6f-335a-485f-8454-c75852e9582d,chat:u_barbara_u_maayan_student_magshimim,147,u_maayan_student_magshimim,u_barbara,2025-05-20 12:37:13,I talked about it with Sarah,"Regarding that, you must try to debug the code
+Like it was before, it's about small errors that you need to sit down and look for
+What did you agree on?"
+6c3b669b-2809-40fa-be79-649febc4db98,chat:u_barbara_u_maayan_student_magshimim,148,u_barbara,u_maayan_student_magshimim,2025-05-20 12:37:14,"Regarding that, you must try to debug the code
+Like it was before, it's about small errors that you need to sit down and look for
+What did you agree on?",She said everything is fine and if needed I can reach out to ask for a back-up
+eca83a0a-516d-4ec2-a691-ef53ecf162eb,chat:u_barbara_u_maayan_student_magshimim,149,u_maayan_student_magshimim,u_barbara,2025-05-20 12:38:43,She said everything is fine and if needed I can reach out to ask for a back-up,"What about your schedule, when can you complete everything?"
+ece715ec-dbd2-4b8e-a121-659ecd8e1012,chat:u_barbara_u_maayan_student_magshimim,150,u_barbara,u_maayan_student_magshimim,2025-05-20 12:39:41,"What about your schedule, when can you complete everything?",I can try to start now to at least submit 1 and 2
+2be8aa1d-c89d-4ba8-95d9-a18a5922c306,chat:u_barbara_u_maayan_student_magshimim,151,u_maayan_student_magshimim,u_barbara,2025-05-20 12:40:14,I can try to start now to at least submit 1 and 2,"Excellent
+How did you try to debug it?"
+9cb61ef5-162d-4530-b591-35962db61fe7,chat:u_barbara_u_maayan_student_magshimim,152,u_barbara,u_maayan_student_magshimim,2025-05-20 12:40:26,"Excellent
+How did you try to debug it?","I checked where it changes, that's all I managed to do
+Where those columns are created from"
+1ad6e561-3a6c-476a-bd01-1937245105fb,chat:u_barbara_u_maayan_student_magshimim,153,u_maayan_student_magshimim,u_barbara,2025-05-20 12:41:28,"I checked where it changes, that's all I managed to do
+Where those columns are created from","Good, try to debug it with chat too
+If you still don't succeed, then reach out to me"
+85ac098e-bd06-45f5-a657-05c94ac1e248,chat:u_barbara_u_maayan_student_magshimim,154,u_barbara,u_maayan_student_magshimim,2025-05-20 12:41:45,"Good, try to debug it with chat too
+If you still don't succeed, then reach out to me",Good
+7fdec7e7-1bfa-4d97-8f7d-05b2e7113527,chat:u_barbara_u_maayan_student_magshimim,155,u_maayan_student_magshimim,u_barbara,2025-05-20 12:41:59,Good,What does that mean?
+d9cd39e5-b087-41d9-b3e7-f41d82f49899,chat:u_barbara_u_maayan_student_magshimim,156,u_barbara,u_maayan_student_magshimim,2025-05-20 12:42:17,What does that mean?,I tried to understand why combining the datasets created new columns and deleted old ones instead of just putting everything together
+514a3996-cddf-48a0-b3b6-df15174a9a8e,chat:u_barbara_u_maayan_student_magshimim,157,u_maayan_student_magshimim,u_barbara,2025-05-20 12:43:11,I tried to understand why combining the datasets created new columns and deleted old ones instead of just putting everything together,"They are created here from what I sent you a picture of, when you change the column name
+It's similar to `join` in SQL"
+894f20c2-453f-49e5-b6fb-7eaa1c43a6e6,chat:u_barbara_u_maayan_student_magshimim,158,u_barbara,u_maayan_student_magshimim,2025-05-20 12:43:27,"They are created here from what I sent you a picture of, when you change the column name
+It's similar to `join` in SQL","I know, but when I merge, new columns are created in their place and they contain nothing
+Unlike changing the name which kept the data
+Can I know where I see all the submission dates?"
+ac43262a-5827-4021-b391-47de8f4278ce,chat:u_barbara_u_maayan_student_magshimim,159,u_maayan_student_magshimim,u_barbara,2025-05-20 12:44:11,"I know, but when I merge, new columns are created in their place and they contain nothing
+Unlike changing the name which kept the data
+Can I know where I see all the submission dates?","There's a submissions document
+And I also sent it in the group"
+2e9ac1f5-a9db-4447-859b-bfe682d41cae,chat:u_barbara_u_maayan_student_magshimim,160,u_barbara,u_maayan_student_magshimim,2025-05-20 13:27:56,"There's a submissions document
+And I also sent it in the group",Okay
+839aa227-94c9-414e-980c-0f7c67ba9b8c,chat:u_barbara_u_maayan_student_magshimim,161,u_maayan_student_magshimim,u_barbara,2025-05-20 13:28:58,Okay,"Hi, I went over what you did, it's not really accurate ‎<This message was edited>
+‎image omitted
+The column name is only `station_name`
+‎image omitted
+‎image omitted"
+1a4fba75-1ce3-4bde-92a1-08615bd83aa4,chat:u_barbara_u_maayan_student_magshimim,162,u_barbara,u_maayan_student_magshimim,2025-05-20 14:07:40,"Hi, I went over what you did, it's not really accurate ‎<This message was edited>
+‎image omitted
+The column name is only `station_name`
+‎image omitted
+‎image omitted",I did `concat`
+eb9f1ce2-ea5b-452d-a0c6-16a4ebdb5c30,chat:u_barbara_u_maayan_student_magshimim,163,u_maayan_student_magshimim,u_barbara,2025-05-20 14:11:03,I did `concat`,"Before the merge, it should have two columns, source and destination station
+It's not the same thing!
+It's hard for me to explain this way, I can explain it in class
+But for now, follow what I sent and the code I wrote for you
+And it will work"
+d62e8ecf-36b0-4def-8c83-f91416e92260,chat:u_barbara_u_maayan_student_magshimim,164,u_barbara,u_maayan_student_magshimim,2025-05-20 14:11:05,"Before the merge, it should have two columns, source and destination station
+It's not the same thing!
+It's hard for me to explain this way, I can explain it in class
+But for now, follow what I sent and the code I wrote for you
+And it will work",Good
+de8115c1-1239-40d2-b6fe-73776386f6fb,chat:u_barbara_u_maayan_student_magshimim,165,u_maayan_student_magshimim,u_barbara,2025-05-20 14:11:46,Good,"Yes, that's a creative approach but it's not what's needed"
+4c07650b-6a56-4da2-a0cd-b877597b6bac,chat:u_barbara_u_maayan_student_magshimim,166,u_barbara,u_maayan_student_magshimim,2025-05-20 14:13:27,"Yes, that's a creative approach but it's not what's needed","Good, I'll try again
+I couldn't understand what you want, it worked for me before, why can't I just use that?
+Late a few minutes...
+Hi, in task 2 it didn't let me export the data to Sheets, and in task 5 because the heights column is missing, there was no change, so do I just submit it like that?"
+88eafc33-a05e-4018-a610-fd962a6fbc7c,chat:u_barbara_u_maayan_student_magshimim,167,u_maayan_student_magshimim,u_barbara,2025-05-20 14:16:19,"Good, I'll try again
+I couldn't understand what you want, it worked for me before, why can't I just use that?
+Late a few minutes...
+Hi, in task 2 it didn't let me export the data to Sheets, and in task 5 because the heights column is missing, there was no change, so do I just submit it like that?","No, no
+What error did it throw at you in 2?"
+d79b5a9a-22b0-40d1-a97d-72657d1c6ded,chat:u_barbara_u_maayan_student_magshimim,168,u_barbara,u_maayan_student_magshimim,2025-05-25 12:04:56,"No, no
+What error did it throw at you in 2?","It didn't even let me copy the Sheets file because there's no access, and when I tried to open the data file, it just didn't open it, probably because it's a large dataset"
+2c8157a6-81f9-49ef-a338-fee00693c8c6,chat:u_barbara_u_maayan_student_magshimim,169,u_maayan_student_magshimim,u_barbara,2025-05-25 12:07:03,"It didn't even let me copy the Sheets file because there's no access, and when I tried to open the data file, it just didn't open it, probably because it's a large dataset","What what what, I didn't understand anything
+Explain in detail what you tried to do, what you didn't succeed with, and what was thrown at you if anything was thrown"
+cf87ecc3-a51f-4215-8952-05a91c881c65,chat:u_barbara_u_maayan_student_magshimim,170,u_barbara,u_maayan_student_magshimim,2025-05-25 12:10:01,"What what what, I didn't understand anything
+Explain in detail what you tried to do, what you didn't succeed with, and what was thrown at you if anything was thrown","In the data files there is a Sheets file, at first I tried to copy it but I didn't have access, so instead I just tried to open the data file as a Sheets file but it gave an error"
+89f18568-cffe-40e3-882e-cfb35ab758c5,chat:u_barbara_u_maayan_student_magshimim,171,u_maayan_student_magshimim,u_barbara,2025-05-25 12:12:24,"In the data files there is a Sheets file, at first I tried to copy it but I didn't have access, so instead I just tried to open the data file as a Sheets file but it gave an error",You can download it and re-upload it to your Drive and everything should work fine
+a770adc9-aa65-4f33-af40-f0b96d121b57,chat:u_barbara_u_maayan_student_magshimim,172,u_barbara,u_maayan_student_magshimim,2025-05-25 12:13:04,You can download it and re-upload it to your Drive and everything should work fine,"Good ‎<This message was edited>
+I just came back to work on it, I didn't really understand what I even need to export"
+209eabd3-0bda-412f-9e1a-724825314509,chat:u_barbara_u_maayan_student_magshimim,173,u_maayan_student_magshimim,u_barbara,2025-05-25 12:13:30,"Good ‎<This message was edited>
+I just came back to work on it, I didn't really understand what I even need to export","I don't understand what you mean
+Be a bit more specific"
+503d8a3c-f2ff-47a7-a27d-ae8cca3dbd0c,chat:u_barbara_u_maayan_student_magshimim,174,u_barbara,u_maayan_student_magshimim,2025-05-25 13:01:13,"I don't understand what you mean
+Be a bit more specific",I don't understand what they asked to export
+954a60ab-5b86-429c-b157-89f295c8092a,chat:u_barbara_u_maayan_student_magshimim,175,u_maayan_student_magshimim,u_barbara,2025-05-25 13:01:36,I don't understand what they asked to export,‎audio omitted
+26872dab-4c9b-47ed-826b-2a2c50472d09,chat:u_barbara_u_maayan_student_magshimim,176,u_barbara,u_maayan_student_magshimim,2025-05-25 13:01:52,‎audio omitted,"Part two
+Simply the data loading part, so to speak
+What do I take to Sheets"
+041cdb11-2e05-4325-93f1-a84856d74905,chat:u_barbara_u_maayan_student_magshimim,177,u_maayan_student_magshimim,u_barbara,2025-05-25 13:02:49,"Part two
+Simply the data loading part, so to speak
+What do I take to Sheets",Take a picture of the instructions for that part for me
+a357dec4-57b7-405e-925e-27da4c84a1ea,chat:u_barbara_u_maayan_student_magshimim,178,u_barbara,u_maayan_student_magshimim,2025-05-25 13:16:44,Take a picture of the instructions for that part for me,‎image omitted
+07e6b578-d6fd-42a1-a25a-c7715bba141a,chat:u_barbara_u_maayan_student_magshimim,179,u_maayan_student_magshimim,u_barbara,2025-05-25 13:17:10,‎image omitted,"You need to export the table you created to a CSV file and work with it in Google Sheets
+In order to create the same graph you did in part 4
+Export means to output it"
+1640b569-ab35-499a-8000-61806c7a3646,chat:u_barbara_u_maayan_student_magshimim,180,u_barbara,u_maayan_student_magshimim,2025-05-25 13:25:56,"You need to export the table you created to a CSV file and work with it in Google Sheets
+In order to create the same graph you did in part 4
+Export means to output it",I don't remember how to do that
+31169eeb-44c3-4b99-87fc-1ed70d2dd069,chat:u_barbara_u_maayan_student_magshimim,181,u_maayan_student_magshimim,u_barbara,2025-05-25 13:26:58,I don't remember how to do that,"You need to look it up
+We didn't do it much"
+a8e885fb-52b5-4e02-a4aa-b40bb7979326,chat:u_barbara_u_maayan_student_magshimim,182,u_barbara,u_maayan_student_magshimim,2025-05-25 13:29:12,"You need to look it up
+We didn't do it much","‎image omitted
+How do I do this
+I can't draw my own line"
+2f3eea77-3c75-47da-aa7f-c2bf2d91375c,chat:u_barbara_u_maayan_student_magshimim,183,u_maayan_student_magshimim,u_barbara,2025-05-25 13:45:02,"‎image omitted
+How do I do this
+I can't draw my own line","There are explanations for everything in the course on Campus IL
+You need the line that was created"
+0233fe98-ff1f-4dc5-a081-95e08be86bff,chat:u_barbara_u_maayan_student_magshimim,184,u_barbara,u_maayan_student_magshimim,2025-05-25 13:45:41,"There are explanations for everything in the course on Campus IL
+You need the line that was created","Do I need to do it through drawings or through Sheets?
+Because through Sheets there's only the optimal line
+Hi, is the date of the summer peak day known?
+?"
+f4c3f80f-38ad-45ad-91af-e49d9bbf3627,chat:u_barbara_u_maayan_student_magshimim,185,u_maayan_student_magshimim,u_barbara,2025-05-25 13:46:10,"Do I need to do it through drawings or through Sheets?
+Because through Sheets there's only the optimal line
+Hi, is the date of the summer peak day known?
+?",Sarah wrote it in the group today
+5f637ab2-6023-4f87-b24f-c53329a3ec3f,chat:u_barbara_u_maayan_student_magshimim,186,u_barbara,u_maayan_student_magshimim,2025-06-09 19:25:09,Sarah wrote it in the group today,Is that the cyber week?
+3379dacc-4011-41a9-9cb4-38b0d9874c23,chat:u_barbara_u_maayan_student_magshimim,187,u_maayan_student_magshimim,u_barbara,2025-06-09 19:27:06,Is that the cyber week?,"What cyber week
+She wrote an explicit message regarding the peak day"
+db7eb1fc-8247-4e7b-8d79-c704bd4cb719,chat:u_barbara_u_maayan_student_magshimim,188,u_barbara,u_maayan_student_magshimim,2025-06-09 19:27:21,"What cyber week
+She wrote an explicit message regarding the peak day","Can't find it, when did she write it?"
+6ebbb7ea-5fbb-4a02-9bba-ca68caaa10c9,chat:u_barbara_u_maayan_student_magshimim,189,u_maayan_student_magshimim,u_barbara,2025-06-09 19:28:57,"Can't find it, when did she write it?",Today
+c85b4150-ef4c-48f6-a235-60537493a3a0,chat:u_barbara_u_maayan_student_magshimim,190,u_barbara,u_maayan_student_magshimim,2025-06-09 19:29:11,Today,"Oh, I missed it, thanks
+Hi, I have a psychometric exam tomorrow so I might be late"
+9500f5ad-c61e-42f4-8574-9e7fa74148cd,chat:u_barbara_u_maayan_student_magshimim,191,u_maayan_student_magshimim,u_barbara,2025-06-09 19:29:57,"Oh, I missed it, thanks
+Hi, I have a psychometric exam tomorrow so I might be late","Okay
+Good luck!
+Is that the exam itself?
+And when will you arrive approximately?"
+f538f21a-3382-4364-bd26-87fb637ef312,chat:u_barbara_u_maayan_student_magshimim,192,u_barbara,u_maayan_student_magshimim,2025-09-01 14:31:36,"Okay
+Good luck!
+Is that the exam itself?
+And when will you arrive approximately?","Yes
+If I'm late, it shouldn't be by much"
+56d5b67d-8217-44e9-a7fa-93e2f4ac7c85,chat:u_barbara_u_maayan_student_magshimim,193,u_maayan_student_magshimim,u_barbara,2025-09-01 16:28:42,"Yes
+If I'm late, it shouldn't be by much","Cool
+Keeping my fingers crossed for you
+Go get 'em!"
+10598a02-86f0-4042-8a6b-45e70de5bc16,chat:u_barbara_u_maayan_student_magshimim,194,u_barbara,u_maayan_student_magshimim,2025-09-01 16:29:13,"Cool
+Keeping my fingers crossed for you
+Go get 'em!","Thanks
+maayaneitan123@gmail.com
+Hi, what do you think should be in the new data besides the general criteria? I just want to start searching again"
+889bae82-f983-4dba-af75-035adf65a953,chat:u_barbara_u_maayan_student_magshimim,195,u_maayan_student_magshimim,u_barbara,2025-09-01 16:29:46,"Thanks
+maayaneitan123@gmail.com
+Hi, what do you think should be in the new data besides the general criteria? I just want to start searching again","Why, wasn't the data good?
+There are a lot of tables there in what I sent
+Only the criteria and two challenges, which are also written in the presentation, so you can see what they are exactly"
+0b8d95a0-573c-42a1-9cd0-8789fdd73613,chat:u_barbara_u_maayan_student_magshimim,196,u_barbara,u_maayan_student_magshimim,2025-09-07 15:54:03,"Why, wasn't the data good?
+There are a lot of tables there in what I sent
+Only the criteria and two challenges, which are also written in the presentation, so you can see what they are exactly","Good, only what we chose from it, not specifically"
+48431769-b93d-4e58-99ce-c443525e8a0a,chat:u_barbara_u_maayan_student_magshimim,197,u_maayan_student_magshimim,u_barbara,2025-09-07 16:48:37,"Good, only what we chose from it, not specifically","Oh, I see, that's a bummer
+What's going on with you regarding the next meeting?
+You need to meet with me this week and you haven't scheduled it with me"
+1b4b5502-14dd-430b-90b1-6544e8454078,chat:u_barbara_u_maayan_student_magshimim,198,u_barbara,u_maayan_student_magshimim,2025-09-07 16:49:07,"Oh, I see, that's a bummer
+What's going on with you regarding the next meeting?
+You need to meet with me this week and you haven't scheduled it with me","Erez couldn't work today and yesterday, I'm trying to make progress alone but I'm also busy, what's the latest you can meet this week?"
+bb5cb8d3-0375-48fc-8ceb-0de24a9bb026,chat:u_barbara_u_maayan_student_magshimim,199,u_maayan_student_magshimim,u_barbara,2025-09-08 16:14:58,"Erez couldn't work today and yesterday, I'm trying to make progress alone but I'm also busy, what's the latest you can meet this week?",Wednesday at 19:00
+e82a0676-e9e2-434b-9a3d-e8528f897b90,chat:u_barbara_u_maayan_student_magshimim,200,u_barbara,u_maayan_student_magshimim,2025-09-08 16:19:36,Wednesday at 19:00,"Wow
+Good
+Hi, is there a link?"
+1d7c273b-0d2f-49fc-a3bb-77906a06e1c2,chat:u_barbara_u_maayan_student_magshimim,201,u_maayan_student_magshimim,u_barbara,2025-09-08 16:21:44,"Wow
+Good
+Hi, is there a link?","Hi, sending it in a moment
+Do you have Discord?"
+7780650b-3e26-4d19-bcc5-db480d15a8a3,chat:u_barbara_u_maayan_student_magshimim,202,u_barbara,u_maayan_student_magshimim,2025-09-10 18:56:08,"Hi, sending it in a moment
+Do you have Discord?",Yes
+2bbc1e8f-43dd-488d-af0e-4ec2a77d7781,chat:u_barbara_u_maayan_student_magshimim,203,u_maayan_student_magshimim,u_barbara,2025-09-10 18:56:33,Yes,Send your username
+ac8519e5-5299-405f-ae6f-d04c9ba15bb3,chat:u_barbara_u_maayan_student_magshimim,204,u_barbara,u_maayan_student_magshimim,2025-09-10 18:56:40,Send your username,_ethan2007
+3e98357d-d1d3-4474-895d-7770d76f40ec,chat:u_barbara_u_maayan_student_magshimim,205,u_maayan_student_magshimim,u_barbara,2025-09-10 18:57:22,_ethan2007,Are you connecting to the call?
+6a53b8aa-61e5-4373-b2fe-ce3d1d581d82,chat:u_barbara_u_maayan_student_magshimim,206,u_barbara,u_maayan_student_magshimim,2025-09-10 18:59:13,Are you connecting to the call?,"Yes
+sampled_data.csv ‎document omitted"
+4849ef57-f10e-4fc8-baf5-220a0cfcb794,chat:u_barbara_u_maayan_student_magshimim,207,u_maayan_student_magshimim,u_barbara,2025-09-10 18:59:58,"Yes
+sampled_data.csv ‎document omitted","Respond in the group, please :)"
+e6f5bbdb-09f6-4f5a-9506-efc80e6f3fd2,chat:u_barbara_u_maayan_student_magshimim,208,u_barbara,u_maayan_student_magshimim,2025-09-14 11:47:10,"Respond in the group, please :)","I'll be a bit late, I had a delay at school"
+cd1b356e-a5db-4720-8ec8-3b2d6ae5a58f,chat:u_barbara_u_maayan_student_magshimim,209,u_maayan_student_magshimim,u_barbara,2025-09-15 15:07:23,"I'll be a bit late, I had a delay at school","Okay
+Maayan, try to hurry up with the presentation correction. I divided the tasks among you in addition to the task you are doing together
+Hi, Maayan, you didn't schedule a meeting with me this week, when can you meet today? ‎<This message was edited>"
+14b467f9-f6e5-4ab7-9c94-0ebde3204a37,chat:u_barbara_u_maayan_student_magshimim,210,u_barbara,u_maayan_student_magshimim,2025-09-15 15:40:05,"Okay
+Maayan, try to hurry up with the presentation correction. I divided the tasks among you in addition to the task you are doing together
+Hi, Maayan, you didn't schedule a meeting with me this week, when can you meet today? ‎<This message was edited>","I can't today, and I didn't want to bother during the holiday
+And also Erez didn't finish his tasks"
+561ff55e-3fcd-44dc-836f-3005a4643868,chat:u_barbara_u_maayan_student_magshimim,211,u_maayan_student_magshimim,u_barbara,2025-09-25 14:38:22,"I can't today, and I didn't want to bother during the holiday
+And also Erez didn't finish his tasks",What about tomorrow?
+fe164551-9fdc-4f2c-b43e-572656880b5c,chat:u_barbara_u_maayan_student_magshimim,212,u_barbara,u_maayan_student_magshimim,2025-09-25 16:11:06,What about tomorrow?,I don't know yet
+e5f50413-f589-4078-b727-1a1070403199,chat:u_barbara_u_maayan_student_magshimim,213,u_maayan_student_magshimim,u_barbara,2025-09-25 16:12:48,I don't know yet,"And I need to schedule you for project approval, when can you meet? Next week there is: 1) Sunday - from 16:00 to 22:00 2) Monday - from 16:00 to 22:00 3) Tuesday - from 16:00 to 20:00 4) Wednesday - from 9:00 to 11:30"
+baa1d9a1-511c-49a4-bb9b-c3e9543e0619,chat:u_barbara_u_maayan_student_magshimim,214,u_barbara,u_maayan_student_magshimim,2025-09-25 16:13:35,"And I need to schedule you for project approval, when can you meet? Next week there is: 1) Sunday - from 16:00 to 22:00 2) Monday - from 16:00 to 22:00 3) Tuesday - from 16:00 to 20:00 4) Wednesday - from 9:00 to 11:30","Monday is possible
+Hi, I did this but the graphs came out very ugly, if you could take a look it would be nice"
+a4a29ca5-483d-4958-978e-6b4f71ee8562,chat:u_barbara_u_maayan_student_magshimim,215,u_maayan_student_magshimim,u_barbara,2025-09-25 18:56:41,"Monday is possible
+Hi, I did this but the graphs came out very ugly, if you could take a look it would be nice","I'm not in front of a computer right now
+Can you send it here?"
+454adf95-15fc-426b-8286-cd44e2689b87,chat:u_barbara_u_maayan_student_magshimim,216,u_barbara,u_maayan_student_magshimim,2025-09-27 15:03:48,"I'm not in front of a computer right now
+Can you send it here?","I'm sending it in a minute, and I also did a bit of research and understood that the label variable is also basically something we predict
+‎image omitted
+‎image omitted
+‎image omitted
+‎image omitted
+‎image omitted
+‎image omitted
+This is part of them, there are more, but what I did was take a sample of 2.5 million rows and worked with that, hope it's good"
+ae040a35-36ca-4768-9899-1a3277688813,chat:u_barbara_u_maayan_student_magshimim,217,u_maayan_student_magshimim,u_barbara,2025-09-27 15:05:44,"I'm sending it in a minute, and I also did a bit of research and understood that the label variable is also basically something we predict
+‎image omitted
+‎image omitted
+‎image omitted
+‎image omitted
+‎image omitted
+‎image omitted
+This is part of them, there are more, but what I did was take a sample of 2.5 million rows and worked with that, hope it's good","‎audio omitted
+‎audio omitted"
+7caf7e41-9b34-4f63-afcb-88412b004386,chat:u_barbara_u_maayan_student_magshimim,218,u_barbara,u_maayan_student_magshimim,2025-09-27 15:10:20,"‎audio omitted
+‎audio omitted",I did it in Loom so it would be more comfortable and also because I was a bit pressed for time
+531deac7-5b62-4627-92e0-682bf1cf64b3,chat:u_barbara_u_maayan_student_magshimim,219,u_maayan_student_magshimim,u_barbara,2025-09-27 15:11:42,I did it in Loom so it would be more comfortable and also because I was a bit pressed for time,I didn't understand
+9cddc73c-10f4-435c-b9bf-51b5bfd827da,chat:u_barbara_u_maayan_student_magshimim,220,u_barbara,u_maayan_student_magshimim,2025-09-27 15:12:04,I didn't understand,"I didn't have time to go over variable by variable to fit the graph to each one, I'll do that later"
+f4b1b520-c323-45c4-9542-aba524a175a3,chat:u_barbara_u_maayan_student_magshimim,221,u_maayan_student_magshimim,u_barbara,2025-09-27 15:12:46,"I didn't have time to go over variable by variable to fit the graph to each one, I'll do that later","Okay, but generally it looks consistent
+I don't understand what the problem is
+`label` is a variable you are not using
+You are using a different variable"
+a2739679-b995-4960-ab32-b0aabd73ea7e,chat:u_barbara_u_maayan_student_magshimim,222,u_barbara,u_maayan_student_magshimim,2025-09-27 15:13:24,"Okay, but generally it looks consistent
+I don't understand what the problem is
+`label` is a variable you are not using
+You are using a different variable","Yes, but it says if it's an attack and if it's normal
+So that also integrates into our research question, but models can predict two things, right?
+Hi, I wanted to ask what will happen during the meeting tomorrow?"
+2e8463eb-862e-4ff4-b634-4c447fc77846,chat:u_barbara_u_maayan_student_magshimim,223,u_maayan_student_magshimim,u_barbara,2025-09-27 15:16:25,"Yes, but it says if it's an attack and if it's normal
+So that also integrates into our research question, but models can predict two things, right?
+Hi, I wanted to ask what will happen during the meeting tomorrow?","You will present the presentation, show what you intend to do in the work and get approval
+Did you finish the presentation?"
+ff35dc1f-3b07-4959-84eb-517398afd683,chat:u_barbara_u_maayan_student_magshimim,224,u_barbara,u_maayan_student_magshimim,2025-09-28 21:43:38,"You will present the presentation, show what you intend to do in the work and get approval
+Did you finish the presentation?",Erez said he would finish today
+5c1db33a-eb32-42fc-ad1c-110ce83e7136,chat:u_barbara_u_maayan_student_magshimim,225,u_maayan_student_magshimim,u_barbara,2025-09-28 21:58:32,Erez said he would finish today,When are you presenting?
+48951913-4992-4f44-bd18-461436b42142,chat:u_barbara_u_maayan_student_magshimim,226,u_barbara,u_maayan_student_magshimim,2025-09-28 22:29:16,When are you presenting?,6
+147b8715-68da-428d-ae27-2fc8fdfa0501,chat:u_barbara_u_maayan_student_magshimim,227,u_maayan_student_magshimim,u_barbara,2025-09-29 06:38:18,6,"Did you finish everything?
+I recommend reviewing the presentation beforehand
+Do a simulation"
+6acfed69-79d2-4dec-9884-e346c5d2ed37,chat:u_barbara_u_maayan_student_magshimim,228,u_barbara,u_maayan_student_magshimim,2025-09-29 11:12:35,"Did you finish everything?
+I recommend reviewing the presentation beforehand
+Do a simulation",I'll check with Erez
+11a6d522-a10c-403a-8788-c5d20dc7d936,chat:u_barbara_u_maayan_student_magshimim,229,u_maayan_student_magshimim,u_barbara,2025-09-29 11:14:18,I'll check with Erez,I checked with him
+0c939e83-ad95-4954-a142-0c1e75353a3a,chat:u_barbara_u_maayan_student_magshimim,230,u_barbara,u_maayan_student_magshimim,2025-09-29 11:14:28,I checked with him,"But the part I did, how do I make sure I did it right"
+7a17f129-2c5b-46b2-9a42-2fa71e6e1d55,chat:u_barbara_u_maayan_student_magshimim,231,u_maayan_student_magshimim,u_barbara,2025-09-29 11:14:36,"But the part I did, how do I make sure I did it right",Send me your notebook
+3754677e-fbe7-4151-8d0c-3094856f29a0,chat:u_barbara_u_maayan_student_magshimim,232,u_barbara,u_maayan_student_magshimim,2025-09-29 11:14:45,Send me your notebook,"It's the one in the folder, I'm at school"
+fc949d1b-5601-4da7-ae51-ef041bae6c91,chat:u_barbara_u_maayan_student_magshimim,233,u_maayan_student_magshimim,u_barbara,2025-09-29 11:15:26,"It's the one in the folder, I'm at school",Send it to me when you're home
+14c9497f-725f-47c0-b3fb-142dbac54c8f,chat:u_barbara_u_maayan_student_magshimim,234,u_barbara,u_maayan_student_magshimim,2025-09-29 11:17:21,Send it to me when you're home,"https://colab.research.google.com/drive/1rs7Md01Bgs1I72lJJqNf4TgGPXOBT0l
+This should be it, I can't open it through the phone"
+5fb30267-dddf-46c8-b279-208f2b89457b,chat:u_barbara_u_maayan_student_magshimim,235,u_maayan_student_magshimim,u_barbara,2025-09-29 11:26:33,"https://colab.research.google.com/drive/1rs7Md01Bgs1I72lJJqNf4TgGPXOBT0l
+This should be it, I can't open it through the phone","Without delving into it, everything looks excellent!
+If they ask on Zoom, maybe present what you've done so far and explain a bit"
+6d88b888-1db9-4594-9fab-eb273c5a76d3,chat:u_barbara_u_maayan_student_magshimim,236,u_barbara,u_maayan_student_magshimim,2025-09-29 11:28:44,"Without delving into it, everything looks excellent!
+If they ask on Zoom, maybe present what you've done so far and explain a bit","Okay
+Is it recommended to run the notebook beforehand, right?"
+447901bf-bcee-4486-9ce7-4d1d72a06786,chat:u_barbara_u_maayan_student_magshimim,237,u_maayan_student_magshimim,u_barbara,2025-09-29 11:29:56,"Okay
+Is it recommended to run the notebook beforehand, right?",It's advisable
+7ca4aace-ba2d-4d43-8ccf-a9dc745f931f,chat:u_barbara_u_maayan_student_magshimim,238,u_barbara,u_maayan_student_magshimim,2025-09-29 16:04:02,It's advisable,"How do I ensure the notebook stays connected? I mean, so I don't have to re-upload the file and re-run it?"
+7bfc23ec-73e3-43e3-8164-7d140de27925,chat:u_barbara_u_maayan_student_magshimim,239,u_maayan_student_magshimim,u_barbara,2025-09-29 16:05:29,"How do I ensure the notebook stays connected? I mean, so I don't have to re-upload the file and re-run it?",Do you always run it in Google Colab?
+d9a4bc75-d470-4fd3-b94a-9207be2bd4ea,chat:u_barbara_u_maayan_student_magshimim,240,u_barbara,u_maayan_student_magshimim,2025-09-29 16:05:53,Do you always run it in Google Colab?,Yes
+999eb803-5744-48c5-9f24-16aefc9a91a4,chat:u_barbara_u_maayan_student_magshimim,241,u_maayan_student_magshimim,u_barbara,2025-09-29 16:07:33,Yes,Mainly good internet connection
+5f61dd6a-a1cf-49d7-aa46-b0747777ba5e,chat:u_barbara_u_maayan_student_magshimim,242,u_barbara,u_maayan_student_magshimim,2025-09-29 16:08:11,Mainly good internet connection,Okay
+e0b4d4a1-4859-40fa-a195-f5b5db7af309,chat:u_barbara_u_maayan_student_magshimim,243,u_maayan_student_magshimim,u_barbara,2025-09-29 16:17:31,Okay,‎audio omitted
+5ba8fc35-afa5-4bf0-989e-e4add5d6d4c0,chat:u_barbara_u_maayan_student_magshimim,244,u_barbara,u_maayan_student_magshimim,2025-09-29 16:18:05,‎audio omitted,"Okay
+‎Voice call, ‎1 min
+When will we know if we were approved?"
+9ad77cc0-3033-4995-b399-f3b913821810,chat:u_barbara_u_maayan_student_magshimim,245,u_maayan_student_magshimim,u_barbara,2025-09-29 16:25:17,"Okay
+‎Voice call, ‎1 min
+When will we know if we were approved?","Didn't they tell you?
+They will probably update me
+You are the first ones so I don't know"
+c945a522-d331-4954-852b-12e89a740f16,chat:u_barbara_u_maayan_student_magshimim,246,u_barbara,u_maayan_student_magshimim,2025-09-29 20:12:17,"Didn't they tell you?
+They will probably update me
+You are the first ones so I don't know","Okay
+Hi, I'm currently in poor health, I can't make progress in Magshimim right now, I have an appointment for blood tests on Wednesday and then I'll know how to proceed"
+26c08f0a-fe36-4799-a0c5-1fc1bfc0e91b,chat:u_barbara_u_maayan_student_magshimim,247,u_maayan_student_magshimim,u_barbara,2025-09-29 20:17:14,"Okay
+Hi, I'm currently in poor health, I can't make progress in Magshimim right now, I have an appointment for blood tests on Wednesday and then I'll know how to proceed","Oh, Maayan, what happened?
+Do you want to talk to me on the phone later? Maybe I'll find a way to help you? Maybe in the meantime I'll give Erez a few more tasks and you focus on your health"
+e7dfd96a-96a4-4ac8-b119-40620a6fd566,chat:u_barbara_u_maayan_student_magshimim,248,u_barbara,u_maayan_student_magshimim,2025-10-19 17:43:09,"Oh, Maayan, what happened?
+Do you want to talk to me on the phone later? Maybe I'll find a way to help you? Maybe in the meantime I'll give Erez a few more tasks and you focus on your health","I can't really talk now, but in the meantime I'm focusing less on Magshimim
+I'm tired and can't do much, so I'm going for blood tests soon"
+f565f825-934b-447f-b428-c834435c3372,chat:u_barbara_u_maayan_student_magshimim,249,u_maayan_student_magshimim,u_barbara,2025-10-19 17:56:20,"I can't really talk now, but in the meantime I'm focusing less on Magshimim
+I'm tired and can't do much, so I'm going for blood tests soon","Of course, that's fine, I'll talk to Erez in the meantime, the tasks aren't complicated right now so he'll manage
+Hi, how have you been feeling lately?"
+a21920d3-bcb0-4eec-955d-c2186261272a,chat:u_barbara_u_maayan_student_magshimim,250,u_barbara,u_maayan_student_magshimim,2025-10-20 22:27:22,"Of course, that's fine, I'll talk to Erez in the meantime, the tasks aren't complicated right now so he'll manage
+Hi, how have you been feeling lately?","Getting better, I want to try to get back involved in the project"
+d895ea79-dffd-44a4-a130-5f6ab7f61ec0,chat:u_barbara_u_maayan_student_magshimim,251,u_maayan_student_magshimim,u_barbara,2025-11-06 12:00:04,"Getting better, I want to try to get back involved in the project","Okay, slowly, slowly.
+Were the tests okay?"
+789f0001-ba50-4043-9679-61b4458fd691,chat:u_barbara_u_maayan_student_magshimim,252,u_barbara,u_maayan_student_magshimim,2025-11-06 12:01:09,"Okay, slowly, slowly.
+Were the tests okay?","Yes
+They are still trying to figure out what it is"
+f49b57a8-fa47-4736-b00d-3403c8a36576,chat:u_barbara_u_maayan_student_magshimim,253,u_maayan_student_magshimim,u_barbara,2025-11-06 12:01:33,"Yes
+They are still trying to figure out what it is","Good, I really, really hope it's nothing serious
+We would be very happy to see you!"
+fa358439-be42-4245-8cc0-70bcb8a1d052,chat:u_barbara_u_maayan_student_magshimim,254,u_barbara,u_maayan_student_magshimim,2025-11-06 12:02:00,"Good, I really, really hope it's nothing serious
+We would be very happy to see you!","Yes, I need to check if I'll be home at that time, but yes"
+da091957-1ecf-4f58-bff7-3f92805c0ea6,chat:u_barbara_u_maayan_student_magshimim,255,u_maayan_student_magshimim,u_barbara,2025-11-06 12:02:45,"Yes, I need to check if I'll be home at that time, but yes",Update me if not!
+eaeaec70-b19f-4af4-8bed-2804fbe7ec75,chat:u_barbara_u_maayan_student_magshimim,256,u_barbara,u_maayan_student_magshimim,2025-11-06 12:02:55,Update me if not!,Okay
+78274cb0-f9e3-4ccc-97dc-462a9240fc96,chat:u_barbara_u_maayan_student_magshimim,257,u_maayan_student_magshimim,u_barbara,2025-11-06 12:03:17,Okay,"And I hope you feel free to contact me about anything!
+🫶🏻
+Do you want us to do a quick Discord call today so I can bring you up to speed
+Up to 20 minutes :)"
+4378d56f-b70b-4dce-a3f8-1b12aff2f816,chat:u_barbara_u_maayan_student_magshimim,258,u_barbara,u_maayan_student_magshimim,2025-11-06 12:03:17,"And I hope you feel free to contact me about anything!
+🫶🏻
+Do you want us to do a quick Discord call today so I can bring you up to speed
+Up to 20 minutes :)","Yes, I prefer that because I probably won't be able to come tomorrow"
+33ff1b45-6de0-4d46-8f59-3b3048bb4900,chat:u_barbara_u_maayan_student_magshimim,259,u_maayan_student_magshimim,u_barbara,2025-11-07 12:15:38,"Yes, I prefer that because I probably won't be able to come tomorrow",Can you in another hour?
+c3a12f27-873c-4b4f-aea4-ba955d9af543,chat:u_barbara_u_maayan_student_magshimim,260,u_barbara,u_maayan_student_magshimim,2025-11-07 12:25:23,Can you in another hour?,Yes
+0c324263-9413-463e-902d-f1eb0d44d6e8,chat:u_barbara_u_maayan_student_magshimim,261,u_maayan_student_magshimim,u_barbara,2025-11-07 12:25:44,Yes,"Okay, I'll send a message before I call :)
+Hi, are you free now?"
+1b335b2f-3360-4c46-9eaa-a10259c5bb7e,chat:u_barbara_u_maayan_student_magshimim,262,u_barbara,u_maayan_student_magshimim,2025-11-07 12:25:54,"Okay, I'll send a message before I call :)
+Hi, are you free now?","Yes
+I'm up for it
+I don't really have a problem"
+4a4e4d65-fed2-44d3-9422-11e3da67643d,chat:u_barbara_u_maayan_student_magshimim,263,u_maayan_student_magshimim,u_barbara,2025-11-07 14:04:49,"Yes
+I'm up for it
+I don't really have a problem","Hi, Maayan, will you be able to meet today for polishing and final comments?"
+fd09a3ba-cfad-4059-b597-b71aeb5b00e8,chat:u_barbara_u_maayan_student_magshimim,264,u_barbara,u_maayan_student_magshimim,2025-11-10 11:39:10,"Hi, Maayan, will you be able to meet today for polishing and final comments?","Yes, but depends when
+Is seven the only option?"
+62a2d762-b9c8-416c-8b7a-142bc5044f3a,chat:u_barbara_u_maayan_student_magshimim,265,u_maayan_student_magshimim,u_barbara,2025-11-10 11:45:01,"Yes, but depends when
+Is seven the only option?","No, no, ignore what I sent in the group
+When can you today?
+It's purely for final comments
+It shouldn't be too long (but it could be around 40 minutes)"
+577cd182-ba21-4d1a-9215-91876431245c,chat:u_barbara_u_maayan_student_magshimim,266,u_barbara,u_maayan_student_magshimim,2025-11-10 11:47:27,"No, no, ignore what I sent in the group
+When can you today?
+It's purely for final comments
+It shouldn't be too long (but it could be around 40 minutes)","I get home around four, so can we do a quarter to five?
+But I still haven't managed to do significant work, right now my energy only allows copying from ChatGPT ‎<This message was edited>"
+6d2823d0-984e-464a-a26f-60eaf2de0593,chat:u_barbara_u_maayan_student_magshimim,267,u_maayan_student_magshimim,u_barbara,2025-11-10 11:48:05,"I get home around four, so can we do a quarter to five?
+But I still haven't managed to do significant work, right now my energy only allows copying from ChatGPT ‎<This message was edited>","Okay, one minute, checking with Erez"
+cdd0c015-d107-49bf-b4fd-6359baa81655,chat:u_barbara_u_maayan_student_magshimim,268,u_barbara,u_maayan_student_magshimim,2025-11-10 11:48:52,"Okay, one minute, checking with Erez",I don't want to do shallow work
+2b96f4fb-2280-4b32-9bec-840ea89f5f62,chat:u_barbara_u_maayan_student_magshimim,269,u_maayan_student_magshimim,u_barbara,2025-11-10 11:49:11,I don't want to do shallow work,That's fine as long as it's just copying one-to-one lolll
+9e63d797-175b-46bf-860e-f558a9caace8,chat:u_barbara_u_maayan_student_magshimim,270,u_barbara,u_maayan_student_magshimim,2025-11-10 11:49:19,That's fine as long as it's just copying one-to-one lolll,"Yes, but you need to present to you afterwards, so if I copy and don't learn, what's the point"
+b56bf8be-d80a-417f-9bbc-c8ca358200c1,chat:u_barbara_u_maayan_student_magshimim,271,u_maayan_student_magshimim,u_barbara,2025-11-10 11:49:47,"Yes, but you need to present to you afterwards, so if I copy and don't learn, what's the point","No, you do need to learn, it's just fine to learn through chat, that's the meaning
+Look, in any case I want to meet with both of you and guide you
+When are you free? Tomorrow I'm busier, so if it can be today, I'd really appreciate it"
+7e79001b-8706-4aa0-bf05-295b7ef8fec3,chat:u_barbara_u_maayan_student_magshimim,272,u_barbara,u_maayan_student_magshimim,2025-11-10 12:22:34,"No, you do need to learn, it's just fine to learn through chat, that's the meaning
+Look, in any case I want to meet with both of you and guide you
+When are you free? Tomorrow I'm busier, so if it can be today, I'd really appreciate it",.
+fc8bf260-8042-4821-a1bc-ef5f5b7b2c0d,chat:u_barbara_u_maayan_student_magshimim,273,u_maayan_student_magshimim,u_barbara,2025-11-10 12:23:42,.,"Let's do five so you can eat and rest properly?
+I'll check with Erez"
+04082b93-1a0a-4417-b183-3884e71c5f33,chat:u_barbara_u_maayan_student_magshimim,274,u_barbara,u_maayan_student_magshimim,2025-11-10 12:24:03,"Let's do five so you can eat and rest properly?
+I'll check with Erez","Okay
+Hi, when are we presenting the presentation, because I don't feel ready for the things I didn't do, which is most of it"
+2bdb04b7-f0bd-40aa-80bb-9a42d309dcfd,chat:u_barbara_u_maayan_student_magshimim,275,u_maayan_student_magshimim,u_barbara,2025-11-10 12:24:15,"Okay
+Hi, when are we presenting the presentation, because I don't feel ready for the things I didn't do, which is most of it",We scheduled that you are presenting tomorrow
+27f4886d-8084-4d31-a827-06e1b49e66e0,chat:u_barbara_u_maayan_student_magshimim,276,u_barbara,u_maayan_student_magshimim,2025-11-14 20:02:14,We scheduled that you are presenting tomorrow,Okay
+05b30b36-3552-43ba-abc3-48522d141f59,chat:u_barbara_u_maayan_student_magshimim,277,u_maayan_student_magshimim,u_barbara,2025-11-14 20:02:30,Okay,"If you are not ready at all, then we can postpone to next week, but it is not recommended ‎<This message was edited>
+We scheduled tomorrow at 17:00"
+9f6d413a-0d3f-4882-892f-11916961c163,chat:u_barbara_u_maayan_student_magshimim,278,u_barbara,u_maayan_student_magshimim,2025-11-14 20:02:34,"If you are not ready at all, then we can postpone to next week, but it is not recommended ‎<This message was edited>
+We scheduled tomorrow at 17:00","Next week is worse, I just need to divide the work with Erez"
+a16fa858-c1df-485a-be3a-fed2a332cad9,chat:u_barbara_u_maayan_student_magshimim,279,u_maayan_student_magshimim,u_barbara,2025-11-14 20:03:00,"Next week is worse, I just need to divide the work with Erez",Do you want to meet tomorrow but later?
+9167b900-e296-405f-94aa-7b9792545fe6,chat:u_barbara_u_maayan_student_magshimim,280,u_barbara,u_maayan_student_magshimim,2025-11-14 20:06:09,Do you want to meet tomorrow but later?,"No, I don't have the energy for this anymore, I'll just coordinate with Erez"
+2e61b7c8-c379-4f0d-bd23-20cc8d76b95e,chat:u_barbara_u_maayan_student_magshimim,281,u_maayan_student_magshimim,u_barbara,2025-11-14 20:06:56,"No, I don't have the energy for this anymore, I'll just coordinate with Erez","Okay 🫶🏻
+Will you be able to meet with me later
+Around 19:30?"
+171bc9b2-2e7f-4cf5-ac66-e815dca9832a,chat:u_barbara_u_maayan_student_magshimim,282,u_barbara,u_maayan_student_magshimim,2025-11-14 20:07:35,"Okay 🫶🏻
+Will you be able to meet with me later
+Around 19:30?","I don't have a problem, ask Erez"
+668bdc2a-d493-4d2e-87c4-112ec9cebf2d,chat:u_barbara_u_maayan_student_magshimim,283,u_maayan_student_magshimim,u_barbara,2025-11-15 14:38:32,"I don't have a problem, ask Erez","He doesn't have a problem, so today at 19:30"
+634a0624-897a-47bb-bc81-cc261c7b6db7,chat:u_barbara_u_maayan_student_magshimim,284,u_barbara,u_maayan_student_magshimim,2025-11-15 14:39:29,"He doesn't have a problem, so today at 19:30","Okay
+Hi, can I get initial feedback on how I presented? Because it was really with minimal learning"
+cfe102d8-0e3a-4a39-9b4d-9cbf207ecb81,chat:u_barbara_u_maayan_student_magshimim,285,u_maayan_student_magshimim,u_barbara,2025-11-15 14:39:39,"Okay
+Hi, can I get initial feedback on how I presented? Because it was really with minimal learning","I'm with another pair
+I'll talk to you later"
+51e812e8-7bd3-4526-bd0c-4fedc4e062da,chat:u_barbara_u_maayan_student_magshimim,286,u_barbara,u_maayan_student_magshimim,2025-11-15 20:20:57,"I'm with another pair
+I'll talk to you later","Oh
+Okay"
+5795e97c-31a6-42f0-8bb9-590815e1d168,chat:u_barbara_u_maayan_student_magshimim,287,u_maayan_student_magshimim,u_barbara,2025-11-15 20:21:06,"Oh
+Okay",<EOC>
