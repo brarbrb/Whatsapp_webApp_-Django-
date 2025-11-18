@@ -1,10 +1,9 @@
 import json, re
 from collections import Counter
 
-INPUT = "./gens_orig_llama.jsonl"
-# OUTPUT = "/home/student/Whatsapp_webApp_-Django-/fine_tune_data/bbt_test_cleaned.jsonl"
-# gens_path = "/home/student/Whatsapp_webApp_-Django-/gens_cache_cleaned.jsonl"
-# OUTPUT = "/home/student/Whatsapp_webApp_-Django-/gens_cache_cleaned.jsonl"
+INPUT = "./Fine_Tune/fine_tune_data/bbt_val_cleaned.jsonl"
+OUTPUT = "./Fine_Tune/fine_tune_data/bbt_val_cleaned.jsonl"
+
 
 SMALL_VALID_SPEAKERS = [
     "Sheldon",
@@ -94,45 +93,51 @@ def is_valid_exact(s: str) -> bool:
     return s in SMALL_VALID_SPEAKERS
 
 
-rows = []
-with open(INPUT, "r", encoding="utf-8") as f:
-    for line in f:
-        line = line.strip()
-        if not line:
-            continue
-        try:
-            obj = json.loads(line)
-        except json.JSONDecodeError:
-            continue
-        # normalize first
-        norm = normalize_speaker(obj.get("target_speaker", ""))
-        obj["target_speaker"] = norm
-        rows.append(obj)
+def main():
 
-# split after normalization
-good = [r for r in rows if is_valid_exact(r.get("target_speaker", ""))]
-bad = [r for r in rows if not is_valid_exact(r.get("target_speaker", ""))]
+    rows = []
+    with open(INPUT, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                obj = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            # normalize first
+            norm = normalize_speaker(obj.get("target_speaker", ""))
+            obj["target_speaker"] = norm
+            rows.append(obj)
 
-print(f"Total rows: {len(rows)}")
-print(f" Valid rows: {len(good)}")
-print(f" Invalid rows: {len(bad)}")
+    # split after normalization
+    good = [r for r in rows if is_valid_exact(r.get("target_speaker", ""))]
+    bad = [r for r in rows if not is_valid_exact(r.get("target_speaker", ""))]
 
-# histogram on normalized speakers (all rows so you can inspect bad labels too)
-speaker_hist = Counter(r.get("target_speaker", "") for r in rows)
-print("\nSpeaker histogram (normalized):")
-for spk, count in sorted(speaker_hist.items(), key=lambda x: (-x[1], x[0])):
-    print(f"{spk:12s} {count}")
+    print(f"Total rows: {len(rows)}")
+    print(f" Valid rows: {len(good)}")
+    print(f" Invalid rows: {len(bad)}")
 
-# peek a few bad labels to see what's left
-if bad:
-    sample = Counter(r.get("target_speaker", "") for r in bad).most_common(15)
-    print("\nTop bad labels after normalization:")
-    for spk, cnt in sample:
-        print(f"{spk:12s} {cnt}")
+    # histogram on normalized speakers (all rows so you can inspect bad labels too)
+    speaker_hist = Counter(r.get("target_speaker", "") for r in rows)
+    print("\nSpeaker histogram (normalized):")
+    for spk, count in sorted(speaker_hist.items(), key=lambda x: (-x[1], x[0])):
+        print(f"{spk:12s} {count}")
 
-# # write cleaned file with only valid rows
-# with open(OUTPUT, "w", encoding="utf-8") as f:
-#     for r in good:
-#         f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    # peek a few bad labels to see what's left
+    if bad:
+        sample = Counter(r.get("target_speaker", "") for r in bad).most_common(15)
+        print("\nTop bad labels after normalization:")
+        for spk, cnt in sample:
+            print(f"{spk:12s} {cnt}")
 
-# print(f"\nCleaned file saved: {OUTPUT}")
+
+    # # write cleaned file with only valid rows
+    # with open(OUTPUT, "w", encoding="utf-8") as f:
+    #     for r in good:
+    #         f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+    # print(f"\nCleaned file saved: {OUTPUT}")
+
+if __name__ == "__main__":
+    main()
