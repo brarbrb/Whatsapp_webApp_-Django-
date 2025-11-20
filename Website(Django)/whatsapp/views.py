@@ -118,9 +118,6 @@ def ingest_session_state(request, session_id):
     Node tells us when session state changes.
     through this endpoint: /ingest/session/<session_id>/state
     """
-    # Very simple shared-secret check to avoid randoms hitting this endpoint
-    # shared = getattr(settings, "NODE_SHARED_SECRET", "")
-    # node_secret = request.headers.get("X-Node-Secret", "")
     if not _check_node_secret(request):
         return HttpResponseForbidden("incorrect secret")
     
@@ -134,10 +131,6 @@ def ingest_session_state(request, session_id):
     sess = Session.objects.filter(id=session_id).first()
     if not sess:
         return JsonResponse({"error": "session_not_found"}, status=404) # convention (from SE in ML course)
-
-    # valid_states = {c[0] for c in Session.State.choices}
-    # if state not in valid_states:
-    #     return HttpResponseBadRequest("invalid state")
 
     sess.state = state
     sess.last_state_change = datetime.now() 
@@ -201,7 +194,6 @@ def unread_page(request):
     Shows the list of unread chats with number of unread messages.
     Note that it assumes single active user/session (for production needs to be updated!).
     """
-    # take latest active, READY session (since we assume single-user for now)
     sess = (
         Session.objects.filter(is_active=True, state=Session.State.READY)
         .order_by("-started_at")
@@ -210,7 +202,6 @@ def unread_page(request):
     if not sess:
         return JsonResponse({"error": "session_not_found"}, status=404)
 
-    # Group unread messages by chat_id, count messages, get latest timestamp
     chat_summaries = (
         UnreadSession.objects.filter(session=sess)
         .values("chat_id").annotate(

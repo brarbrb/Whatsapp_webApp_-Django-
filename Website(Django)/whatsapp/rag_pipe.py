@@ -36,19 +36,12 @@ def upsert_vectors(
     """
     print("Upserting the embeddings to the Pinecone index...")
 
-    # Get all column names except 'embedding' for metadata
     metadata_fields = [col for col in dataset.columns if col != "embedding"]
-
-    # Generate unique IDs for each row
     ids = [str(i) for i in range(len(dataset))]
-
-    # Build metadata dict for each row
     meta = []
     for _, row in dataset.iterrows():
         entry = {col: row[col] for col in metadata_fields}
         meta.append(entry)
-
-    # Create list of (id, vector, metadata) tuples for upserting
     to_upsert = list(zip(ids, embeddings, meta))
 
     # Upsert in batches
@@ -69,17 +62,13 @@ def augment_prompt(
 ) -> str:
 
     results = [float(val) for val in list(model.encode(query))]
-
-    # get top 10 results from knowledge base
     query_results = index.query(
         vector=results, top_k=5, include_values=True, include_metadata=True
     )["matches"]
     text_matches = [match["metadata"]["answer"] for match in query_results]
 
-    # get the text from the results
+    # get the text from the results that is feeded to aug. prompt
     answers = "\n\n".join(text_matches)
-
-    # feed into an augmented prompt
     improved_prompt = f"""
     
       You write WhatsApp replies *exactly as the user would*.
@@ -257,7 +246,7 @@ def build_context(
     """
     conv_df = (
         df[df["conv_id"] == conv_id]
-        .sort_values("sent_at")  # or 'conv_turn' if you prefer
+        .sort_values("sent_at")
         .tail(k)
     )
 
@@ -304,11 +293,9 @@ class WhatsAppRAG:
         self.k_style_messages = k_style_messages
         self.k_context_messages = k_context_messages
 
-        # -------- Embedding model --------
         print("Loading embedding model...")
         self.embed_model = SentenceTransformer(embedding_model_name)
 
-        # -------- Load & embed KB --------
         print(f"Loading KB from: {kb_path}")
         kb_df = pd.read_csv(kb_path)
         self.kb_df_all, self.embeddings_all = load_and_embedd_dataset(
@@ -322,11 +309,8 @@ class WhatsAppRAG:
             .reset_index(drop=True)
         )
 
-        # Align embeddings with kb_df_for_user (same order & length)
-        # We already stored embeddings in the 'embedding' column as numpy arrays.
         self.embeddings_for_user = np.stack(self.kb_df_for_user["embedding"].to_numpy())
 
-        # -------- Pinecone index & upsert --------
         dim = self.embeddings_for_user.shape[1]
         self.pc = create_pinecone_index(self.index_name, dimension=dim)
 
@@ -336,7 +320,6 @@ class WhatsAppRAG:
         # Upsert only the entries for this user
         upsert_vectors(self.index, self.kb_df_for_user, self.embeddings_for_user)
 
-        # -------- User style --------
         _, self.user_style_examples = build_user_style(
             self.kb_df_all,
             user_id=self.receiver_user_id,
@@ -352,7 +335,7 @@ class WhatsAppRAG:
 
         print("RAG initialization complete.")
 
-    # ------------------------------------------------------------------
+
     def _build_context(self, conv_id: str | None = None, k: int | None = None) -> str:
         """
         Internal helper: build recent conversation context.
@@ -380,7 +363,6 @@ class WhatsAppRAG:
         )
         return improved_prompt
 
-    # ------------------------------------------------------------------
     def generate_reply(
         self,
         query: str,
@@ -391,16 +373,12 @@ class WhatsAppRAG:
         """
         Public method: take a new incoming message and return a WhatsApp-style reply.
         """
-        # Build context from the KB
         context = self._build_context(conv_id=conv_id, k=k_context)
-        # Build augmented prompt
         augmented_prompt = self._build_augmented_prompt(query=query, context=context, instructions=instructions)
-        # Call Cohere
         response = self.cohere_client.chat(
             model=self.cohere_model_name,
             message=augmented_prompt,
         )
-        # Return just the text (the WhatsApp-style answer)
         return response.text
 
 
