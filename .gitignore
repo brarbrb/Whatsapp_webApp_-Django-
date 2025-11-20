@@ -203,3 +203,4 @@ sessions
 __pycache__
 .wwebjs_cache
 .env
+distilled
