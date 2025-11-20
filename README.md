@@ -31,7 +31,7 @@ The application may also include WhatsApp integration for chatbot functionality.
 
 ## **Architecture**
 
-The project is divided into the following components:
+The project is composed of these components:
 
 1. **Data Preprocessing**:
 
