@@ -6,6 +6,8 @@ This project is a Django-based web application that integrates machine learning 
 🎥 Demonstration of our tool: 
 [DEMO](https://drive.google.com/file/d/1t1sn073fCFUXyf07_Q2tA7RvrH61Qfek/view?usp=sharing)
 
+<img width="1280" height="587" alt="image" src="https://github.com/user-attachments/assets/3f7f19aa-5476-41f0-9be5-481a05205f91" />
+
 ---
 
 ## **Table of Contents**
