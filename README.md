@@ -1,6 +1,7 @@
 # **WhatsApp WebApp with Django**
 
 This project is a Django-based web application that integrates machine learning pipelines for data preprocessing, fine-tuning models, and retrieval-augmented generation (RAG). It provides a platform for deploying AI-powered applications, potentially including chatbots, knowledge retrieval systems, and more.
+
 ![Alt text](Website(Django)/login.png)
 ---
 
