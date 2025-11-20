@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+[29/08/2018, 12:39:32] Vika⭐️: Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
+>>>>>>> django-scraper-clean
 ‎[29/08/2018, 12:39:32] Vika⭐️: ‎image omitted
 ‎[29/08/2018, 12:39:33] Vika⭐️: ‎image omitted
 ‎[01/09/2018, 20:56:40] Vika⭐️: ‎video omitted

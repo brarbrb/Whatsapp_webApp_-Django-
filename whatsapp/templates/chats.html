@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unread WhatsApp Chats</title>
+
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body class="bg">
+
+<div class="topbar">
+    <div class="brand">
+        <div class="logo">
+            <span>W</span>
+        </div>
+        <div class="brand-text">WhatsReply</div>
+    </div>
+    <nav class="nav">
+        <a href="{% url 'login_page' %}" class="nav-link">Login</a>
+        <a href="{% url 'unread_page' %}" class="nav-link">Unread</a>
+    </nav>
+</div>
+
+<div class="content">
+
+    <div class="card" style="margin-bottom: 20px;">
+        <div class="hero" style="text-align: left; max-width: none;">
+            <h1>Your unread WhatsApp chats</h1>
+            <p class="muted">
+                <!-- Session: {{ session.id }}  it was used in debuging-->
+                {% if unreads %}
+                    &nbsp;&middot;&nbsp; Yo have total of {{ unreads|length }} unread messages
+                {% else %}
+                    &nbsp;&middot;&nbsp; No unread messages.
+                {% endif %}
+            </p>
+        </div>
+    </div>
+
+    {% if unreads %}
+        {# Group unread messages by chat_id #}
+        {% regroup unreads by chat_id as chats_by_id %}
+
+        <div class="grid-2">
+            {% for chat_group in chats_by_id %}
+                {# chat_group.grouper = chat_id, chat_group.list = list of UnreadSession #}
+                {% with last=chat_group.list|last %}
+                    <a href="{% url 'chat_detail' chat_id=chat_group.grouper %}" style="text-decoration: none; color: inherit;">
+                        <div class="card" style="cursor: pointer;">
+                            <div class="chat-item">
+                                <div class="avatar">
+                                    {{ chat_group.grouper|slice:":2"|upper }}
+                                </div>
+                                <div>
+                                    <div class="title">
+                                        {{ last.sender|default:chat_group.grouper }}
+                                    </div>
+                                    <div class="subtitle">
+                                        {{ last.body|default:"(no text)" }}
+                                    </div>
+                                    {% if last.msg_ts %}
+                                        <div class="muted" style="margin-top: 4px; font-size: 0.85em;">
+                                            {{ last.msg_ts|date:"Y-m-d H:i" }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                {% endwith %}
+            {% endfor %}
+        </div>
+
+    {% else %}
+        <div class="center-wrap" style="padding-top: 10px;">
+            <div class="card hero">
+                <h1>No unread messages 🎉</h1>
+                <p class="muted">
+                    We didn't find any unread messages for this WhatsApp Web session.
+                </p>
+                <a href="{% url 'login_page' %}" class="btn btn-primary">
+                    Back to login
+                </a>
+            </div>
+        </div>
+    {% endif %}
+</div>
+
+<div class="foot">
+    <span class="muted">Barbara · Anat · Ran · Alon</span>
+</div>
+
+</body>
+</html>

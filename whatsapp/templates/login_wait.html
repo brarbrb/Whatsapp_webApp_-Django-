@@ -1,0 +1,66 @@
+<!doctype html>
+{% load static %}
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="refresh" content="3"> <!-- auto-refresh every 3s -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scan QR — WhatsToReply</title>
+  <link rel="stylesheet" href="{% static 'styles.css' %}" />
+</head>
+<body class="bg">
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">💬</div>
+      <div class="brand-text">WhatsToReply</div>
+    </div>
+  </header>
+
+  <main class="center-wrap">
+    <section class="card hero">
+      <h1>Scan to connect</h1>
+      <p class="muted">
+        {% if session.state == 'authenticated' %}
+          Authenticated — finalizing…
+        {% elif session.state == 'pending' %}
+          Waiting for authentication…
+        {% elif session.state == 'failed' or session.state == 'disconnected' %}
+          Connection problem — new QR is shown below. Please rescan.
+        {% else %}
+          Status: {{ session.state }}
+        {% endif %}
+      </p>
+
+      {% if messages %}
+        <div style="margin-top:10px;">
+          {% for m in messages %}
+            <div style="padding:8px 10px; border-radius:10px; background:#fff3cd; color:#664d03; border:1px solid #ffe69c; margin-top:6px;">
+              {{ m }}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if qr %}
+        <div style="display:grid; place-items:center; margin-top:12px;">
+          <img alt="WhatsApp QR"
+               src="{{ qr }}"
+               style="max-width:260px; border-radius:12px; background:#fff; padding:8px;" />
+        </div>
+      {% else %}
+        <p class="muted">QR not available yet—page will refresh automatically.</p>
+      {% endif %}
+
+      <div style="margin-top:14px;">
+        <a class="btn btn-ghost" href="{% url 'login_wait' session.id %}">Refresh</a>
+        <a class="btn btn-ghost" href="{% url 'login_page' %}">Cancel</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <small class="muted">This page refreshes every 3 seconds.</small>
+  </footer>
+</body>
+</html>

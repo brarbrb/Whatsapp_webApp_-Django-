@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+[08/01/2025, 13:06:37] Viki 🌹: Messages and calls are end-to-end encrypted.
+Only people in this chat can read, listen to, or share them.
+>>>>>>> django-scraper-clean
 [08/01/2025, 13:06:37] Viki 🌹: My beautiful, what's up?
 I received your screen protectors 😊
 ‎[08/01/2025, 14:12:22] Barbara: ‎audio omitted

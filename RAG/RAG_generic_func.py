@@ -1,25 +1,34 @@
 # --------------------------- Import libraries --------------------------------------------------
 import os
+<<<<<<< HEAD
 
 from typing import List, Dict
 
 import re
+=======
+>>>>>>> django-scraper-clean
 import pandas as pd
 from pandas import DataFrame
 import numpy as np
 
+<<<<<<< HEAD
 import matplotlib.pyplot as plt
 
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import PCA
 
+=======
+>>>>>>> django-scraper-clean
 import warnings
 
 warnings.filterwarnings("ignore")
 
 import cohere
+<<<<<<< HEAD
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
+=======
+>>>>>>> django-scraper-clean
 from sentence_transformers import SentenceTransformer
 from pinecone import Pinecone, ServerlessSpec
 
@@ -37,15 +46,34 @@ load_dotenv(override=True)
 PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY", "")
 
 # Replace with your own Cohere API KEY
+<<<<<<< HEAD
 COHERE_API_KEY = os.environ.get("COHERE_API_KEY", "")
 # ------------------------------------------------------------------------------------------------
+=======
+COHERE_API_KEY = os.environ.get("COHERE_API_KEY_PAY", "")
+
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
+# --------------------------- Class that generates responses -----------------------------------------
+class RAGResponseGenerator:
+    def __init__(
+        self,
+        kb_path: str
+    ):
+        self.replier = rag_pipleine(kb_path)
+
+>>>>>>> django-scraper-clean
 
 
 # --------------------------- Prepare Data functions --------------------------------------------
 ## **Preprocessing & Embedding the data**
 def load_and_embedd_dataset(
     dataset: DataFrame,
+<<<<<<< HEAD
     model: SentenceTransformer = SentenceTransformer("all-MiniLM-L6-v2"),
+=======
+    model: SentenceTransformer = SentenceTransformer(EMBEDDING_MODEL),
+>>>>>>> django-scraper-clean
 ) -> DataFrame:
     """
     Return a dataset with  column of embedd text field using a sentence-transformer model
@@ -57,7 +85,10 @@ def load_and_embedd_dataset(
     """
 
     print("Loading and embedding the dataset")
+<<<<<<< HEAD
 
+=======
+>>>>>>> django-scraper-clean
     # build the text we embed
     dataset["doc_text"] = (
         dataset["sender_user_id"]
@@ -127,6 +158,7 @@ def build_user_style(
     text_col: str = "text",
     random_sample: bool = True,
     seed: int | None = 42,
+<<<<<<< HEAD
 ) -> str:
     """
     Return a string that represents the typical style of a given user,
@@ -145,11 +177,25 @@ def build_user_style(
 
     Returns:
         A single multi line string with example messages in the user's style.
+=======
+) -> tuple[list[str], str]:
+    """
+    Return:
+      - list of example messages (lines)
+      - a single multi-line string user_style
+
+    If there are no messages for this user_id, returns ([], "").
+>>>>>>> django-scraper-clean
     """
     user_df = df[df["sender_user_id"] == user_id].copy()
 
     if len(user_df) == 0:
+<<<<<<< HEAD
         return ""
+=======
+        # no style data, just return empty safely
+        return [], ""
+>>>>>>> django-scraper-clean
 
     user_df = user_df.sort_values("sent_at")
 
@@ -201,6 +247,7 @@ def create_pinecone_index(
 
 ## **Upsert vectors to Pinecone index**
 def upsert_vectors(
+<<<<<<< HEAD
     index: Pinecone, dataset: DataFrame, embeddings: np.ndarray, batch_size: int = 128
 ):
     """
@@ -220,12 +267,50 @@ def upsert_vectors(
 
     # Generate unique IDs for each row
     ids = [str(i) for i in range(shape[0])]
+=======
+    index,               # Pinecone index object
+    dataset: DataFrame,
+    embeddings: np.ndarray,
+    batch_size: int = 128,
+):
+    """
+    Upsert vectors to a Pinecone index.
+
+    Args:
+        index: The pinecone index object (pc.Index(...)).
+        embeddings: The embeddings to upsert (shape [n_rows, dim]).
+        dataset: The dataset containing the metadata (same number of rows).
+        batch_size: The batch size to use for upserting.
+
+    Returns:
+        The same Pinecone index.
+    """
+    print("Upserting the embeddings to the Pinecone index...")
+
+    # Sanity check: dataset rows must match embeddings rows
+    if embeddings.shape[0] != len(dataset):
+        raise ValueError(
+            f"Embeddings rows ({embeddings.shape[0]}) != dataset rows ({len(dataset)}). "
+            "Make sure you're passing aligned slices of both."
+        )
+
+    # All metadata columns except the 'embedding' column itself
+    metadata_fields = [col for col in dataset.columns if col != "embedding"]
+
+    # Generate unique IDs for each row
+    num_rows = embeddings.shape[0]
+    ids = [str(i) for i in range(num_rows)]
+>>>>>>> django-scraper-clean
 
     # Build metadata dict for each row
     meta = []
     for _, row in dataset.iterrows():
         entry = {col: row[col] for col in metadata_fields}
+<<<<<<< HEAD
         meta.append(entry)  # Extract full metadata
+=======
+        meta.append(entry)
+>>>>>>> django-scraper-clean
 
     # Create list of (id, vector, metadata) tuples for upserting
     to_upsert = list(zip(ids, embeddings, meta))
@@ -270,20 +355,34 @@ def augment_prompt(
       Your job: given a new incoming message, write the reply the user is most likely to send.
 
       You are given:
+<<<<<<< HEAD
       1) **query** – the new incoming message you must answer.
       2) **similar_past_answers** – real replies the user wrote in the past to similar messages.  
          Use them for tone, vibe, typical phrasing, emojis, and attitude.
       3) **user_style_examples** – random messages the user wrote in other chats.  
          Use them to mimic writing style, vocabulary, length, energy level, and emoji habits.
       4) **recent_context** – the recent messages in this same chat (both sides).  
+=======
+      1) **query** - the new incoming message you must answer.
+      2) **similar_past_answers** - real replies the user wrote in the past to similar messages.  
+         Use them for tone, vibe, typical phrasing, emojis, and attitude.
+      3) **user_style_examples** - random messages the user wrote in other chats.  
+         Use them to mimic writing style, vocabulary, length, energy level, and emoji habits.
+      4) **recent_context** - the recent messages in this same chat (both sides).  
+>>>>>>> django-scraper-clean
          Your reply must fit naturally after this context.
 
       ### Rules:
       - Write the reply **as the user**, in first person.
       - Match the **language**, **tone**, and **emotion** of the conversation.
       - Keep it natural for WhatsApp: short to medium length, can include emojis.
+<<<<<<< HEAD
       - If the query contains multiple questions – answer all.
       - If necessary info is missing – ask a short clarifying question.
+=======
+      - If the query contains multiple questions - answer all.
+      - If necessary info is missing - ask a short clarifying question.
+>>>>>>> django-scraper-clean
       - **Never** mention examples, past messages, embeddings, or that you're an AI.
       - **Only output the final WhatsApp-style reply. No explanations.**
 
@@ -305,6 +404,7 @@ def augment_prompt(
     return improved_prompt, answers
 
 
+<<<<<<< HEAD
 def rag_pipleine(kb_knoloedge_path, query):
 
     whatsapp_chats = pd.read_csv(kb_knoloedge_path)
@@ -345,6 +445,77 @@ def rag_pipleine(kb_knoloedge_path, query):
     )
     response.text
 
+=======
+def rag_pipleine(kb_knoloedge_path: str, query: str) -> str:
+    """
+    Full RAG pipeline:
+      - Load KB CSV
+      - Embed
+      - Create / connect to Pinecone index
+      - Upsert embeddings (for Barbara rows)
+      - Build context + user style
+      - Build augmented prompt
+      - Call Cohere
+      - Return reply text
+
+    NOTE: This function currently RE-embeds and RE-upserts the entire KB
+    every call. It's correct but expensive. For now we keep it simple.
+    """
+    whatsapp_chats = pd.read_csv(kb_knoloedge_path)
+
+    # Embed all rows
+    model_emb = SentenceTransformer(EMBEDDING_MODEL)
+    kb_df_all, embeddings = load_and_embedd_dataset(whatsapp_chats, model_emb)
+
+    # Filter only rows where specific user is the receiver
+    kb_df_to_barbara = kb_df_all[
+        kb_df_all["receiver_user_id"] == "Barbara"
+    ].sort_values(by="conv_turn")
+
+    # Align embeddings with the filtered DataFrame
+    # (assuming kb_df_all kept original index)
+    embeddings_to_barbara = embeddings[kb_df_to_barbara.index.to_list()]
+
+    # Create Pinecone index (dimension = embedding size, not 'shape')
+    INDEX_NAME = "chats-index"
+    pc = create_pinecone_index(INDEX_NAME, embeddings_to_barbara.shape[1])
+
+    # Upsert embeddings only for specific user rows
+    index = pc.Index(INDEX_NAME)
+    index_upserted = upsert_vectors(index, kb_df_to_barbara, embeddings_to_barbara)
+
+    # Build context and user style from the whole KB
+    #    (you might want to parameterize conv_id later)
+    context = build_context(
+        kb_df_all,
+        conv_id="chat:u_1_u_2",  # <-- can be adjusted later
+        k=10,
+    )
+
+    barbara_messages, user_style = build_user_style(
+        kb_df_all,
+        user_id="Barbara",
+        k=10,
+    )
+
+    # query = "i need help with my students, did you taught them already the embeddings ppt?"
+    # Augment the prompt with retrieved context
+    augmented_prompt, source_knowledge = augment_prompt(
+        query=query,
+        user_style=user_style,
+        context=context,
+        model=model_emb,
+        index=index_upserted,
+    )
+
+    #Cohere
+    co = cohere.Client(api_key=COHERE_API_KEY)
+    response = co.chat(
+        # model="command-a-03-2025",
+        model="command-r-08-2024",
+        message=augmented_prompt,
+    )
+>>>>>>> django-scraper-clean
     return response.text
 
 
@@ -358,4 +529,8 @@ def main():
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     main()
+=======
+    main()
+>>>>>>> django-scraper-clean

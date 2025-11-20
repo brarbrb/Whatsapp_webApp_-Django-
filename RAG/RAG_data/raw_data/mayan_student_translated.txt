@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+[06/01/2025, 17:37:39] Maayan Magshimim: Messages and calls are end-to-end encrypted.
+Only people in this chat can read, listen to, or share them.
+>>>>>>> django-scraper-clean
 [06/01/2025, 17:37:39] Maayan Magshimim: Hi, if it's possible to be a few minutes late, I had a delay here
 [06/01/2025, 17:41:31] Barbara: Yes, yes
 [06/01/2025, 17:41:33] Barbara: One minute

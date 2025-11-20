@@ -197,3 +197,10 @@ pip-selfcheck.json
 
 peft
 model.safetensors
+node_modules
+.local-chromium
+sessions
+__pycache__
+.wwebjs_cache
+.env
+distilled
