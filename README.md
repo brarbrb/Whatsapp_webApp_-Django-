@@ -27,6 +27,17 @@ This project combines:
 
 The application may also include WhatsApp integration for chatbot functionality.
 
+**Important Note:** In our work we used Cohere and Pinecone APIs. To run this code properly one can easily recieve access on these pages: 
+[Cohere Home Page](https://cohere.com/) and [Pinecone Home Page](https://www.pinecone.io/) and store them in `.env` under these names: 
+```Python
+COHERE_API_KEY= "your_cohere_api_key"
+PINECONE_API_KEY = "your_cohere_api_key"
+```
+Note that both provide limited access (with daily and per minute restrictions). 
+
+To run our distillation experiment we used the cheapest model `command-r-08-2024` (the pricing can be accessed on cohere website). The key for payed access is stored under: 
+`COHERE_API_KEY_PAY`
+
 ---
 
 ## **Architecture**
